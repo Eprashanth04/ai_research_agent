@@ -1,0 +1,1 @@
+This is a mocked text for Attention Is All You Need. We propose Attention and BERT. We demonstrate state-of-the-art results on ImageNet.

@@ -1,0 +1,607 @@
+--- Page 1 ---
+ 
+ 
+Since January 2020 Elsevier has created a COVID -19 resource centre with 
+free information in English and Mandarin on the novel coronavirus COVID -
+19. The  COVID -19 resource centre is hosted on Elsevier Connect, the 
+company's public  news and information website.  
+ 
+Elsevier hereby grants permission to make all its COVID -19-related 
+research  that is available on the COVID -19 resource centre - including th is 
+research  content - immediately available in PubMed Central and other 
+publicly funded  repositories, such as the WHO COVID database with rights 
+for unrestricted  research re -use and analyses in any form or by any means 
+with acknowledgement  of the o riginal source. These permissions are 
+granted for free by Elsevier  for as long as the COVID -19 resource centre 
+remains active.  
+ 
+
+--- Page 2 ---
+Contents listsavailable at ScienceDirect
+Brain,Behavior, andImmunity
+journal homepage: www.elsevier.com/locate/ybrbi
+Prevalenceofdepression,anxiety,andinsomniaamonghealthcareworkers
+during theCOVID-19 pandemic:A systematic review andmeta-analysis
+Sofia Pappaa,b,⁎,1,VasilikiNtellac,1,TimoleonGiannakasc,Vassilis G. Giannakoulisc,
+Eleni Papoutsic,ParaskeviKatsaounouc,d
+aDept of Psychiatry, Imperial College London, London, United Kingdom
+bWest London NHS Trust, London, United Kingdom
+cNational and Kapodistrian University of Athens, Athens, Greece
+dPulmonary and Respiratory Failure Department, First ICU, Evaggelismos Hospital. Athens, Greece
+ARTICLE INFO
+Keywords:
+CoronavirusCOVID-19
+Health careworkers
+Mental health
+Depression
+Anxiety
+InsomniaABSTRACT
+Background: COVID-19 pandemic has the potential to significantly affect the mental health of healthcare
+workers(HCWs),whostandinthefrontlineofthiscrisis.Itis,therefore,animmediateprioritytomonitorrates
+of mood, sleep and other mental health issues in order to understand mediating factors and inform tailoredinterventions. The aim of this review is to synthesize and analyze existing evidence on the prevalence of de-pression, anxietyand insomniaamongHCWs duringthe Covid-19 outbreak.
+Methods:A systematic search of literature databases was conducted up to April 17th, 2020. Two reviewers
+independently assessedfull-textarticlesaccordingto predefinedcriteria.Riskofbiasforeachindividualstudy
+wasassessedanddatapooledusingrandom-effectsmeta-analysestoestimatetheprevalenceofspecificmental
+health problems.The review protocolis registered inPROSPERO andis available online.
+Findings:Thirteen studies were included in the analysis with a combined total of 33,062 participants. Anxiety
+wasassessedin12studies,withapooledprevalenceof23·2%anddepressionin10studies,withaprevalence
+rateof22·8%.AsubgroupanalysisrevealedgenderandoccupationaldifferenceswithfemaleHCPsandnurses
+exhibitinghigherratesofaffectivesymptomscomparedtomaleandmedicalstaffrespectively.Finally,insomniaprevalence was estimated at38·9% across5studies.Interpretation: Early evidence suggests that a considerable proportion of HCWs experience mood and sleep
+disturbancesduringthisoutbreak,stressingtheneedtoestablishwaystomitigatementalhealthrisksandadjustinterventions under pandemicconditions.
+1. Introduction
+Lowerrespiratoryinfectionsremainthecommunicablediseasewith
+the highest mortality worldwide (Murdoch and Howie, 2018). In De-
+cember 2019, a highly infectious serious acute respiratory syndrome
+causedbyanovelcoronavirus(SARS-CoV-2)emergedinWuhan,China.
+On March 11th 2020, the World Health Organization (WHO) declared
+COVID-19 a pandemic(Huanget al., 2020a).
+According to previous studies from SARS or Ebola epidemics, the
+onsetofasuddenandimmediatelylife-threateningillnesscouldleadto
+extraordinaryamountsofpressureonhealthcareworkers(HCWs)(Liu
+et al., 2012). Increased workload, physical exhaustion, inadequate
+personal equipment, nosocomial transmission, and the need to makeethicallydifficultdecisionsontherationingofcaremayhavedramaticeffectsontheirphysicalandmentalwell-being.Theirresiliencecanbe
+further compromised by isolation and loss of social support, risk or
+infections of friends and relatives as well as drastic, often unsettling
+changes in the ways of working. HCWs are, therefore, especially vul-
+nerable to mental health problems, including fear, anxiety, depression
+andinsomnia (Lung et al., 2009;Wu et al.,2009).
+Immediate interventions are essential in order to enhance psycho-
+logicalresilienceandstrengthenthehealthcaresystems’capacity(Bao
+etal.,2020).Clearcommunication,limitationofshifthours,provision
+of rest areas as well as broad access and detailed rules on the use and
+management of protective equipment and specialized training on
+handling COVID-19 patients could reduce anxiety coming from the
+https://doi.org/10.1016/j.bbi.2020.05.026
+Received 6 May2020; Accepted6May 2020⁎Correspondingauthor.
+E-mail address: sofia.pappa@westlondon.nhs.uk (S.Pappa).
+1SPand VNcontributedequally to thiswork.Brain, Behavior, and Immunity 88 (2020) 901–907
+Available online 08 May 2020
+0889-1591/ © 2020 Elsevier Inc. All rights reserved.
+T
+--- Page 3 ---
+perceived unfamiliarity and uncontrollability of the hazards involved.
+Providing timely and appropriately tailored mental health support
+through hotline teams, media or multidisciplinary teams, including
+mentalhealth professionalsis alsovital (Chenet al., 2020).
+Previous reviews have explored the prevalence and factors asso-
+ciated with psychological outcomes in HCWs during past infectious
+diseaseoutbreaks(Maunderetal.,2004).However,todate,theimpact
+of the current unprecedented crisis on the psychological well-being of
+medicalandnursingstaffisyettobeestablished.Theaimofthisrapid
+systematic review and meta-analysis is to examine the emerging evi-
+denceoftheeffectsoftheCOVID-19outbreakonthementalhealthof
+HCW and particularly in relation to the prevalence of anxiety, depres-
+sion andinsomnia.
+2. Materialsandmethods
+The systematic review was conducted in accordance with the
+PRISMA statement (Liberati et al., 2009). The MOOSE (Meta-analyses
+OfObservationalStudiesinEpidemiology)Checklistwasfollowed.The
+review protocol is registered in PROSPERO and is available online
+(CRD42020180313).
+2.1. Research strategy and selection criteria
+Our search strategy was generated by consensus among all re-
+searchers in the group. Two authors independently identified records
+published until April 17th 2020 that reported on the prevalence of
+depression, anxiety, and insomnia in HCWs during the coronavirus
+pandemic through systematically searching MEDLINE, PubMed andGoogleScholardatabases.Moreover,duetotherapiddisseminationof
+informationduringthecurrentpandemic,preprintarticlespublishedon
+MedrxivandSSRNserverswerealsoincluded.“Snowballsampling”by
+searching reference lists and citation tracking was performed in each
+retrieved article. No language restrictions were applied. If there were
+queries regarding the methodology or results of the studies under
+consideration, we attempted to contact the corresponding authors for
+clarification.Followingsearchtermswereused:(“healthcareworkers”
+OR“medicalstaff”OR“healthcareprofessionals”)AND(“coronavirus”
+OR “SARS-COV-2” OR “COVID-19”) AND (“depression” OR “anxiety”
+OR “insomnia” OR“mental health” OR “psychological”).
+The study population group consisted of healthcare workers (med-
+ical and non-medical) in COVID-19 affected countries or areas. Only
+studies evaluating the prevalence rates of depression, anxiety and/or
+insomnia using validated assessment methods were eligible for inclu-
+sion.Broadtermssuchas‘psychologicaldistress’wereexcludedasthey
+canbedifficulttoquantify;PTSDwasalsonotexcludedasitsonsetcan
+be delayed.
+2.2. Data extraction and quality assessment
+Thefollowingdatawereextractedfromeacharticlebytworeviews
+independently: study type, total number of participants, participation
+rate,region,percentageofphysicians,nursesandotherHCWsscreened
+in the survey, number of male and female participants, assessment
+methods used and their cut-offs as well as the total number and per-
+centageofparticipantsthatscreenedpositivefordepression,anxietyor
+insomnia. If any of this information was not reported, the necessary
+calculations (e.g. from percentage to number of HCWs) were done,
+where possible. The accuracy of the extracted or calculated data was
+confirmed bycomparing thecollectionforms ofthe twoinvestigators.
+Inaddition,twoauthorsindependentlyevaluatedtheriskofbiasof
+the included cross-sectional studies using a modified form of theNewcastle-Ottawa scale. Potential disagreements were resolved by a
+third author. Quality assessment criteria were the following: sample
+representativeness and size, comparability between respondents and
+non-respondents, ascertainment of depression, anxiety and insomnia,and adequacy of descriptive statistics. Total quality score ranged be-tween0and5.Studiesscoring≥3pointswereregardedaslowriskof
+bias, compared to the studies assessed with<3 points that were re-
+garded ashigh riskofbias.
+2.3. Data synthesis and analysis
+Forthepurposesofthecurrentstudy,MetaXL(www.epigear.com),
+an add-in for meta-analysis in Microsoft Excel for Windows was uti-
+lized.Duetothefact,thatstudieswithprevalencecloseto0or1have
+affectedvariancewhichmayleadtoalargeweightofthestudyinthe
+meta-analysis, the proportions were transformed using the double
+arcsine method and then back-transformed for ease of interpretation
+(Barendregt et al., 2013). Due to the different patient populations, re-
+gions, and assessment methods across studies, one true effect size
+cannotbeassumed;therefore,arandomeffectsmodel(DerSimonian&
+Laird) was used to extract the pooled prevalence. Substantial hetero-
+geneity was defined as I
+2> 75%. Subgroup analysis was done in the
+following categories: gender, rating scales, severity of depression andanxiety and professional group. Sensitivity analysis was done by sub-
+tracting each study and calculating the pooled prevalence of the re-
+mainingstudies,inordertoidentifystudieswhichmayseverelyaffect
+the pooled prevalence. Our main outcomes were prevalence (p), con-
+fidence intervals(CI)and percentageprevalence (p× 100%).
+3. Results
+APRISMAdiagramdetailingthestudyretrievalprocessisshownin
+Fig. 1.
+3.1. Characteristics of included studies
+Afterde-duplicationandscreening,thirteenstudies(Duetal.,2020;
+Guoetal.,2020;Huangetal.,2020b;HuangandZhao,2020;Laietal.,
+2020;Liuetal.,2020;Liuetal.,2020;Luetal.,2020;Qietal.,2020;
+Tanetal.,2020;Zhangetal.,2020a,b;Zhuetal.,2020)withatotalof
+33,062 participants were included in the analysis. All of the studies
+were cross-sectional and reported on the prevalence of depression,
+anxietyorinsomniaamongHCWduringtheCovid-19pandemic.Outof
+the 13 studies, 12 were undertaken in China, two of which were in
+Wuhan (Lai et al., 2020; Zhu et al., 2020), while one took place in
+Singapore (Tan et al., 2020). Median number of individuals per study
+was 1563 (range 134, 11118) with a median male representation of
+18% (281·5/1563) and a median questionnaire participation rate of
+85·3% (range43·2%, 94·88%).
+A summary of the characteristics of each study, including the
+numberofparticipantsperstudy,participationrate,countryorregion,
+HCWdistribution,maletofemaleratioandprevalenceofeachmental
+health condition are provided in Table1. The Newcastle-Ottawa score
+results for each study are shown in Table 2. The resulting pooled pre-
+valence of anxiety, depression and insomnia as well as the subgroup
+analyses are presented below. Notably, I
+2was over 75% in the vast
+majorityoftheresults;ifI2wascloseto100%or0%twodecimalswere
+used.
+3.2. Anxiety prevalence
+Anxiety was estimated in 12 studies (Du et al., 2020; Guo et al.,
+2020;Huangetal.,2020b;HuangandZhao,2020;Laietal.,2020;Liu
+et al., 2020; Liu et al., 2020; Lu et al., 2020; Tan et al., 2020; Zhang
+et al., 2020a,b; Zhu et al., 2020). The pooled prevalence was 23·21%
+(95% CI 17·77-29·13, I2= 99%) as presented in Fig. 2. In sensitivity
+analysis, no study affected the pooled prevalence by over 2% when
+excluded.Furthermore,lowriskofbiasstudies(n=9)revealedatotal
+pooledanxietyprevalenceof24·06%(95%CI16·84-32·09,I2=99%).
+Regarding assessment methods, four studies (Guo et al., 2020;S. Pappa, et al. Brain, Beha vior, and Immunity 88 (2020) 901–907
+902
+--- Page 4 ---
+Huangetal.,2020b;Liuetal.,2020;Liuetal.,2020)usedtheZungSelf-
+RatingAnxietyScale(SAS)withapooledprevalenceof16·47%(95%CI
+14·66-18·63, I2= 84%) and fourstudies (Lung et al., 2009; Wu et al.,
+2009)usedtheGAD-7scalewithapooledprevalenceof36·92%(95%CI 26·06-48·23, I
+2= 99%). Each of the four remaining studies used a
+different questionnaire.3.3. Depression prevalence
+Depression was assessed in 10 (Du et al., 2020; Guo et al., 2020;
+HuangandZhao,2020;Laietal.,2020;Liuetal.,2020;Luetal.,2020;Tan et al., 2020; Zhang et al., 2020a,b; Zhu et al., 2020) out of 13
+studies, with a calculated pooled prevalence of 22·8% (95% CI 15·1-
+Fig.1.Flowchart ofstudy selection process.
+Table1
+Summaryof characteristics ofincludedstudies.
+Author Study
+PopulationResponse rate(%)Region Health careworkers Male% Assessment Cut-off Outcomes
+Physicians Nurses Other Depression%
+(n)Anxiety%(n)Insomnia%(n)
+Du etal. (2020) 134 43·2% China 35·1% 41·0% 23·9% 39·6% BDI-II
+BAI≥14
+≥812·7%(17)20·1%(28)N.A.
+Guo etal. (2020) 11,118 N.A. China 30·28% 53·07% 16·65% 25·2% SAS
+SDS≥50
+≥5031·45%(3497)17·45%(1940)N.A.
+Huanget al.(2020a) 230 93·5% Fuyang 30·4% 69·6% 0·0% 18·7% SAS ≥50 N.A. 23·04%(53)N.A.
+Huangand Zhao
+(2020)2250 85·3% China N.A. N.A. N.A. N.A. CES-D
+GAD-7≥28
+≥919·8%(446)35·6%(802)23·6%(531)
+Laiet al. (2019) 1257 68·7% Wuhan 39·2% 60·8% 0·0% 23·3% GAD-7
+ISI
+PHQ-9≥5
+≥8
+≥550·4%
+(634)44·6%(560)34%(427)
+Liuet al.(2020) 512 85·3% China N.A. N.A. N.A. 15·4% SAS ≥50 N.A. 12·5%
+(64)N.A.
+Liuet al.(2020) 4679 N.A. China 39·6% 60·4% 0·0% 17·7% SAS
+SDS≥50≥5034·6%(1619)16·0%(749)N.A.
+Luet al.(2020) 2299 94·88% Fujian 88·8% 11·2% 22·4% HAMA
+HAMD≥7≥711·7%(268)24·7%(569)N.A.
+Qiet al. (2020) 1306 93·6% China N.A. N.A. N.A. 19.6% AIS
+PSQI>6
+>7N.A. N.A. 45·5%
+(594)
+Tan etal. (2020) 470 94·0% Singapore 28·7% 34·3% 37·0% 31·7% DASS-21 D > 9
+A > 78·9%
+(42)14·5%(68)N.A.
+Zhang etal. (2020a) 1563 N.A. China 29·0% 62·9% 7·9% 17·3% GAD-7
+ISI
+PHQ-9≥5
+≥8
+≥550·7%
+(792)44·7%(699)36·1%(564)
+Zhang etal. (2020b) 2182 N.A. China 31·2% 11·3% 57·5% 35·8% ISI
+GAD-2
+PHQ-2>8
+≥3≥310·6%
+(232)10·4%(228)33·9%(739)
+Zhu etal. (2020) 5062 77·1% Wuhan 19·8% 67·5% 12·7% 15% GAD-7
+PHQ-9≥8
+≥1013·45%(681)24·06%(1218)N.A.
+All studies are cross-sectional;the absolutenumberof patientsfor eachcategoryis included inthe brackets.S. Pappa, et al. Brain, Beha vior, and Immunity 88 (2020) 901–907
+903
+--- Page 5 ---
+31·51,I2=99·62),asshownin Fig.3.Noneoftheotherstudiesaffected
+the outcome by over 2%, except Lai et al. (2020) and Zhang et al.
+(2020a);whenbothwereexcluded,therecalculatedpooledprevalencewas 16·94% (95% CI, 10·38-24·67, I2= 99·56%). Among low risk of
+bias studies (n = 8) the pooled prevalence was 22·93% (95% CI
+13·16–34·38).
+Twostudies(Guoetal.,2020;Liuetal.,2020)usedtheZungSelf-
+RatingDepressionScale(SDS)withapooledprevalenceof32·81(95%
+CI29·91–36·08,I2=93%).Three(Laietal.,2020;Zhangetal.,2020a;
+Zhu et al., 2020) studies used the PHQ-9 score for which the pooled
+prevalence was 36·72 (95% CI 7·69–69·16, Ι2= 100%); although Zhu
+et al. (2020) applied a significantly higher-cut off score (10 comparedto5usedby Zhangetal.(2020a)and Laietal.(2020).Theremaining
+studiesused a varietyofdifferent tools.
+3.4. Insomnia prevalence
+Insomnia prevalence was estimated in five (Lung et al., 2009; Wu
+et al., 2009) out of the 13 retrieved studies (Fig. 4). The pooled pre-
+valencewascalculatedas34·32%(95%CI27·45–41·54,I
+2=98%).In
+sensitivityanalysis,nostudyaffectedthepooledprevalencebyover3%
+whenexcluded.Theriskofbiaswasdeemedaslowforallfivestudies.
+3.5. Subgroup analysis
+Asubgroupanalysisoftheprevalenceofanxietyanddepressionby
+gender, severity and professional group was further conducted and
+summarized in Table 3.
+Foranxiety,genderdatawereavailableinsixstudies,withapooled
+prevalence of 20.92% for males and 29·06% for females (Du et al.,
+2020; Guo et al., 2020; Huang and Zhao, 2020; Lai et al., 2020; LiuTable2
+Modified Newcastle-Ottawa quality assessment scale and total score of each
+study.
+Studies Year Modified Newcastle-Ottawaquality
+assessmentscaleScore
+1 2 3 4 5
+Author 2020 – – – * * 2
+Guo etal. (2020) 2020 * * – – – 2
+Du etal. (2020) 2020 – – * * – 2
+Huangand Zhao
+(2020)2020 – * * * * 4
+Laiet al. (2019) 2020 * * – * * 4
+Liuet al.(2020) 2020 – – * * * 3
+Liuet al.(2020) 2020 * * – – * 3
+Luet al.(2020) 2020 – * * * – 3
+Qiet al. (2020) 2020 – * * * * 4
+Tan etal. (2020) 2020 * – * * * 4
+Zhang etal. (2020a) 2020 * * – * * 4
+Zhang etal. (2020b) 2020 – * – * * 3
+Zhu etal. (2020) 2020 – * – * * 3
+1.Representativenessofsample(noHCWs’ subgroup≥65%oftotalsample);2.Samplesize > 600HCWs;3.Responserate > 80%;4.Thestudyemployed
+validatemeasurementtoolswithappropriatecut-offs;5.Adequatestatisticsand
+no needfor further calculations.
+Fig.2.Pooled anxietyprevalence by assessmentmethod.S. Pappa, et al. Brain, Beha vior, and Immunity 88 (2020) 901–907
+904
+--- Page 6 ---
+et al., 2020; Liu et al., 2020). In doctor and nurse groups, prevalence
+couldbecalculatedinsixstudies,withrespectivevaluesof21·73%and
+25·80% (Du et al., 2020; Guo et al., 2020; Lai et al., 2020; Liu et al.,
+2020; Liu et al., 2020; Lu et al., 2020). Regarding the severity of the
+anxiety,datawereavailableinsixstudieswithapooledprevalenceof
+17·93% for mild anxiety and 6·88% for moderate/severe (Du et al.,
+2020;Laietal.,2020;Liuetal.,2020;Luetal.,2020;Qietal.,2020;
+Tan et al., 2020). Furthermore, in five studies men had a pooled de-
+pressionprevalenceof20·34%whereasinwomentherespectivevalue
+was26·87%(Duetal.,2020;Guoetal.,2020;HuangandZhao,2020;Liu et al., 2020; Liu et al., 2020). Between doctors and nurses, in the
+five studies with available data on depression, the pooled prevalence
+wascalculatedas30.30%fornursesand25.37%fordoctors(Duetal.,
+2020;Guoetal.,2020;Liuetal.,2020;Liuetal.,2020;Luetal.,2020).
+Prevalence of depression by severity could be calculated in four (Du
+et al., 2020; Liu et al., 2020; Lu et al., 2020; Tan et al., 2020)studies,
+with respective values for mild and moderate/severe of 24·60% and
+16·18%.
+For insomnia, a subgroup analysis was not performed due to the
+limiteddataavailable.
+Fig.3.Pooled depressionprevalence by assessmentmethod.
+Fig.4.Pooled insomniaprevalence by assessmentmethod.S. Pappa, et al. Brain, Beha vior, and Immunity 88 (2020) 901–907
+905
+--- Page 7 ---
+4. Discussion
+A recent position paper in The Lancet (Holmes, 2020), called for
+high-quality data on the mental health effects of the COVID-19 pan-
+demic across the whole population and vulnerable groups such as
+health careprofessionals.
+Thistimelyrapidsystematicreview andmeta-analysesof13cross-
+sectional studies and a total of 33,062 participants provides early evi-
+dence that a high proportion of healthcare professionals experience
+significantlevelsofanxiety,depressionandinsomniaduringCOVID-19
+pandemic.Wearemindfulthatmentalhealthresearchintimesofcrisis,
+such as COVID-19 outbreak, is a sensitive topic and would like to be-
+lievethatallthestudiesincludedweregivendueethicalconsideration
+(Townsend et al., 2020).
+The prevalence rates of anxiety and depression (23·2% and 22·8%
+respectively)ofHCWsduringCOVID-19arebroadlycomparabletothe
+respectiverates,rangingbetween22·6%-36·3%foranxietyand16·5%-
+48·3% for depression, reported for the general population in China
+during the same period, which shows the considerable effect of the
+crisis on the whole of the population (Wang et al., 2020; Gao et al.,
+2020; Wang et al., 2020). Our results are also at the lower end of the
+outcomespreviouslyreportedamongHCWsduringandaftertheMERS
+andSARSepidemicswherehighratesofdepressionandanxietyaswell
+as post-traumatic stress disorder (PTSD) and moral injury were ob-served(Lanceeetal.,2008;Tametal.,2004;Leeetal.,2018;Kohetal.,
+2005).Potentialdifferences,however,betweentheseoutbreaksandthe
+COVID-19 pandemic could be explained on the basis of the extremely
+high infectious potential and mortality rate of the former but also the
+experience acquired intheinterim inthese areas.
+Although, the different scales and cut-off scores adopted by each
+survey possibly introduced great between-study heterogeneity, it ap-
+pears that the majority of the HCWs experienced mild symptoms both
+fordepressionandanxiety,whilemoderateandseveresymptomswere
+less common among the participants. In our view this emphasizes the
+need for early detection and the importance of picking up and effec-
+tively treating the milder clinical mood symptoms or sub-threshold
+syndromes before they evolve to more complex and enduring psycho-
+logical responses.
+Furthermore, our sub-analysis revealed potentially important
+genderandoccupationaldifferences.Theprevalencerateofanxietyand
+depression appeared to be higher in females, which probably reflects
+the already established gender gap for anxious and depressive symp-
+toms (Albert, 2015). Again, nursing staff exhibited higher prevalence
+estimates both for anxiety and depression compared to doctors. Theseresults may be partly confounded by the fact that nurses are mostlyfemalebutcouldbealsoattributedtothefacttheymayfaceagreater
+risk of exposure to COVID-19 patients as they spend more time on
+wards, provide direct care to patients and are responsible for the col-
+lectionofsputumforvirusdetection(Liuetal.,2020).Moreover,dueto
+their closer contact with patients they may be more exposed to moral
+injury pertainingtosuffering, deathandethical dilemmas.
+Although they were not suitable for inclusion in this review, a
+number of other studies published in recent weeks provide emerging
+evidence that COVID-19 is severely affecting the wellbeing of health-
+careprofessionals.InHongKong,medicalandnursingstaffwerefound
+vulnerable to burnout, anxiety and mental exhaustion (Cheung et al.,
+2020) and in Germany doctors reported high levels of anxious and
+depressive symptoms (Bohlken et al., 2020). Moreover, the psycholo-
+gical impact of the crisis is not only felt by frontline respiratory and
+intensive care physicians and nurses but also by HCW of other spe-
+cialties including, for example, surgeons and anesthesiologists (Xu
+et al., 2020). Sadly,there havebeen alsoreports ofsuicides, ashealth
+care professionals are faced with accumulated psychological pressure
+and intense fear of dying (Montemurro, 2020; Papoutsi et al., 2020);
+thisisparticularlyalarminggiventhefactthatphysiciansarealreadyat
+an increased risk of suicide compared to the general population (West
+etal.,2018).AstudyexploringfactorsrelatedtoHCWs’psychological
+difficulties found that infection of colleagues, infection of family
+members, protective measures and medical violence (Dai et al., 2020;
+Liuetal.,2020)wereamongthemainconcernsofHCWsinCOVID-19
+affected areas. Unsurprisingly, level of social support was found to
+positively correlate with self-efficacy and sleep quality and negatively
+with anxiety andstress(Xiao etal., 2020).
+To this end, early, targeted interventions should be considered. Of
+relevance, another study performed in the original center of the epi-
+demic,Wuhan,showedthatalargeproportionofHCWinWuhanwere
+affected and that mental health support was necessary even for mildpsychological reactions (Kang et al., 2020). Indeed, much can be of-
+feredinthecurrentcontext,suchasvirtualclinics,remotelydelivered
+psychological therapies and psycho-education, chat lines, digital phe-
+notyping and technologies monitoring risk. Finally, alongside infected
+patients and HCWs, suspected cases, who are home isolated, and fa-
+milies and friends of affected people have to be supported, too (The
+Lancet Psychiatry, 2020).
+Nevertheless,thereareseveralstrenghtsandkeylimitationstoour
+review.Toourknowledge,thisisthefirstsystematicreviewandmeta-
+analysis to examine the pooled prevalence of depression, anxiety and
+insomnia on HCW during the COVID-19 outbreak. Although, the
+numberofstudiesperseincludedinourmeta-analysiswasasexpected
+inthe early stages ofthe pandemicstill relatively low, the majorityof
+studiescomprisedaconsiderablenumberofparticipants.Furthermore,
+our subgroup analysis of anxiety and depression based on gender,
+professionalgroupandseverityprovidedadditionalvaluableinsightsof
+potential particularvulnerabilities.
+One major drawback that merits consideration is the inherent het-
+erogeneity across studies. Different assessment scales were utilized for
+population screening and different cut offs set even though several
+studiesused thesame tests.Thus,thresholdcriteriaforcasedefinition
+variedwithsomeinvestigatorsintentionallyusingmorelenientcriteria
+inordertocapturemilderorsubsyndromalcases;henceoursubgroup
+analysis by severity. Another limitation is that several studies might
+haveincluded thesamepopulationasthey werebroadlyconductedin
+the same region/country. Again, as the majority of studies were con-
+ducted in China, the generalizability of our findings may be limited.
+Having said that, generalizing this type of results could pose severe
+flaws as healthcare systems vary greatly between countries.
+Nevertheless, considering the fact that China was severely affected,
+they provide a reliable indication of the potential of COVID-19 pan-
+demic to affect the mental health of HCWs. Furthermore, the studies
+included in our meta-analysis were all cross-sectional, thus the long-Table3
+Subgroup analysisof AnxietyandDepressionPrevalence.
+Anxiety Depression
+Gender Female 29·06%
+95% CI20·21-38·78
+I2= 99%26·87%95% CI15·39-40·09I
+2= 99·56%
+Male 20·92%95% CI11·86-31·65
+I
+2= 98%20·34%
+95% CI11·57-30·75I
+2= 98%
+Severity Mild 17·93%95% CI11·33-25·62I
+2= 99%24·60%95% CI16·65 – 33·51I
+2= 99%
+Moderate/severe6·88%95% CI4·39-9·87
+I
+2= 97%16·18%
+95% CI12·80-19·87
+I2= 97%
+HCWgroup Doctors 21·73%
+95% CI15·27-28·96I
+2= 97%25.37%95% CI16·63-35.20I
+2= 98%
+Nurses 25·80%95% CI19·20-33·00,
+I
+2= 98%30.30%
+95% CI18·24-43.84I
+2= 99·52%S. Pappa, et al. Brain, Beha vior, and Immunity 88 (2020) 901–907
+906
+--- Page 8 ---
+term implications of COVID-19 pandemic on HCW’s mental health
+warrant further research.
+In conclusion, our systematic review and meta-analysis provide a
+timely and comprehensive synthesis of the existing evidence high-
+lighting thehighprevalence rates ofdepression,anxiety andinsomnia
+ofhealthcareprofessionals.Findingscanhelptoquantifystaffsupport
+needs and inform tiered and tailored interventions under pandemic
+conditions that enhance resilience andmitigatevulnerability.
+Contributors
+PK,SP, EP, VGG,VN andTG designedthe study.
+PK,SP, EP, VGG,VN andTG did theliteraturesearch.
+VGG andEPhave donethesystematic review analysis
+VGG,EP, VN,andTG created thefirst draftof themanuscript.
+SP andPK suggestedimprovements
+SP createdthe seconddraft andreviewed themanuscript
+EP, VNand TG createdthe tables
+PK supervisedthe publicationandreviewed the manuscript
+SP andVN contributed equallytothis work
+Declarationofinterests
+SP and PK report grants and personal fees outside the submitted
+work.
+VN,TG,VGG, EPhavenothing todisclose.
+AppendixA. Supplementarydata
+Supplementary data to this article can be found online at https://
+doi.org/10.1016/j.bbi.2020.05.026.
+References
+Albert,P.R.,2015.Whyisdepressionmoreprevalentinwomen?J.PsychiatryNeurosci.
+40, 219–221.
+Bao, Y., Sun,Y., Meng,S.,Shi,J., Lu, L.,2020.2019-nCoVepidemic: addressmental
+health careto empowersociety. Lancet 395, e37–e38.
+Barendregt, J.J.,Doi, S.A.,Lee, Y.Y., Norman,R.E., Vos, T.,2013.Meta-analysis ofpre-
+valence. J.Epidemiol.Commun. Health 67,974–978.
+Bohlken,J.,Schömig,F.,Lemke,M.R.,Pumberger,M.,Riedel-Heller,S.G.,2020.COVID-
+19pandemic: stressexperienceof healthcareworkers –a shortcurrent review.
+Psychiatr. Prax47, 190–197.
+Chen, Q., Liang, M.,Li, Y., et al.,2020.Mental healthcare formedical staffinChina
+during theCOVID-19 outbreak.Lancet Psychiatry7,e15–e16.
+Cheung,T.,Fong,T.K.H.,Bressington,D.,2020.COVID-19undertheSARSCloud:Mental
+HealthNursingduringthePandemicinHongKong.J.Psychiatr.Ment.HealthNurs.
+jpm.12639.
+Dai, Y., Hu,G., Xiong,H., Qiu,H., Yuan,X., 2020.Psychological impact ofthe cor-
+onavirus disease 2019 (COVID-19) outbreakon healthcareworkers inChina.
+medRxiv 2020.03.03.20030874.
+Du, J.,Dong, L.,Wang,T., et al.,2020.Psychological symptomsamongfrontline
+healthcare workersduring COVID-19outbreak inWuhan.Gen. Hosp. Psychiatry.
+https://doi.org/10.1016/j.genhosppsych.2020.03.011.
+Gao,J.,Zheng,P.,Jia,Y.,etal.,2020.Mentalhealthproblemsandsocialmediaexposure
+during COVID-19outbreak.PLoSOne 15. https://doi.org/10.1371/journal.pone.
+0231924.
+Guo, J., Liao,L.,Wang,B., et al.,2020.Psychological effectsof COVID-19onhospital
+staff:anationalcross-sectionalsurveyofchinamainland.SSRNElectron.J. https://
+doi.org/10.2139/ssrn.3550050.
+Holmes, E.A.,et al.,2020.Multidisciplinary researchpriorities for theCOVID-19pan-
+demic:acallforactionformentalhealthscience.LancetPsychiatry. https://doi.org/
+10.1016/S2215-0366(20)30168-1.
+Huang,Y,Zhao,N.,2020.Generalizedanxietydisorder,depressivesymptomsandsleep
+qualityduringCOVID-19epidemicinChina:aweb-basedcross-sectionalsurvey23.
+doi:10.1101/2020.02.19.20025395.
+Huang,J.Z.,Han,M.F.,Luo,T.D.,Ren,A.K.,Zhou,X.P.,2020b.Mentalhealthsurveyof
+230 medicalstaffin atertiary infectious disease hospital forCOVID-19. Zhonghua
+Lao Dong WeiSheng ZhiYe Bing ZaZhi 38, E001.
+Huang,C.,Wang,Y.,Li,X.,etal.,2020a.Clinicalfeaturesofpatientsinfectedwith2019
+novel coronavirusinWuhan, China.Lancet 395, 497–506.Kang, L.,Ma, S.,Chen, M.,et al.,2020. Impacton mental healthand perceptions of
+psychologicalcareamongmedicalandnursingstaffinWuhanduringthe2019novelcoronavirusdisease outbreak: across-sectional study. BrainBehav. Immun. https://
+doi.org/10.1016/j.bbi.2020.03.028.
+Koh, D.,Meng, K.L.,Sin,E.C.,et al.,2005.Risk perceptionand impact ofsevere acute
+respiratorysyndrome (SARS)on work andpersonal lives ofhealthcareworkers inSingapore: Whatcan we learn?Med. Care 43,676–682.
+Lai, J., Ma, S.,Wang,Y., et al.,2020.Factorsassociated with mentalhealth outcomes
+amonghealthcareworkersexposedtocoronavirusdisease2019.JAMANetw.Open
+3,e203976.
+Lancee,W.J.,Maunder,R.G.,Goldbloom,D.S.,2008.Prevalenceofpsychiatricdisorders
+amongTorontohospitalworkersonetotwoyearsaftertheSARSoutbreak.Psychiatr.Serv.59, 91–95.
+Lee, S.M.,Kang, W.S.,Cho,A.R., Kim,T., Park,J.K.,2018. Psychologicalimpact of the
+2015 MERSoutbreak onhospital workersand quarantinedhemodialysis patients.
+Compr.Psychiatry87, 123–127.
+Liberati, A.,Altman,D.G.,Tetzlaff, J.,et al.,2009.ThePRISMA statementforreporting
+systematicreviews andmeta-analyses ofstudies that evaluatehealthcareinterven-
+tions: explanation andelaboration. BMJ 339. https://doi.org/10.1136/bmj.b2700.
+Liu,Z.,Han,B.,Jiang,R.,etal.,2020.Mentalhealthstatusofdoctorsandnursesduring
+COVID-19epidemicin China.SSRNElectron. J. https://doi.org/10.2139/ssrn.
+3551329.
+Liu,X.,Kakade,M.,Fuller,C.J.,etal.,2012.Depressionafterexposuretostressfulevents:
+lessonslearned from thesevere acute respiratorysyndrome epidemic. Compr.Psychiatry53, 15–23.
+Liu,Q.,Yang,J.,Liu,Q.,etal.,2020.Theexperiencesofhealth-careprovidersduringthe
+COVID-19crisisinChina:aqualitativestudy.LancetGlobHeal. https://doi.org/10.
+1016/S2214-109X(20)30204-7.
+Liu,C.,Yang,Y.,Zhang,X.M.,Xu,X.,Dou,Q.-L.,Zhang,W.-W.,2020.Theprevalenceand
+influencing factorsfor anxiety inmedical workersfighting COVID-19in China:across-sectional survey.medRxiv 2020.03.05.20032003.
+Lu,W.,Wang,H.,Lin,Y.,Li,L.,2020.Psychologicalstatusofmedicalworkforceduring
+theCOVID-19pandemic: a cross-sectionalstudy. PsychiatryRes. 288, 112936.
+Lung,F.W., Lu, Y.C.,Chang,Y.Y., Shu,B.C., 2009.Mentalsymptoms indifferenthealth
+professionalsduringtheSARSattack:aFollow-upstudy.Psychiatr.Q.80,107–116.
+Maunder, R.G.,Lancee,W.J.,Rourke, S.,et al.,2004.Factorsassociated withthe psy-
+chologicalimpactofsevereacuterespiratorysyndromeonnursesandotherhospital
+workers inToronto. Psychosom.Med. 66,938–942.
+Montemurro, N.,2020.The emotionalimpact ofCOVID-19: Frommedical staffto
+commonpeople. BrainBehav. Immun. https://doi.org/10.1016/j.bbi.2020.03.032.
+Murdoch,D.R.,Howie, S.R.C., 2018.Theglobal burdenoflowerrespiratory infections:
+makingprogress, butwe need todo better.Lancet Infect.Dis.18,1162–1163.
+Papoutsi,E.,Giannakoulis,V.,Ntella,V.,Pappa,S.,Katsaounou,P.,2020.Globalburden
+ofCOVID-19pandemic on healthcareworkers.ERJOR (accepted).
+Qi,J.,Xu,J.,Li,B.,etal.,2020.TheevaluationofsleepdisturbancesforChinesefrontline
+medical workersunder the outbreakof COVID-19.medRxiv 2020.03.06.20031278.
+Tam,C.W.C.,Pang,E.P.F., Lam, L.C.W.,Chiu,H.F.K., 2004.Severe acuterespiratory
+syndrome (SARS) inHongkongin 2003:Stress and psychologicalimpact among
+frontline healthcareworkers.Psychol. Med. 34, 1197–1204.
+Tan,B.Y.Q.,Chew,N.W.S.,Lee,G.K.H.,etal.,2020.PsychologicalimpactoftheCOVID-
+19pandemiconhealthcareworkersinSingapore.Ann.Intern.Med. https://doi.org/
+10.7326/M20-1083.
+The Lancet Psychiatry,2020.Isolation and inclusion.Lancet Psychiatry7,371.Townsend,E., Nielsen, E., Allister,R., Cassidy,S.A.,2020. Key ethicalquestionsfor re-
+search duringthe COVID-19pandemic.Lancet Psychiatry7,381–383.
+Wang, C., Pan,R.,Wan, X.,et al.,2020. Immediate psychologicalresponses and asso-
+ciated factors during theinitialstage of the2019 coronavirusdisease (COVID-19)epidemicamongthegeneralpopulationinChina.Int.J.Environ.Res.PublicHealth
+17.https://doi.org/10.3390/ijerph17051729.
+Wang, C., Pan,R.,Wan, X.,et al.,2020. Alongitudinalstudyon themental healthof
+generalpopulationduring the COVID-19epidemicinChina.Brain Behav.Immun.
+https://doi.org/10.1016/j.bbi.2020.04.028.
+West, C.P.,Dyrbye, L.N., Shanafelt, T.D.,2018.Physician burnout:contributors,con-
+sequencesand solutions.J. Intern. Med. 283, 516–529.
+Wu,P.,Fang,Y.,Guan,Z.,etal.,2009.ThepsychologicalimpactoftheSARSepidemicon
+hospital employeesinchina: exposure, riskperception, and altruisticacceptance of
+risk. Can.J. Psychiatry.
+Xiao,H.,Zhang,Y.,Kong,D.,Li,S.,Yang,N.,2020.Theeffectsofsocialsupportonsleep
+quality ofmedicalstafftreatingpatients withcoronavirus disease 2019(COVID-19)
+inJanuary and February 2020in China.Med. Sci.Monit. 26,e923549.
+Xu,J., Xu,Q.hui, Wang,C.ming, Wang,J., 2020.Psychological status ofsurgical staff
+during theCOVID-19outbreak.PsychiatryRes. 288. https://doi.org/10.1016/j.
+psychres.2020.112955.
+Zhang,W.,Wang, K.,Yin,L.,et al.,2020b.Mental healthand psychosocial problems of
+medical healthworkers during theCOVID-19epidemicin China.Psychother.
+Psychosom.1–9.
+Zhang,C., Yang, L.,Liu,S.,et al.,2020a. Surveyofinsomnia and related social psy-
+chologicalfactors amongmedical staffinvolved inthe2019 novelcoronavirus dis-ease outbreak.Front. Psychiatry11,306.
+Zhu,Z.,Xu, S.,Wang,H., et al.,2020.COVID-19in Wuhan:immediate psychological
+impact on5062 health workers.medRxiv02(20), 20025338.S. Pappa, et al.
+Brain, Beha vior, and Immunity 88 (2020) 901–907
+907

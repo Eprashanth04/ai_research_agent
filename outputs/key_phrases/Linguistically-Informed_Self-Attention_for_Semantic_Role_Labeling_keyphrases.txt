@@ -1,0 +1,36 @@
+Key Phrases from: Linguistically-Informed_Self-Attention_for_Semantic_Role_Labeling.txt
+Total Words: 7432
+================================================================================
+
+TOP KEYWORDS (Frequency-Based):
+--------------------------------------------------------------------------------
+ 1. attention                                (frequency: 58)
+ 2. model                                    (frequency: 57)
+ 3. lisa                                     (frequency: 47)
+ 4. models                                   (frequency: 41)
+ 5. using                                    (frequency: 38)
+ 6. self                                     (frequency: 35)
+ 7. conll                                    (frequency: 35)
+ 8. semantic                                 (frequency: 33)
+ 9. role                                     (frequency: 32)
+10. neural                                   (frequency: 32)
+11. syntax                                   (frequency: 32)
+12. token                                    (frequency: 32)
+13. learning                                 (frequency: 30)
+14. predicate                                (frequency: 30)
+15. gold                                     (frequency: 28)
+16. test                                     (frequency: 28)
+17. head                                     (frequency: 26)
+18. parsing                                  (frequency: 26)
+19. predicates                               (frequency: 26)
+20. representations                          (frequency: 26)
+21. syntactic                                (frequency: 25)
+22. state                                    (frequency: 23)
+23. work                                     (frequency: 23)
+24. task                                     (frequency: 23)
+25. parses                                   (frequency: 23)
+26. parse                                    (frequency: 21)
+27. labeling                                 (frequency: 20)
+28. multi                                    (frequency: 20)
+29. dependency                               (frequency: 19)
+30. embeddings                               (frequency: 18)

@@ -1,0 +1,36 @@
+Key Phrases from: Eye_Gaze_and_Self-attention_How_Humans_and_Transformers_Attend_Words_in_Sentences.txt
+Total Words: 8347
+================================================================================
+
+TOP KEYWORDS (Frequency-Based):
+--------------------------------------------------------------------------------
+ 1. attention                                (frequency: 91)
+ 2. bert                                     (frequency: 80)
+ 3. models                                   (frequency: 80)
+ 4. model                                    (frequency: 45)
+ 5. data                                     (frequency: 39)
+ 6. transformers                             (frequency: 38)
+ 7. human                                    (frequency: 37)
+ 8. reading                                  (frequency: 35)
+ 9. correlations                             (frequency: 35)
+10. training                                 (frequency: 34)
+11. task                                     (frequency: 30)
+12. layer                                    (frequency: 30)
+13. using                                    (frequency: 29)
+14. gaze                                     (frequency: 28)
+15. trained                                  (frequency: 26)
+16. language                                 (frequency: 25)
+17. pages                                    (frequency: 24)
+18. neural                                   (frequency: 24)
+19. between                                  (frequency: 24)
+20. roberta                                  (frequency: 24)
+21. correlation                              (frequency: 23)
+22. word                                     (frequency: 23)
+23. uncased                                  (frequency: 23)
+24. conference                               (frequency: 23)
+25. words                                    (frequency: 22)
+26. processing                               (frequency: 22)
+27. results                                  (frequency: 22)
+28. cased                                    (frequency: 22)
+29. deberta                                  (frequency: 22)
+30. analysis                                 (frequency: 20)

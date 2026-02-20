@@ -1,0 +1,952 @@
+--- Page 1 ---
+Citation: Farjana, M.; Fahad, A.B.;
+Alam, S.E.; Islam, M.M. An IoT- and
+Cloud-Based E-Waste Management
+System for Resource Reclamation
+with a Data-Driven Decision-Making
+Process . IoT2023 ,4, 202–220.
+https://doi.org/10.3390/iot4030011
+Academic Editor: Antonio
+Cano-Ortega and Francisco
+Sánchez-Sutil
+Received: 13 May 2023
+Revised: 24 June 2023
+Accepted: 26 June 2023
+Published: 6 July 2023
+Copyright: © 2023 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+IoT
+Article
+An IoT- and Cloud-Based E-Waste Management System for
+Resource Reclamation with a Data-Driven
+Decision-Making Process
+Mithila Farjana
+ , Abu Bakar Fahad
+ , Syed Eftasum Alam
+ and Md. Motaharul Islam *
+Deptement of Computer Science and Engineering, United International University, Dhaka 1212, Bangladesh;
+mfarjana201127@bscse.uiu.ac.bd (M.F.); afahad201119@bscse.uiu.ac.bd (A.B.F.);
+salam201133@bscse.uiu.ac.bd (S.E.A.)
+*Correspondence: motaharul@cse.uiu.ac.bd
+Abstract: IoT-based smart e-waste management is an emerging ﬁeld that combines technology and
+environmental sustainability. E-waste is a growing problem worldwide, as discarded electronics
+can have negative impacts on the environment and public health. In this paper, we have proposed
+a smart e-waste management system. This system uses IoT devices and sensors to monitor and
+manage the collection, sorting, and disposal of e-waste. The IoT devices in this system are typically
+embedded with sensors that can detect and monitor the amount of e-waste in a given area. These
+sensors can provide real-time data on e-waste, which can then be used to optimize collection and
+disposal processes. E-waste is like an asset to us in most cases; as it is recyclable, using it in an efﬁcient
+manner would be a perk. By employing machine learning to distinguish e-waste, we can contribute
+to separating metallic and plastic components, the utilization of pyrolysis to transform plastic waste
+into bio-fuel, coupled with the generation of bio-char as a by-product, and the repurposing of
+metallic portions for the development of solar batteries. We can optimize its use and also minimize
+its environmental impact; it presents a promising avenue for sustainable waste management and
+resource recovery. Our proposed system also uses cloud-based platforms to help analyze patterns
+and trends in the data. The Autoregressive Integrated Moving Average, a statistical method used in
+the cloud, can provide insights into future garbage levels, which can be useful for optimizing waste
+collection schedules and improving the overall process.
+Keywords: IoT; cloud; e-waste; pyrolysis; Generative Adversarial Networks; bio-fuel; recycling
+1. Introduction
+E-waste refers to repudiated electronic devices, such as computers, mobile phones
+and other electronic equipment, that are at the verge of their efﬁcacious use. Owing to the
+unrelenting momentum of technological innovation, a growing multitude of individuals
+are procuring electronic devices with regularity; thus, this begets roughly 54 to 60 million
+metric tons of e-waste every year, averaging some 7 kg of e-waste per capita. Pursuant to
+the Global E-waste Statistics Partnership, this is expected to increase to 74.7 Mt by 2030.
+By 2025, it is estimated that Asia will generate the highest volume of e-waste, at 24.4 million
+metric tons, followed by the Americas (13.4 million metric tons) and Europe (12.8 million
+metric tons). Scarcely around 15 percent of global e-waste was collected and recycled in
+2014, with the remaining 85 percent being discarded in landﬁlls or incinerated [1].
+This situation gives rise to a profound disquietude and engenders a palpable sense
+of apprehension. It is incumbent upon us to take substantive action. The deleterious
+effects of electronic waste on the environment are manifold and unequivocal. It has been
+empirically demonstrated that the materials utilized in the construction of these devices,
+when containing high concentrations of lead and mercury, are capable of perniciously
+poisoning the surrounding soil in landﬁlls. Once discarded, the components of e-waste
+IoT2023 ,4, 202–220. https://doi.org/10.3390/iot4030011 https://www.mdpi.com/journal/iot
+--- Page 2 ---
+IoT2023 ,4 203
+become veritable toxins for the ecosystem, gradually seeping into the earth and causing
+damage to the atmosphere [ 2]. This process releases noxious chemicals into the air, thereby
+exacerbating air pollution. Furthermore, as these toxic materials are carried by rainwater
+or groundwater, they can affect both terrestrial and aquatic wildlife, rendering e-waste an
+omnipresent threat to environmental health. The identiﬁcation and separation of e-waste
+from municipal solid waste (MSW) is a challenging task that requires signiﬁcant resources.
+Moreover, the recycling of e-waste involves substantial costs and requires specialized
+techniques for sorting and processing [ 3]. Our study focuses on the separation and sorting
+of e-waste using machine learning and the recycling of plastic using pyrolysis, as well as
+the potential uses for the resulting bio-char by-product, and using metals to produce solar
+batteries. E-waste metals can be converted to solar batteries
+for achieving sustainable and renewable energy sources, and we propose the use of
+time series data [ 4] for the continuous monitoring of the garbage level in the cloud, em-
+ploying the Auto-regressive Integrated Moving Average (ARIMA) to forecast and analyze
+the life cycle [5].
+Our system for collecting and sorting waste employs a combination of machine learn-
+ing, cloud computing, and IoT technology, which streamlines the waste-to-asset process and
+centralizes it under a single sector. Our strengths in developing this system are convenience
+and efﬁciency in waste management; sustainability—by improving waste management
+and reducing the likelihood of overﬂowing bins, this system could help promote a more
+sustainable approach to waste disposal; and data collection and analysis—the system’s
+ability to continuously update the trash level in the cloud and store data can provide in-
+sights into waste patterns. This helps inform waste management strategies. Our limitation
+for making this system is that difﬁculties, such as mode collapse, training instability, time
+series data and evaluating generated images may limit the GAN performance, while the
+quality of solar batteries and bio-fuels can vary due to impurities and chemical reactions,
+posing challenges for implementation in developing countries where establishing processes
+may be difﬁcult.
+This research revolves around addressing improvements in the efﬁciency of e-waste
+management. The primary objective is to explore and evaluate the feasibility and beneﬁts
+of implementing IoT- and cloud-based smart systems in e-waste management processes,
+enabling seamless connectivity and communication between various devices and stakehold-
+ers involved in the e-waste management system. One of the focuses of our research is the
+utilization of machine learning algorithms for sorting e-waste. By using machine learning,
+our system will automatically identify e-waste. This not only saves labor in the sorting pro-
+cess but also enhances the accuracy and efﬁciency of recycling operations. The data-driven
+approach ensures the rapid collection of the e-waste, optimizes the utilization of avail-
+able resources, enhances operational efﬁciency, and facilitates continuous improvement in
+e-waste management practices. By analyzing and interpreting relevant data, stakeholders
+can make informed decisions regarding waste collection, recycling methods, and resource
+allocation. In addition, our study describes how we can efﬁciently turn e-waste plastic
+into bio-fuel and bio-char. Over and above that, our research delves into the repurposing
+of e-waste metals for the production of solar batteries. With the ever-increasing demand
+for renewable energy sources, the conversion of e-waste metals into solar batteries offers
+a sustainable solution for both waste management and energy production. By utilizing
+these metals, it becomes possible to transform a potential environmental hazard into a
+valuable resource. Ultimately, the goal of this research is to contribute to a more sustainable
+and efﬁcient e-waste management framework. By exploring the potential of IoT- and
+cloud-based systems, integrating machine learning techniques, investigating pyrolysis for
+recycling, repurposing e-waste metals for solar batteries, developing sustainable strategies,
+and promoting data-driven decision making, we can pave the way for a greener future and
+mitigate the environmental and health risks associated with e-waste.
+The major contributions of this paper are summarized below:
+--- Page 3 ---
+IoT2023 ,4 204
+• We have potentially enhanced the efﬁciency and accuracy of e-waste recycling pro-
+cesses, enabling a more effective sorting and separation of valuable components by
+leveraging these cutting-edge technologies.
+• We have trained a digital image processing camera to recognize the perfect waste
+parts, and the interconnection between the sensors and cloud processes the data and
+recycles the wastes in a perfect manner.
+• We have built a small prototype of an IoT-based waste management system with the
+help of the cloud, which will make this whole system automated.
+• We are turning waste into assets by developing our waste management and recycling
+system.
+This whole paper is organized in the following order: Section 2 provides the details of
+the related works; Section 3 provides information about our proposed system; Section 3.1
+contains the proposed solution; Section 3.2 outlines the system architecture; Section 3.3
+explains the methodology; Section 3.4 contains a ﬂowchart; Section 3.5 shows the algorithm
+used; Section 4 contains performance analysis; Section 4.1 contains graphical analysis
+of e-waste level updates in the cloud; Section 4.2 shows an accuracy chart of the GAN
+algorithm; Section 4.3 contains graphical analysis of the pyrolysis method, Section 4.4
+contains graphical analysis of solar battery production and the reduction in CO 2; Section 5
+outlines limitations and future works; and Section 6 is our conclusion.
+2. Related Works
+The recycling industry faces a signiﬁcant challenge in managing e-waste, as there
+is a pressing need to raise awareness among general people about the environmental
+and energy-saving advantages of recycling electronic devices. In Table 1 summary of
+related works are depicted. Addressing this challenge requires a comprehensive effort
+to educate users about the beneﬁts of e-waste recycling [ 6]. Though it is a challenging
+task, it also presents notable opportunities to effectively navigate this complex ﬁeld [ 7]. It
+requires a multifaceted approach that includes developing environmentally friendly prod-
+ucts, effective waste collection, and safe and responsible recycling and disposal. Utilizing
+a magnetic ﬁeld to segregate electronic waste into its constituent plastic and metal com-
+ponents represents a sophisticated approach. This method involves applying a magnetic
+ﬁeld to the electronic waste, which causes the metallic components to be attracted to the
+magnet while the non-metallic plastic components remain unaffected [ 8]. Pyrolysis is an
+advanced technique that provides a sustainable and efﬁcient solution for plastic parts of
+e-waste while also reducing the environmental impact of plastic waste [ 9]. The focus of the
+research paper [ 10] was to create an IoT-based monitoring system for e-waste, where they
+used microcontrollers and sensors to monitor e-waste. One effective strategy for reducing
+e-waste involves designing products with reusability in mind, inspiring creative reuse
+across different e-waste sources. Effective intervention strategies should aim to minimize
+exposure to toxic components in e-waste [11].
+Bansod et al. [ 12] proposed a project that focuses on developing an IoT-based e-waste
+monitoring system. It utilizes ultrasonic sensors, an Arduino Mega 2560 microcontroller,
+and GSM communication to detect and monitor e-waste levels in real-time. The main bene-
+ﬁts are efﬁcient waste management, reduced overﬂowing bins, and improved planning of
+waste pick-ups. The limitations are a reliance on a 12 v source for the GSM module. This
+project’s future work includes potential enhancements like incorporating a line follower
+robot for automated waste disposal. Bošnjakovic et al. [ 13] proposed a paper that examines
+the production of liquid fuel from plastic waste, focusing on technological, ecological,
+and economic aspects. Pyrolysis with a catalyst, particularly zeolite-based catalysts, is a
+well-established and mature technology for obtaining fuel from plastic waste. While up
+to 800 L of fuel can be obtained from one ton of waste plastic, real plants typically yield
+around 450 L. Disposing of waste plastics through fuel production offers signiﬁcant environ-
+mental beneﬁts, including reduced greenhouse gas emissions. However, waste separation,
+complex technical systems, and proximity to landﬁlls for cost-effective transportation are
+--- Page 4 ---
+IoT2023 ,4 205
+limitations.The analysis underscores the large amount of plastic waste in Croatia and the
+potential for economically viable bio-fuel production with improved waste collection.
+Table 1. Summary of related works.
+Author and Year Study Description Limitations Method Adopted
+Bošnjakovi´ c et al. (2022) [13]Technological and ecological
+dimensions of converting
+plastic waste into bio-fuel.Sorting plastic from e-waste
+and the cloud; IoT use was not
+mentioned.Pyrolysis to turn plastic waste
+into bio-fuel.
+Devi et al. (2021) [9]Emphasis on generating
+bio-fuels from plastic waste.No discussion on IoT, the
+cloud, e-waste collection, or
+plastic-to-bio fuel conversion.Process of proselytizing
+plastic waste into diesel fuel.
+Shamsudin et al. (2022) [10]IoT-based monitoring system
+using microcontrollers and
+sensors.No discussion regarding the
+next steps after e-waste
+collection.IoT-based project with
+microcontrollers and sensors.
+Bansod et al. (2022) [12]IoT-based system to detect
+e-waste.Yet to implement a plan for
+utilizing the collected waste.Monitoring garbage levels
+and communicating them
+through a GSM system.
+Balakrishnan et al. (2015) [14]Investigate the formation of
+bio-fuels from plastic scrap.Generating bio-fuels; the
+methods for plastic collection
+are missing.Pyrolysis to convert plastics to
+bio-fuels.
+M H, Dinesh. (2020) [15]Generate bio-oil using
+pyrolysis.No mention of collecting
+plastic from e-waste or
+another place.Thermal pyrolysis and
+catalytic pyrolysis.
+kazi Shawpnil et al. (2023) [ 16]QFD study conducted;
+combined efﬁcient e-waste
+management methods.No mention of the cloud,
+pyrolysis, bio-char, bio-fuel, or
+solar batteries.Physical recycling for metallic
+parts, the biological method of
+mycoremediation,
+phytoremediation.
+Abdullah Al Mamun et al.
+(2023) [17]YOLOv5 to separate e-waste.Pyrolysis, bio-char, bio-fuel,
+and solar batteries were not
+mentioned.Pixy camera to recognize
+e-waste.
+In Table 2, a more in-depth analysis of related works is mentioned, where
+Sankeerth et al. [ 18] proposed a smart waste management system, which utilizes ultrasonic
+sensors in bins to measure garbage levels, which are then transmitted to a server via Wi-Fi.
+The server monitors the bins across the city, notifying the garbage truck driver when the
+amount of waste in a bin exceeds 70% and it needs to be emptied. SMS notiﬁcations are sent
+to the driver, providing optimized routes based on collected data. Thaseen Ikram et al. [ 19]
+proposes a waste management model for smart cities using a hybrid genetic algorithm
+(GA)–fuzzy inference engine. The system uses IoT components—RFIDs and sensors—to col-
+lect and process waste information. The model combines a GA with fuzzy logic to optimize
+the fuzzy inference system (FIS) and improve waste management accuracy. The system
+employs cost-effective sensors and ensures reproducibility. Their experimental results show
+high accuracy and precision of 95.44% in waste management and recyclable item classi-
+ﬁcation. The proposed model reduces errors and minimizes manual interpretation costs
+compared to traditional approaches, but there could be potential privacy and security risks.
+Their future work includes integrating advanced technologies and addressing scalability
+and interoperability challenges. The smart dustbin proposed by Pavithra M. et al. [ 20]
+automatically opens upon detecting a clap or foot tap and closes once garbage is disposed
+of. An ultrasonic sensor monitors the garbage level and sends alerts to the main garbage
+collector when it reaches capacity. H. Cai et al. [ 21] proposed a garbage monitoring system
+where they use a NodeMCU chip integrated with ultrasonic sensors to measure waste
+levels in bins, which are transmitted to a cloud server through the Ali-cloud IoT platform.
+To observe the real-time bin status, they have used a web page. The average number of
+cleanings before establishing this was 3 and afterwards it was 2.28; the average number
+--- Page 5 ---
+IoT2023 ,4 206
+of bin overﬂows before was 0.67 and afterwards it was 0.11, which added improvements
+in waste collection. The paper by Artang Sara et al. [ 22] introduces a tracking and tracing
+platform, which offers a user interface for users and administrators, providing essential
+information to users for the disposal of their e-waste. Integrating block-chain technology
+and circular economy approaches into the tracking platform and conducting comparative
+studies among different countries is their proposed future work.
+Table 2. In-depth analysis of related works in relation to the beneﬁts and risks of each approach.
+Reference Paper Limitations Method Adopted Beneﬁts Risk Future Work
+[18]Focuses on data
+collection and mon-
+itoring without
+data analysis for
+process optimiza-
+tion.Bins with ultra-
+sonic sensors
+measure garbage
+levels, send data
+to a server via Wi-
+Fi, and optimize
+collection routes
+using SMS.Direct message
+sending reduces
+the costs and
+maintenance for
+the embedded
+bins, enhancing
+independence and
+transparency.The reliance on Wi-
+Fi and server sta-
+bility poses a risk
+of data loss and
+potential failure in
+communication.Incorporating
+a database and
+utilizing data ana-
+lytics to optimize
+waste management
+processes and
+improve efﬁciency
+[19]Limited applicabil-
+ity may impact its
+practicality in dif-
+ferent waste man-
+agement contexts.An IoT and fuzzy
+inference system
+with a genetic
+algorithm to create
+a waste disposal
+systemEnhanced waste
+management
+efﬁciency, cost
+reduction, and
+resource optimiza-
+tionReliability, accu-
+racy, privacy, and
+securityThe integration
+of additional
+advanced technolo-
+gies, scalability,
+and interoperabil-
+ity
+[20]Foul odors em-
+anating from
+the bins and the
+manual control of
+the dustbins can
+restrict mobility
+and ﬂexibility in
+waste collection.Uses sensors for
+gesture detection
+and garbage level
+monitoring, en-
+abling automatic
+bin operation and
+timely emptying
+through an IoT
+web interfaceThe automated
+waste management
+system reduces
+labor costs and
+enables the timely
+disposal of garbage
+to the correct
+location.The system relies
+on the accuracy
+and reliability of
+the sensors to
+detect the garbage
+levels. False read-
+ings could impact
+the efﬁciency.The system con-
+tributes to waste
+reduction, resource
+conservation,
+and sustainable
+waste manage-
+ment by handling
+both metal and
+non-metal waste.
+[21]Alerts cleaners
+based on threshold
+parameters but
+does not differenti-
+ate the recycling of
+e-wasteA sensor-based
+device detects
+and monitors the
+garbage status and
+sends notiﬁcations
+to cleaners when
+thresholds are
+exceeded.The notiﬁcation
+system eliminates
+the need for contin-
+uous monitoring,
+as it alerts the
+cleaner when the
+dustbin requires
+cleaning.The device might
+get damaged while
+using the dustbin
+as it is set in quite
+an unprotected
+manner.An Android app
+will be developed
+for this in future
+and a better algo-
+rithm will be imple-
+mented here.
+[22]The limited waste
+registration and
+complex inter-
+face may impede
+tracking and user
+adoption in the
+application.E-waste registra-
+tion, QR code track-
+ing, and Google
+API integration
+enable effective
+monitoring and
+proper disposal.The stakeholders
+can track e-waste
+and its location
+effectively through
+unique identiﬁca-
+tion, facilitating
+easy monitoring.The only risk is
+the security issue
+as the users are giv-
+ing certain mobile
+access via this ap-
+plication.Create a sus-
+tainable system
+with robotics and
+blockchain for
+enhanced security
+and tracking capa-
+bilities.
+3. Proposed System
+3.1. Proposed Solution
+Our main goal is to collect e-waste and send it for recycling in an efﬁcient and auto-
+mated manner. We are using the combination of the IoT and machine learning for gathering
+e-waste for recycling purposes. We will be placing the processing part of our system in
+a dumpster with the help of a Field-Programmable Gate Array (FPGA) using the GAN
+algorithm to distinguish the e-waste from other wastes. Our proposed solution entails
+the deployment of a smart bin to collect waste, which utilizes cloud-based technology
+--- Page 6 ---
+IoT2023 ,4 207
+to monitor and update the garbage level automatically. If the bin reaches its maximum
+capacity, the SIM900A module generates a message alerting the collectors. Upon collection,
+we implement a process to separate the metallic and plastic components of the waste.
+The plastic components undergo a pyrolysis process to yield bio-fuel, while the metallic
+components are repurposed for solar panel and battery production.
+3.2. System Architecture
+The proposed system architecture is depicted in Figure 1. The system includes sev-
+eral steps aimed at effectively managing e-waste. The initial phase (step-1) involves the
+classiﬁcation of wastes based on their type, which will be conducted by machine learning.
+Subsequently, e-waste is collected and deposited into a smart bin, and based on the trash
+level data, a data-driven decision-making process is implemented in Figure 2 to determine
+whether a notiﬁcation should be sent to the trash collector. This process involves evaluat-
+ing the trash -level data against predetermined thresholds, and if the data exceeds these
+thresholds, a notiﬁcation is triggered and sent to the trash collector in step-2 and step-3.
+Figure 1. System architecture of our proposed solution.
+The cloud-based system is continuously monitoring the level of trash in the back-
+ground. In step-4, the e-wastes are separated into two categories, plastic and metal.
+The metal waste is processed for solar batteries in step-8, while plastic waste is converted
+into bio-fuel using the pyrolysis process and we obtain bio-char as a by-product in step-9
+and step-10. In the ﬁnal step of the process, the repurposed and transformed wastes are
+converted into valuable assets.
+Figure 2 illustrates a data-driven decision-making process for e-waste collection. Trash
+level data are continuously monitored using an ultrasonic sensor in the trash bin. This
+data are collected, enabling real-time analysis of e-waste levels. Based on the analysis,
+notiﬁcations are sent to e-waste collectors, prompting them to collect e-waste from speciﬁc
+bins. The collectors follow the notiﬁcations, collect the e-waste, and ensure proper recycling
+methods are employed. This data-driven process optimizes the collection efﬁciency and
+helps in the timely and targeted collection of e-waste, contributing to environmental
+sustainability and proper e-waste management.
+--- Page 7 ---
+IoT2023 ,4 208
+Figure 2. Data-driven decision making process.
+Figure 3 is depicting three layers [ 23]. The sensor layer consists of a smart dustbin
+with an ultrasonic sensor that detects the level of trash inside the bin. The data collected
+from the sensors are sent to the cloud layer using the ESP-8266 Wi-Fi Module. The cloud
+layer receives the data from the sensor layer and stores it in a time series database. A time
+series database is designed to handle data that are collected over time, such as the trash
+level in the bin. The data stored in the time series database can be queried and analyzed
+to generate insights and predictions about the future. The Auto-regressive Integrated
+Moving Average algorithm is applied to the database to forecast the trash level for the
+future. The cloud layer also provides an interface for the user to view the trash level and
+other information in real time and send the value in the microcontroller. The user can access
+this interface through a web or mobile application. If the level of trash in the bin reaches a
+certain threshold, the microcontroller sends the notiﬁcation using the GSM module to the
+application layer. The application layer receives the notiﬁcation, and the collector collects
+the data after receiving it. The smart dustbin system uses a combination of sensors, cloud
+computing, and predictive algorithms to collect and analyze data about the trash level in
+the bin. These data are used to provide real-time notiﬁcations to the user and improve
+waste management processes.
+Figure 3. System architecture of collecting and monitoring trash using cloud and IoT.
+--- Page 8 ---
+IoT2023 ,4 209
+3.3. Methodology
+Our working process entails a dustbin for e-waste. The waste will move along a
+conveyor belt, and in the initial section of the belt our processing part will be incorporated,
+featuring a trained camera with machine learning and a Generative Adversarial Network
+(GAN) algorithm. The GAN requires high computation power and memory resources [ 24].
+A powerful, dedicated hardware platform such as FPGA provides the high computation
+power. There are two sections to the GAN, namely the discriminator and the generator.
+We provide the dataset to the discriminator, and the generator monitors the waste
+and creates an image according to it. The generator and discriminator images are then
+compared, and if they match the waste will be thrown into the e-waste smart bin, while
+other waste will be deposited in a different pile. The smart bin contains an ultrasonic
+sensor, which sends waste-level data to the database in the cloud through an ESP8266 Wi-Fi
+module; each data point that is sent from the sensor to the time series database should
+include a timestamp and the trash level reading in Figures 6–8. The time series database
+will store these data and make them available for querying and analysis. To forecast the
+trash level, we are using the ARIMA model [ 25]. The forecasting can be used to optimize
+the system by predicting when the trash level will reach the threshold and scheduling
+pick-ups accordingly. This can help reduce costs and improve efﬁciency. If the garbage level
+exceeds a threshold value, a notiﬁcation will be sent to the collector via the SIM900A GSM
+module, and it will be sent for recycling. In the recycling process, the e-waste is churned
+through a robust blade and separated into plastic and metallic parts using a magnetic ﬁeld.
+The plastic parts will be sent for the pyrolysis process. In pyrolysis there are several steps:
+As the plastic is already shredded, it will increase the surface area for improved
+pyrolysis. Shredded plastic is fed into a pyrolysis reactor. Pyrolysis is a type of thermal
+treatment that breaks down complex organic materials (plastic) into simpler compounds
+using heat in the absence of oxygen. The end products of pyrolysis are typically a liquid
+fuel known as pyrolysis oil or bio-oil and a gaseous mixture known as syngas, which can
+be used for various applications, such as energy generation and chemical production [ 26].
+Since pyrolysis takes place in the absence of oxygen, the reactor is sealed to prevent air
+ingress. The reactor is heated to an elevated temperature. The temperature and pressure
+inside the reactor are carefully controlled to ensure that the plastic is efﬁciently converted
+into bio-fuel. When plastic is heated, it begins to decompose into components, such as gas,
+liquid, and char. Gases and liquids are condensed and collected as bio-fuel.
+Once the pyrolysis process is complete, the reactor is cooled and the bio-fuel is recov-
+ered from the condenser. The collected bio-fuel may require further puriﬁcation to remove
+impurities such as water and acids. This can be performed by methods such as ﬁltration or
+distillation. Finished bio-fuel products are stored in tanks or containers until use. If any
+organic material is mixed with the plastic waste, such as bio-solids, the by-products of
+pyrolysis, bio-char, can be recycled and used in various applications, such as soil amend-
+ment, carbon sequestration, and energy production [ 15]. This product has shown notable
+advantages in eliminating pollutants from wastewater [ 27] and enhancing soil quality [ 28].
+Moreover, we are using scrubber and electrostatic precipitators to control pollution [ 29].
+Metallic waste can be used for making solar batteries. The process of converting metal
+churns from e-waste into solar batteries involves several steps: The shredded metal is
+treated with acid or other chemicals to extract impurities and separate the pure metals.
+The pure metals are then processed using electrolysis, which involves passing an electric
+current through a solution containing the metal ions. This process causes the metal ions to
+gain or lose electrons, resulting in the formation of metal deposits on electrodes. The metal
+deposits are then used to produce various components of a solar battery, including the an-
+ode, cathode, and electrolyte. These components are assembled to create a functional solar
+battery that can store and release energy. The exact process of converting metal churns into
+solar batteries can vary depending on the speciﬁc type of metal and the desired end product.
+However, in general, the process involves a combination of chemical and electro-chemical
+techniques to purify and reﬁne the metal and then assemble it into battery components.
+--- Page 9 ---
+IoT2023 ,4 210
+The technical aspects of our methodology are as follows:
+Data collection method:
+Camera and machine learning: trained camera system with machine learning capabili-
+ties was used to monitor and capture images of the waste on the conveyor belt.
+Ultrasonic sensor: the e-waste smart bin was equipped with an ultrasonic sensor to
+measure the waste level.
+ESP8266 Wi-Fi module: the waste level data from the ultrasonic sensor were transmit-
+ted to a cloud database using an ESP8266 Wi-Fi module.
+SIM900A GSM Module: when the garbage level exceeded the threshold, a notiﬁcation
+was sent to the collector via a SIM900A GSM module.
+Data analysis techniques: the ARIMA model was employed for forecasting the
+trash level.
+3.4. Flowchart
+In Figure 4, the ﬂowchart describes the process of our IoT- and cloud-based e-waste
+management, starting with the aggregation of various types of waste. We utilize a trained
+camera, which has been trained with a GAN algorithm, for the classiﬁcation of e-waste.
+Through image processing, it determines whether the waste is e-waste or not. If it is not
+e-waste, it is dumped in a different pile; otherwise, it is deposited in the smart bin. As e-
+waste is being disposed of, the waste level continues to increase; this increased level data
+are then updated in the cloud, and the system checks if the bin is full through an ultrasonic
+sensor. If it is not full, the process continues, or else a notiﬁcation is sent to the collector.
+After collecting the e-waste, the recycling steps begin. It starts with churning the e-waste,
+followed by magnetic ﬁeld separation. From separation, there are two parts—plastic and
+metallic churns. Plastic goes through pyrolysis and becomes bio-fuel, while metallic churns
+are processed for solar batteries. The process ends with the production of bio-fuel, with bio-
+char as a by-product, and solar batteries, representing our system’s effective transformation
+and the recycling of e-waste into sustainable and eco-friendly materials.
+Figure 4. Flowchart of Proposed System.
+--- Page 10 ---
+IoT2023 ,4 211
+3.5. Algorithm
+For image processing, we are using the GAN, which is a very high-level algorithm.
+The accuracy of GAN algorithms for image processing is highly dependent on the speciﬁc
+use case and the techniques employed to train and optimize the model. Here, using GAN,
+the machine will be trained with real-life e-waste images and with the help of those images
+it will provide its decision. The pseudo code of the GAN algorithm is given below:
+In Algorithm 1, the generator network G and discriminator network D are initialized
+with random weights. The hyper-parameters a,b, and gare initialized. For a speciﬁed
+number of training iterations, the following steps are executed. For a speciﬁed number
+of discriminator updates per generator update, the following steps are executed. A mini-
+batch of m real images from the dataset is sampled. A mini-batch of m noise samples
+from a noise distribution is sampled. Fake images are generated using the generator
+network G. The discriminator network D is updated by minimizing the binary cross-
+entropy loss between the real images and the fake images, with the gradients computed
+using back-propagation. A mini-batch of noise samples from a noise distribution is sampled.
+The generator network G is updated by taking a gradient step on the loss function that
+maximizes the binary cross-entropy loss between the generated images and the real images,
+with the gradients computed using back-propagation. The hyper-parameters aandbare
+updated using a decay factor g. The trained generator network G is returned.
+Algorithm 1 Image classiﬁcation using Generative Adversarial Networks
+1:Initialize the generator network Gwith random weights
+2:Initialize the discriminator network Dwith random weights
+3:Initialize the hyper-parameters a,b, and g
+4:fornumber of training iterations do
+5: fornumber of discriminator updates per generator update do
+6: Sample a mini-batch of mreal images from the data-set
+7: Sample a mini-batch of mnoise samples from a noise distribution
+8: Generate fake images using the generator network
+9: Update the discriminator network.
+10: end for
+11: Sample a mini-batch of noise samples from a noise distribution
+12: Update the generator network by taking a gradient step on the loss function
+13: Update the hyper-parameters
+14: a ga
+15: b gb
+16:end for
+17:return the trained generator network G
+We use generator and discriminator neural networks to train on a dataset of real
+e-waste images. The goal is to train the generator network to produce images that are
+indistinguishable from real images, while the discriminator network learns to distinguish
+between real and generated images. During training, the generator produces images to try
+and fool the discriminator, and the discriminator tries to become better at distinguishing
+between real and generated images. Once trained, the generator can generate new images,
+which can be evaluated by comparing them to real images. If they are similar, the waste
+can be disposed of in the appropriate destination dustbin.
+Algorithm 2 is used to detect the level of e-waste in a smart dustbin and send a
+notiﬁcation to the garbage collector when the dustbin is almost full. The input variables for
+this algorithm are n(the number of iterations), x(the echoP input), and y(the trigP input).
+The algorithm starts by initializing xandywith the echoP and trigP inputs, respectively.
+The threshold distance is set to 4, which is the maximum distance at which the smart
+dustbin can detect e-waste. The algorithm then puts e-waste in the smart dustbin and
+enters a loop that runs as long as n is not equal to 0. Inside the loop, the value of yis set to
+--- Page 11 ---
+IoT2023 ,4 212
+0 or Low initially. Then, the algorithm runs for 10 iterations, and the value of yis set to 1 or
+High. After 10 iterations, yis again set to 0. The value of xis set to 1 or High.
+The algorithm then calculates the distance between the smart dustbin and the e-waste
+using time and the speed of sound. The garbage level is calculated by subtracting the
+distance from the total dustbin distance. This information is sent to the cloud using ESP8266.
+If the distance is greater than or equal to the threshold distance, the algorithm sends a
+notiﬁcation using the SIM900A GSM module to the garbage collector. Otherwise, the smart
+dustbin collects the e-waste.
+Algorithm 2 An algorithm for calculating the e-waste level in a smart dustbin
+Require: n0
+x=echoPin
+y=trigPin
+n=iteration
+thresholdDistance =4
+Put e-waste in Smart dustbin
+while n6=0do
+y 0 or Low
+fornumber of 10 iterations do
+y 1 or High
+end for
+y 0
+x 1 or High
+distance time0.034
+2
+garbageLevel =totalDustbinDistance  distance
+.Send the distance and garbage level in cloud
+ifdistancethresholdDistance then
+Sent notiﬁcation to garbage collector
+else
+Smart dustbin collects the e-waste
+end if
+end while
+4. Performance Analysis
+4.1. Graphical Analysis of E-Waste Level Updates in Cloud
+Figure 5 depicts the updates of the garbage level in the cloud of a certain time period,
+where the initial level (at time = 1) was recorded as 28 cm, indicating an empty smart
+dustbin. As observed from the time axis (y-axis), the garbage level gradually decreased
+until it reached 9 cm at time = 8. At time = 9, the garbage level reached a threshold distance
+of 4 cm, after which it remained constant until time = 12. During this period, a notiﬁcation
+was sent to the collector, who subsequently collected and emptied the e-waste from the
+smart bin. Following the trash collection, the garbage level increased and was recorded as
+28 cm at time = 13.
+Figure 5. Graphical analysis of e-waste level update.
+--- Page 12 ---
+IoT2023 ,4 213
+Figures 6–8 illustrate the empty space available in the smart trash bin and the process
+of updating the corresponding values in the cloud for a certain period of time. The distance
+between the contents and the top of the trash bin indicates the level of empty space available.
+A greater distance corresponds to a higher amount of empty space, while a lesser distance
+corresponds to a lower amount of empty space.
+Figure 6. E-waste level update information in cloud.
+Figure 7. E-waste level update information in cloud with timestamp.
+Figure 8. E-waste level update information in cloud showing in serial monitor.
+4.2. Accuracy Chart of GAN Algorithm
+We are using the GAN algorithm where we are dividing our dataset into training,
+validation, and testing sets. The training set is used to train the model, the validation set
+is used to tune the model’s hyper-parameters, and the testing set is used to evaluate the
+model’s performance on unseen data.
+This accuracy chart in Table 3 shows the performance of an e-waste recognition system
+that uses the GAN algorithm. The chart shows the precision, recall, and F1-score for
+each category of e-waste that the system is designed to recognize: smartphones, laptops,
+televisions, monitors, and other, which includes all other types of e-waste.
+--- Page 13 ---
+IoT2023 ,4 214
+Table 3. Accuracy Chart for E-waste Recognition System using GAN Algorithm.
+Category Precision (%) Recall (%) F1-Score (%)
+Phone 95 97 96
+Laptop 90 85 87
+TV 85 91 88
+Monitor 92 89 90
+Other 80 75 77
+Overall 90 88 89
+In Figure 9, precision is a performance metric that measures the accuracy of a system
+in identifying relevant items. It quantiﬁes the proportion of correctly identiﬁed items
+among the total items identiﬁed by the system. The precision is calculated as the ratio of
+true positives (items correctly identiﬁed) to the sum of true positives and false positives
+(items incorrectly identiﬁed). A high precision value indicates that the system is effective
+in accurately identifying relevant items. It signiﬁes that the system has a low rate of
+falsely identifying unrelated items as the target item. In our example, a precision of 95%
+implies that the system has a relatively low rate of falsely identifying non-smartphone
+items as smartphones.
+Figure 9. Precision of each category.
+However, it is important to note that precision alone may not provide a complete
+picture of the system’s performance. It should be considered in conjunction with other
+performance metrics, such as recall and the F1-score, to have a comprehensive evaluation
+of the system’s effectiveness in identifying relevant items. This was considered in Figure 12 .
+For instance, let us consider the example of a system that identiﬁes smartphones among
+various items. The precision of the system in identifying smartphones is 95%, which means
+that out of all items identiﬁed as smartphones, 95% were actually phones. The remaining
+5% could be items incorrectly classiﬁed as smartphones.
+In Figure 10, recall serves as a performance metric that quantiﬁes the completeness or
+comprehensiveness of a system in identifying relevant items. It is calculated by dividing the
+number of true positives (correctly identiﬁed items) by the sum of true positives and false
+negatives (items that were not identiﬁed as belonging to a particular category but should
+have been). Recall is particularly signiﬁcant in situations where the consequences of false
+negatives are critical. By achieving a higher recall value, the system minimizes the chances
+of overlooking relevant items and provides a more comprehensive identiﬁcation process.
+For instance, consider a system designed to identify laptops among various objects.
+If the system achieves a recall of 85%, it indicates that out of all the actual laptops in the
+sample, 85% of them were correctly identiﬁed by the system. The remaining 15% represents
+the instances where the system failed to recognize laptops that were present.
+A higher recall value suggests that the system is effective in capturing a larger propor-
+tion of the relevant items. It indicates a lower rate of false negatives, meaning that fewer
+items belonging to the target category are missed by the system. In our example, a recall of
+--- Page 14 ---
+IoT2023 ,4 215
+91% signiﬁes that the system has a relatively high ability to detect and include televisions
+in its identiﬁcation process.
+Figure 10. Recall of each category.
+In Figure 11, the F1-score is a metric that encompasses both precision and recall to
+provide a comprehensive evaluation of the performance of a classiﬁcation model. Precision
+and recall are both crucial aspects in assessing the effectiveness of such models. The F1-score
+offers a balanced measure by taking the harmonic mean of precision and recall.
+F1-score =2(precisionrecall )
+precision +recall
+Figure 11. F1-Score (%) of each category.
+This choice is made because the harmonic mean assigns more weight to smaller values,
+ensuring that both precision and recall are given equal consideration. By considering both
+precision and recall in the F1-score, it provides a uniﬁed indicator of overall performance.
+It strikes a balance between the two metrics, giving equal importance to correctly iden-
+tifying relevant items (precision) and capturing the full extent of relevant items (recall).
+The F1-score is particularly valuable when the class distribution is imbalanced or when
+both precision and recall are of equal importance. It offers a single value that represents
+the overall effectiveness of the classiﬁcation model, allowing for easier comparison and
+decision making.
+In Figure 12, the overall performance of the system is represented by the “Overall” row
+of Table 3. Here, P represents precision, R represents recall, and F represents the F1-Score.
+This row displays the key performance metrics, including the precision, recall, and F1-score.
+According to the table, the system achieves an overall precision of 90%, recall of 88%,
+and F1-score of 89%. These metrics provide a comprehensive assessment of the system’s
+performance across all categories. With a precision of 90%, the system demonstrates a high
+level of accuracy in correctly identifying e-waste items. Similarly, the recall of 88% indicates
+that the system is effective in capturing a signiﬁcant portion of the actual e-waste items
+present in the sample.
+--- Page 15 ---
+IoT2023 ,4 216
+Figure 12. Overall performance of each category.
+The F1-score of 89% is a balanced measure that combines precision and recall. It
+considers both metrics to provide an overall evaluation of the system’s performance. This
+score indicates that the system maintains a good balance between precision and recall,
+achieving a harmonious trade-off between accurately identifying e-waste items, but may
+have some minor errors in speciﬁc categories.
+4.3. Graphical Analysis of Pyrolysis Method
+Figure 13 shows the yield of bio-fuel from plastic waste using the pyrolysis method.
+The x-axis represents the temperature in degrees Celsius, while the y-axis represents
+the yield of bio-fuel as a percentage. The blue line shows the relationship between the
+temperature and bio-fuel yield. As the temperature increases, the yield of bio-fuel also
+increases. At a temperature of 300 °C, the yield is 20%, which increases to 50% at a
+temperature of 500 °C. This graph suggests that the pyrolysis method can be an effective
+way of producing bio-fuel from plastic waste and that higher temperatures can result in a
+higher yield of bio-fuel. The legend indicates that the red line represents the bio-fuel yield.
+Figure 13. Yield of bio-fuel from plastic waste using pyrolysis method.
+Table 4 [ 30] displays the results of the elemental analysis of mixed waste plastic
+pyrolysis liquid samples obtained from both thermal pyrolysis and catalyzed pyrolysis
+processes. The table shows the weight percentages of carbon (C), hydrogen (H), nitrogen
+(N), and sulfur (S) in the samples. The results indicate that the catalyzed pyrolysis process
+had a higher percentage of carbon and a lower percentage of hydrogen compared to the
+thermal pyrolysis process. Additionally, both processes showed similar percentages of
+nitrogen and sulfur in the pyrolysis liquid samples.
+--- Page 16 ---
+IoT2023 ,4 217
+Table 4. Elemental analysis of mixed waste plastic pyrolysis liquid samples.
+Weight (%) Thermal Pyrolysis Catalysed Pyrolysis
+C 94.24 97.11
+H 11.73 10.12
+N 0.61 0.28
+S 4.8 4.36
+4.4. Graphical Analysis of Solar Battery Production and Reduction in CO 2
+According to a study conducted in the Bangladesh University of Engineering and
+Technology, the projected growth of e-waste in Bangladesh from 2010 to 2035 is expected to
+increase from 0.13 million tons in 2010 to 4.62 million tons by 2035, indicating a signiﬁcant
+rise in electronic waste generation over the given time period. The recycling rate of e-waste
+in the country stands at a mere 3%, with the remaining majority being indiscriminately
+deposited in landﬁlls and rivers [ 31]. For each ton of e-waste that is collected and recycled,
+an impressive 1.44 tons of CO 2emissions are effectively circumvented, as per the ﬁndings
+of an in-depth analysis conducted by the esteemed Belgian CO 2environmental consulting
+ﬁrm, CO 2logic [32].
+Figure 14, shows the amount of CO 2emissions in million tons through over the years if
+we recycle the metal from e-waste perfectly and reuse it for making solar batteries. The red
+line represents CO 2emissions without recycling e-waste at all in Bangladesh and the blue
+line represents them after recycling only 3% of e-waste [ 31]. The green line represents the
+amount of CO 2reduction if we recycle 60% of e-waste in Bangladesh. It is clearly visible
+that if we recycle the e-waste and produce solar batteries we will be able to reduce CO 2
+emission to a large extent.
+Figure 14. Reduction in CO 2emissions with metal recycling from e-waste for solar batteries.
+5. Limitations and Future Works
+We have added the limitations and future works of our research:
+The pyrolysis plant structure may vary according to its feedstock, requirements,
+products, and speciﬁc requirements. In conformity with HUAYIN, a manufacturer of waste
+tyre/plastic pyrolysis plants [ 33] typical a pyrolysis plant consists of six primary systems.
+The emission control system puriﬁes the gas and conﬁrms the emission of clean air. It
+also offers various de-dusters as per customer necessity while maintaining the standard of
+qualiﬁed emission. Pyrolysis is considered the future for plastic recycling techniques. We
+will implement preventive measures to mitigate and minimize the impacts of pyrolysis,
+such as the following:
+--- Page 17 ---
+IoT2023 ,4 218
+• Emissions and potential health/environment risks: Pyrolysis can release gas, volatile
+organic compounds, and toxic substances, but our proposed process includes the
+implementation of a proper emission control system.
+• Energy inputs: In some cases, traditional pyrolysis may use fossil fuels; our research
+focuses on using renewable energy sources as this will minimize the carbon footprint.
+• Contaminant release: Plastic parts of e-waste can contain contaminants. Our pro-
+posed pyrolysis process involves control measures to ensure the safe handling, ad-
+vanced sorting, and treatment of the e-waste plastic.
+The proposed system will take every measure to reduce all the possible detrimental
+effects of pyrolysis. The major limitations of our system might be as follows:
+• Feedstock variability: E-waste plastics may contain a different range of materials
+with different compositions. The consistency of the pyrolysis process can face some
+hurdles due to this.
+• Contaminants and impurities: Despite thorough sorting and taking advance mea-
+sures, some contaminants may still be present in the feedstock, which can affect the
+quality of the whole process and demean the standard of the by-products.
+• Pollutant emissions: Though we are using an emission control system, making ef-
+forts to minimize the emissions, a comprehensive understanding about all kinds of
+pollutants and their potential impacts can impose limitations.
+Continuous experimentation, development, and further research are necessary to
+enhance the characterization and monitoring of emissions, ensuring the safety and envi-
+ronmental sustainability of e-waste pyrolysis. For the future work of our research paper,
+we want to include some aspects: the further optimization of the pyrolysis process; the
+enhancement of data-driven decision making by leveraging advanced technologies; waste
+stream analysis for an effortless recycling process; solar batteries management and control
+to optimize their performance and prolong their lifespan; and the optimization of the
+recycling workﬂow to train the recyclers for different recycling processes.
+6. Conclusions
+The IoT- and cloud-based waste management and recycling system we have imple-
+mented successfully addresses the pressing issue of e-waste. Our study focused on the
+efﬁcient separation and quick disposal of e-waste using the IoT, cloud computing, and ma-
+chine learning. Our research results showcased numerous advantages, including enhanced
+efﬁciency, cost reductions, improved monitoring capabilities, and increased sustainability.
+Real-time data collection and analysis facilitated optimized waste collection routes, mini-
+mized the environmental impact, and successfully produced bio-fuel and solar batteries.
+Our research objectives were achieved through the implementation and evaluation of an
+IoT- and cloud-based waste management system, resulting in improved waste monitoring,
+optimized collection routes, and turning waste into assets by producing bio-fuel through
+pyrolysis and converting e-waste metal into solar batteries. Our study’s outcomes align
+seamlessly with our initial research objectives, demonstrating the system’s ability to over-
+come challenges associated with traditional waste management practices. However, there
+are some limitations, such as security and privacy concerns related to IoT devices and
+cloud infrastructure that must be addressed with robust measures to ensure data protection.
+In addition, the performance of the GAN algorithm can be affected by issues such as
+mode collapse, where the generator produces limited varieties of output, instability during
+training, and difﬁculty in evaluating the generated images. To sum up, the implementation
+of our IoT- and cloud-based waste management system has immense potential to revolu-
+tionize waste management practices. Its real-time data gathering, operational optimization,
+resource allocation, and production of recycled products offer substantial cost savings, a
+reduced environmental impact, and improved sustainability. However, addressing security
+concerns and conducting further research to ensure widespread adoption are necessary
+tasks for the successful implementation of such systems in the future.
+--- Page 18 ---
+IoT2023 ,4 219
+Author Contributions: Conceptualization, M.F. and A.B.F.; methodology, M.F., A.B.F. and S.E.A.;
+software, M.F., A.B.F., S.E.A. and M.M.I.; validation, M.F., A.B.F., S.E.A. and M.M.I.; formal analysis,
+M.F. and A.B.F.; investigation, M.F., A.B.F., S.E.A. and M.M.I.; resources, M.F., A.B.F., S.E.A. and
+M.M.I.; data curation, M.F., A.B.F., S.E.A. and M.M.I.; writing—original draft preparation, M.F. and
+A.B.F.; writing—review and editing, M.F., A.B.F., S.E.A. and M.M.I.; visualization, M.F., A.B.F. and
+S.E.A.; supervision, M.F. and M.M.I.; project administration, M.F., A.B.F. and M.M.I. All authors have
+read and agreed to the published version of the manuscript.
+Funding: This research received no external funding.
+Data Availability Statement: Publicly available data-set were analyzed in this study. This data-set
+can be found here: [https://universe.roboflow.com/new-workspace-f7og7/e-waste-mx8fq/dataset/1].
+Conﬂicts of Interest: The authors declare no conﬂict of interest.
+References
+1. Jafari, O.H.; Yang, M.Y. Real-time RGB-D based template matching pedestrian detection. In Proceedings of the 2016 IEEE
+International Conference on Robotics and Automation (ICRA), Stockholm, Sweden, 16–21 May 2016.
+2. Mahipal, S.S.; Mayuri, K.; Manisha, N.; Shriyash, M.; Gaurav, S.; Bhaskar, C.; Rajeev, K. Effect of Electronic waste on Environmental
+& Human health-A Review. IOSR J. Environ. Sci. Toxicol. Food Technol. (IOSR-JESTFT )2016 ,10, 98–104.
+3. Tanvir, A.; Rabeeh, G.; Fariborz, F.; Shahabuddin, M. E-Waste Recycling Technologies: An Overview, Challenges and Future
+Perspectives. In Paradigm Shift in E-waste Management ; CRC Press: Boca Raton, FL, USA, 2022; pp. 143–176. [CrossRef]
+4. Wayne, V .; Joseph, F. Time Series Analysis. In Handbook of Psychology ; Research Methods in Psychology; John Wiley & Sons: New
+York, NY, USA, 2003; Volume 2, pp. 581–606, ISBN 9780471264385. [CrossRef]
+5. Dubey, A.; Kumar, A.; García Díaz, V .; Sharma, A.; Kanhaiya, K. Study and analysis of SARIMA and LSTM in forecasting time
+series data. Sustain. Energy Technol. Assess. 2021 ,47, 101474.
+6. Tanskanen, P . Management and recycling of electronic waste. Acta Mater. 2013 ,61, 1001–1011. [CrossRef]
+7. Bazargan, A.; Lam, K.F.; Mckay, G. Challenges and Opportunities in E-Waste Management. In E-Waste: Management, Types, and
+Challenges ; Li, Y.C., Wang, B.L., Eds.; Nova Science Publishers: Hauppauge, NY, USA, 2012; Chapter 2, ISBN 978-1-61942-217-9.
+8. Zhao, P .; Xie, J.; Gu, F.; Sharmin, N.; Hall, P .; Fu, J. Separation of mixed waste plastics via magnetic levitation. Waste Manag. 2018 ,
+76, 46–54. [CrossRef] [PubMed]
+9. Devi, D.; Kumar, R.; Rajak, U. Plastic waste as a biofuel feedstock-A conceptual study. IOP Conf. Ser. Mater. Sci. Eng. 2021 ,1116 ,
+012029. [CrossRef]
+10. Shamsudin, M.; Tong, A.; Firdhaus, M. IOT Based E-Waste Monitoring System ; 2022.
+11. Heacock, M.; Trottier, B.; Adhikary, S.; Asante, K.; Basu, N.; Brune, M.N.; Caravanos, J.; Carpenter, D.; Cazabon, D.; Chakraborty,
+P .; et al. Prevention-intervention strategies to reduce exposure to e-waste. Rev. Environ. Health 2018 ,33, 219–228. [CrossRef]
+[PubMed]
+12. Bansod, P . IoT Based Smart E-Waste Management System. Int. J. Res. Appl. Sci. Eng. Technol. 2022 ,10, 881–890. [CrossRef]
+13. Bošnjakovi´ c, M.; Galovi´ c, M.; Lackovic, I. Biofuel from plastic waste. In Proceedings of the 10th International Scientiﬁc and Expert
+Conference TEAM 2022, Slavonski Brod, Croatia, 21–22 September 2022.
+14. Balakrishnan, B.K.; Shinde, A.; Kumar, A.; Kumar, A. Formation of Bio-Fuel from Waste Plastic Scrap. Appl. Mech. Mater. 2015 ,
+766–767 , 551–556.
+15. Dinesh, M.H. Design and Fabrication Model is Used to Extract Waste Plastic to Bio Oil. Int. J. Eng. Manag. Res. 2020 ,6, 68–71.
+16. Shawpnil, K.; Nayeem, S.; Hossain, F.; Dayan, A.; Islam, M.M. EasyE-waste: A Novel Approach Towards Efﬁcient and Sustainable
+E-waste Management. In Proceedings of the 2023 6th Springer International Conference on Intelligent Sustainable Systems
+(ICISS), Edinburgh, UK, 11–13 August 2023; SCAD College of Engineering and Technology: Tirunelveli, India, 2023.
+17. Abdullah Al, M.; Sadman, S.; Motaharul, I. E-Waste Separation Using YOLOv5 and IoT. In Proceedings of the 6th International
+Conference on Sustainable Development (ICSD), Dhaka, Bangldesh, 19–20 February 2023.
+18. Sankeerth, V .; Markandeya, V .; Ranga, E.; Bhavana, V . Smart Waste Management System Using IoT. Int. J. Eng. Tech. Res. 2020 ,
+9, 4.
+19. Thaseen Ikram, S.; Mohanraj, V .; Ramachandran, S.; Balakrishnan, A. An Intelligent Waste Management Application Using IoT
+and a Genetic Algorithm–Fuzzy Inference System. Appl. Sci. 2023 ,13, 3943. [CrossRef]
+20. Pavithra, M.; Alagu Esakkiammal, N.; Angel Melbha, A.; Aruleeswaran, R.; Balaji, N. IoT Based Automated Smart Waste
+Management System. Int. J. Sci. Res. Sci. Eng. Technol. (IJSRSET ).2023 ,10, 446–455. [CrossRef]
+21. Cai, H.; Hu, J.; Li, Z.; Lim, W.H.; Mokayef, M.; Wong, C.H. An IoT Garbage Monitoring System for Effective Garbage Management.
+In Proceedings of the 2022 International Conference on Computer Engineering, Network, and Intelligent Multimedia (CENIM),
+Surabaya, Indonesia, 22–23 November 2022.
+22. Artang, S.; Ghasemian, A.; Hameed, I. E-Waste Tracker: A Platform to Monitor e-Waste from Collection to Recycling. In
+Proceedings of the 37th ECMS International Conference on Modelling and Simulation (ECMS2023), Florence, Italy, 20–23 June
+2023; Volume 37, ISBN 978-3-937436-80-7/978-3-937436-79-1 (CD).
+--- Page 19 ---
+IoT2023 ,4 220
+23. Motaharul, I.; Bhuiyan, Z.A. An Integrated Scalable Framework for Cloud and IoT Based Green Healthcare System. IEEE Access
+2023 ,11, 22266–22282.
+24. Zahran, M.; Wassal, A. A survey on GAN acceleration using memory compression techniques. J. Eng. Appl. Sci. 2021 ,68, 47.
+25. Fattah, J.; Ezzine, L.; Aman, Z.; Moussami, H.; Lachhab, A. Forecasting of demand using ARIMA model. Int. J. Eng. Bus. Manag.
+2018 ,10, 184797901880867. [CrossRef]
+26. Miandad, R.; Barakat, M.; Aburizaiza, A.; Rehan, M.; Nizami, A.-S. Catalytic Pyrolysis of Plastic Waste: A Review. Process. Saf.
+Environ. Prot. 2016 ,102, 822–838. [CrossRef]
+27. Smith, K.M.; Fowler, G.; Pullket, S. Sewage Sludge-based Adsorbents: A Review of Their Production, Properties and Use in Water
+Treatment Applications. Water Res. 2009 ,43, 2569–2594. [CrossRef] [PubMed]
+28. Steiner, C.; Glaser, B.; Teixeira, W.G.; Lehmann, J.; Blum, W.E.H.; Zech, W. Nitrogen retention and plantuptake on a highly
+weathered central Amazonian Ferralsol amended with compost and charcoal. J. Plant Nutr. Soil Sci. 2008 ,171, 893–899. [CrossRef]
+29. Jaworek, A.; Krupa, A.; Czech, T. Modern electrostatic devices and methods for exhaust gas cleaning: A brief review. J. Electrost.
+2007 ,65, 133–155. [CrossRef]
+30. Eze, W.; Madufor, I.; Onyeagoro, G.; Obasi, H.; Ugbaja, M. Study on the effect of Kankara zeolite-Y-based catalyst on the chemical
+properties of liquid fuel from mixed waste plastics (MWPs) pyrolysis. Polym. Bull. 2021 ,78, 377–398. [CrossRef]
+31. Assessment of Generation of E-Waste, Its Impacts on Environment and Resource Recovery Potential in Bangladesh. 28 June 2022.
+Available online: https://2022-06-28-11-42-330b838e623795f97fbe7501137d41ac.pdf (accessed on 6 June 2023).
+32. Bo2W Impact on CO 2Emissions. Available online: https://worldloop.org/e-waste/bo2w-impact-on-CO$_{2}$-emissions/
+(accessed on 6 June 2023).
+33. Pyrolysis Plant For Solid Wastes Recycling (16 August 2022). Available online: https://huayinre.com/pyrolysis-plant/ (accessed
+on 23 June 2023).
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.

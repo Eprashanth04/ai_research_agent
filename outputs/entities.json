@@ -1,0 +1,38 @@
+{
+  "per_paper_entities": {
+    "AMSTAR_2_a_critical_appraisal_tool_for_systematic_reviews_that_include_randomised_or_non-randomised_": {
+      "datasets": [],
+      "methods": [
+        "SAC"
+      ]
+    },
+    "ChatGPT_Utility_in_Healthcare_Education,_Research,_and_Practice_Systematic_Review_on_the_Promising_P": {
+      "datasets": [
+        "GPT-3"
+      ],
+      "methods": [
+        "Transformer",
+        "Attention",
+        "GPT"
+      ]
+    },
+    "Prevalence_of_depression,_anxiety,_and_insomnia_among_healthcare_workers_during_the_COVID-19_pandemi": {
+      "datasets": [],
+      "methods": [
+        "VGG"
+      ]
+    }
+  },
+  "common_entities": {
+    "datasets": {
+      "GPT-3": 1
+    },
+    "methods_and_algorithms": {
+      "SAC": 1,
+      "Transformer": 1,
+      "Attention": 1,
+      "GPT": 1,
+      "VGG": 1
+    }
+  }
+}

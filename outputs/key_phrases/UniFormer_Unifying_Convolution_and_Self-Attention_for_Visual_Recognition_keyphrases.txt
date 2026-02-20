@@ -1,0 +1,36 @@
+Key Phrases from: UniFormer_Unifying_Convolution_and_Self-Attention_for_Visual_Recognition.txt
+Total Words: 16283
+================================================================================
+
+TOP KEYWORDS (Frequency-Based):
+--------------------------------------------------------------------------------
+ 1. uniformer                                (frequency: 212)
+ 2. token                                    (frequency: 85)
+ 3. video                                    (frequency: 73)
+ 4. attention                                (frequency: 64)
+ 5. global                                   (frequency: 62)
+ 6. learning                                 (frequency: 57)
+ 7. convolution                              (frequency: 55)
+ 8. local                                    (frequency: 55)
+ 9. vision                                   (frequency: 55)
+10. training                                 (frequency: 55)
+11. table                                    (frequency: 52)
+12. transformer                              (frequency: 51)
+13. image                                    (frequency: 48)
+14. kinetics                                 (frequency: 48)
+15. tokens                                   (frequency: 46)
+16. computation                              (frequency: 46)
+17. wang                                     (frequency: 45)
+18. models                                   (frequency: 45)
+19. accuracy                                 (frequency: 42)
+20. recognition                              (frequency: 41)
+21. visual                                   (frequency: 40)
+22. block                                    (frequency: 39)
+23. results                                  (frequency: 36)
+24. arxiv                                    (frequency: 36)
+25. imagenet                                 (frequency: 35)
+26. mhra                                     (frequency: 35)
+27. self                                     (frequency: 34)
+28. efficient                                (frequency: 34)
+29. transformers                             (frequency: 33)
+30. blocks                                   (frequency: 33)

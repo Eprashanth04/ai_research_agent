@@ -1,0 +1,36 @@
+Key Phrases from: ChatGPT_Utility_in_Healthcare_Education,_Research,_and_Practice_Systematic_Review_on_the_Promising_P.txt
+Total Words: 12633
+================================================================================
+
+TOP KEYWORDS (Frequency-Based):
+--------------------------------------------------------------------------------
+ 1. chatgpt                                  (frequency: 287)
+ 2. health                                   (frequency: 133)
+ 3. care                                     (frequency: 110)
+ 4. records                                  (frequency: 108)
+ 5. research                                 (frequency: 89)
+ 6. crossref                                 (frequency: 89)
+ 7. issues                                   (frequency: 72)
+ 8. risk                                     (frequency: 67)
+ 9. education                                (frequency: 56)
+10. medical                                  (frequency: 53)
+11. concerns                                 (frequency: 51)
+12. based                                    (frequency: 50)
+13. mentioned                                (frequency: 48)
+14. practice                                 (frequency: 45)
+15. review                                   (frequency: 44)
+16. writing                                  (frequency: 38)
+17. included                                 (frequency: 37)
+18. content                                  (frequency: 37)
+19. should                                   (frequency: 35)
+20. academic                                 (frequency: 34)
+21. preprint                                 (frequency: 33)
+22. author                                   (frequency: 32)
+23. data                                     (frequency: 32)
+24. potential                                (frequency: 31)
+25. help                                     (frequency: 31)
+26. clinical                                 (frequency: 28)
+27. information                              (frequency: 28)
+28. healthcare                               (frequency: 27)
+29. regarding                                (frequency: 27)
+30. human                                    (frequency: 27)

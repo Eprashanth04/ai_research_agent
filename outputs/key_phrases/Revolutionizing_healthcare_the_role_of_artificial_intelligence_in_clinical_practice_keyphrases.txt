@@ -1,0 +1,36 @@
+Key Phrases from: Revolutionizing_healthcare_the_role_of_artificial_intelligence_in_clinical_practice.txt
+Total Words: 12079
+================================================================================
+
+TOP KEYWORDS (Frequency-Based):
+--------------------------------------------------------------------------------
+ 1. healthcare                               (frequency: 103)
+ 2. health                                   (frequency: 92)
+ 3. data                                     (frequency: 73)
+ 4. patient                                  (frequency: 69)
+ 5. artificial                               (frequency: 61)
+ 6. patients                                 (frequency: 61)
+ 7. intelligence                             (frequency: 58)
+ 8. medical                                  (frequency: 52)
+ 9. care                                     (frequency: 50)
+10. drug                                     (frequency: 48)
+11. clinical                                 (frequency: 46)
+12. based                                    (frequency: 42)
+13. learning                                 (frequency: 38)
+14. treatment                                (frequency: 35)
+15. medicine                                 (frequency: 34)
+16. education                                (frequency: 33)
+17. using                                    (frequency: 31)
+18. risk                                     (frequency: 29)
+19. diagnosis                                (frequency: 28)
+20. potential                                (frequency: 27)
+21. human                                    (frequency: 27)
+22. algorithms                               (frequency: 27)
+23. these                                    (frequency: 27)
+24. machine                                  (frequency: 26)
+25. predictive                               (frequency: 26)
+26. outcomes                                 (frequency: 24)
+27. study                                    (frequency: 24)
+28. cancer                                   (frequency: 23)
+29. review                                   (frequency: 22)
+30. disease                                  (frequency: 22)

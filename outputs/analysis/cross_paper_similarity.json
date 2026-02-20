@@ -1,0 +1,37 @@
+{
+  "total_papers": 3,
+  "papers": [
+    "AMSTAR_2_a_critical_appraisal_tool_for_systematic_reviews_that_include_randomised_or_non-randomised_",
+    "ChatGPT_Utility_in_Healthcare_Education,_Research,_and_Practice_Systematic_Review_on_the_Promising_P",
+    "Prevalence_of_depression,_anxiety,_and_insomnia_among_healthcare_workers_during_the_COVID-19_pandemi"
+  ],
+  "paper_names": [
+    "AMSTAR_2_a_critical_appraisal_tool_for_systematic_reviews_that_include_randomised_or_non-randomised_",
+    "ChatGPT_Utility_in_Healthcare_Education,_Research,_and_Practice_Systematic_Review_on_the_Promising_P",
+    "Prevalence_of_depression,_anxiety,_and_insomnia_among_healthcare_workers_during_the_COVID-19_pandemi"
+  ],
+  "key_findings": {
+    "AMSTAR_2_a_critical_appraisal_tool_for_systematic_reviews_that_include_randomised_or_non-randomised_": [
+      "we propose"
+    ],
+    "ChatGPT_Utility_in_Healthcare_Education,_Research,_and_Practice_Systematic_Review_on_the_Promising_P": [],
+    "Prevalence_of_depression,_anxiety,_and_insomnia_among_healthcare_workers_during_the_COVID-19_pandemi": []
+  },
+  "similarity_matrix": [
+    [
+      1.0000000000000002,
+      0.14210472179409137,
+      0.13608119849314207
+    ],
+    [
+      0.14210472179409137,
+      1.0000000000000002,
+      0.09500961600686143
+    ],
+    [
+      0.13608119849314207,
+      0.09500961600686143,
+      1.0000000000000007
+    ]
+  ]
+}

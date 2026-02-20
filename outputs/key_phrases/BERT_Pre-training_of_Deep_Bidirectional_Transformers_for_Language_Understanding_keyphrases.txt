@@ -1,0 +1,21 @@
+Key Phrases from: BERT_Pre-training_of_Deep_Bidirectional_Transformers_for_Language_Understanding.txt
+Total Words: 26
+================================================================================
+
+TOP KEYWORDS (Frequency-Based):
+--------------------------------------------------------------------------------
+ 1. bert                                     (frequency: 2)
+ 2. mocked                                   (frequency: 1)
+ 3. text                                     (frequency: 1)
+ 4. training                                 (frequency: 1)
+ 5. deep                                     (frequency: 1)
+ 6. bidirectional                            (frequency: 1)
+ 7. transformers                             (frequency: 1)
+ 8. language                                 (frequency: 1)
+ 9. understanding                            (frequency: 1)
+10. propose                                  (frequency: 1)
+11. attention                                (frequency: 1)
+12. demonstrate                              (frequency: 1)
+13. state                                    (frequency: 1)
+14. results                                  (frequency: 1)
+15. imagenet                                 (frequency: 1)

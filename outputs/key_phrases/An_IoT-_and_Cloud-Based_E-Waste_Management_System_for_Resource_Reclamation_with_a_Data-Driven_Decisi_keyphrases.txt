@@ -1,0 +1,36 @@
+Key Phrases from: An_IoT-_and_Cloud-Based_E-Waste_Management_System_for_Resource_Reclamation_with_a_Data-Driven_Decisi.txt
+Total Words: 9080
+================================================================================
+
+TOP KEYWORDS (Frequency-Based):
+--------------------------------------------------------------------------------
+ 1. waste                                    (frequency: 236)
+ 2. system                                   (frequency: 85)
+ 3. data                                     (frequency: 53)
+ 4. pyrolysis                                (frequency: 52)
+ 5. plastic                                  (frequency: 47)
+ 6. using                                    (frequency: 46)
+ 7. management                               (frequency: 44)
+ 8. level                                    (frequency: 44)
+ 9. cloud                                    (frequency: 43)
+10. process                                  (frequency: 39)
+11. fuel                                     (frequency: 35)
+12. recycling                                (frequency: 34)
+13. based                                    (frequency: 32)
+14. time                                     (frequency: 29)
+15. smart                                    (frequency: 28)
+16. garbage                                  (frequency: 28)
+17. algorithm                                (frequency: 27)
+18. figure                                   (frequency: 27)
+19. solar                                    (frequency: 26)
+20. analysis                                 (frequency: 25)
+21. precision                                (frequency: 24)
+22. recall                                   (frequency: 24)
+23. collection                               (frequency: 23)
+24. items                                    (frequency: 23)
+25. trash                                    (frequency: 22)
+26. images                                   (frequency: 22)
+27. batteries                                (frequency: 20)
+28. proposed                                 (frequency: 19)
+29. real                                     (frequency: 19)
+30. performance                              (frequency: 18)

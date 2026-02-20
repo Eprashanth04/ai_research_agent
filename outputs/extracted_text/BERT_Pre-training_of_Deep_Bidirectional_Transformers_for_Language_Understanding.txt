@@ -1,0 +1,1 @@
+This is a mocked text for BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. We propose Attention and BERT. We demonstrate state-of-the-art results on ImageNet.

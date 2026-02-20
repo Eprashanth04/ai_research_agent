@@ -1,0 +1,895 @@
+--- Page 1 ---
+01026
+ 
+ 
+IoT and Cloud Based Sustainable Smart 
+Irrigation System 
+V. Sreelatha Reddy 1*, S. Harivardhagini 2 , and G. Sreelakshmi 3
+1 CVR College of Engineering, Mangalpalli, Telangana, India 
+2 CVR College of Engineering, Mangalpalli, Telangana, India
+3 CVR College of Engineering, Mangalpalli, Telangana, India
+Abstract. This paper addresses the concerns in irrigation 
+mechanisms and employs a Sensors and cloud-based platform to 
+monitor and control an irrigation system. In order to monitor the 
+soil's moisture level in real time, moisture sensors are placed in the 
+field. These sensors wirelessly provide data to the NodeMCU, 
+which processes and relays the information. The NodeMCU 
+gathers the sensor data and processes it, considering standard 
+deviations and crop-specific parameters. Using this information, 
+the system starts the water pump and opens the solenoid valves to 
+begin the irrigation operation. The NodeMCU coordinates with 
+these valve-opening devices via wireless communication. In 
+addition, the system uses online weather prediction data to provide 
+more precise watering schedule optimisation. The system 
+dynamically modifies the irrigation schedule based on analysis of 
+weather patterns, evapotranspiration rates, and crop water needs to 
+save water during times of rain or high humidity. The solution 
+makes use of cloud-based platforms to improve scalability and 
+accessibility. The gathered sensor data and command instructions 
+are safely transferred to the cloud server. This allows farmers to 
+remotely check on and adjust the irrigation system by means of the 
+web or mobile apps. In addition, data analytics methods may be 
+used to infer information and provide suggestions for improved methods of water management and crop care. In conclusion, the 
+Internet of Things (IoT) NodeMCU smart irrigation system 
+provides an automated and intelligent approach to water 
+management in agriculture. Water is saved, crop yields are 
+boosted, and sustainability is enhanced 
+thanks to the capacity to 
+irrigate precisely based on real-time soil moisture data, weather 
+predictions, and crop needs.  
+Keywords: Smart irrigation, Internet of Things (IoT), Sensors, 
+Cloud computing, Water conservation, User interface.  
+            ___________________________________________________ 
+*Corresponding author: srilathareddy.cvr@gmail.com
+© The Authors, published by EDP Sciences. This is an open access article distributed under the terms of the Creative Commons 
+Attribution License 4.0 (https://creativecommons.org/licenses/by/4.0/).E3S Web of Conferences 472, 01026 (2024)  https://doi.org/10.1051/e3sconf/202447201026
+ICREGCSD 2023
+--- Page 2 ---
+ 
+ 
+ 
+ 
+1. Overview  
+ 
+ 
+1.1 Introduction  
+A smart irrigation system that makes use of the Internet of Things is a cutting-edge piece of 
+technology that facilitates effective water management in rural and urban settings. Multiple sensors are included in the system to monitor local weather and air quality. When this 
+information is collected, it is sent to a cloud service where machine learning algorithms may 
+be used. The study informs the system's decision to either 
+increase or decrease the water flow 
+rate or the irrigation schedule, respectively, to  maximize efficiency and minimize waste. 
+Incorporating Internet of Things (IoT) technologies into smart irrigation systems may boost 
+agricultural output, cut water usage, and optimize water use [4].  
+An automated method of watering plants or crops, a smart irrigation system utilizes Internet 
+of Things (IoT) technology to monitor and adjust water use. It integrates sensing, controlling, 
+and networking technologies to monitor things like soil moisture, climate, and plant 
+requirements in real-time [5]. The system may then use this information to make calculated 
+judgments about when and how much water to release, resulting in the more effective use of 
+available water resources and less waste.  
+Improvements in technology in recent years have allowed novel approaches in several arenas. 
+As IoT development has accelerated, so have the opportunities for automating hitherto 
+inaccessible facets of human life. An example is the smart irrigation system, which uses 
+Internet of Things (IoT) sensors for precise management and control of watering plants and 
+crops [6]. The inefficiency and wastefulness of conventional irrigation techniques are well-
+documented. However, a smart irrigation system can track and adjust water distribution in 
+response to real-time data collected through the Internet of Things and sensors. This not only 
+improves plant health and crop yields by minimizing wasteful water use, but it also maximizes 
+efficiency by delivering water precisely when it is needed [7].  
+IoT-enabled smart irrigation systems provide a cutting-edge answer to the traditional problems 
+farmers have always had with water management. These systems optimize water use, preserve 
+resources, and boost agricultural output by combining sensor data, meteorological 
+information, and sophisticated control algorithms [8,9]. As science and engineering progress, 
+smart irrigation systems will become more important in promoting ecologically responsible 
+agricultural methods. 
+1.2 Objective  
+Using Internet of Things (IoT) technology and data-driven decision-making, a smart irrigation 
+system seeks to enhance the efficiency and efficacy of the irrigation process. The primary 
+goals of an intelligent irrigation system are as follows:  
+The fundamental goal of a smart irrigation system is water conservation via efficient use. 
+Technology is able to minimize overwatering and reduce water waste by keeping track of 
+environmental conditions, soil moisture levels, and plant water needs and delivering water 
+only when and where it is required. 
+ 
+ 
+ 
+ Smart irrigation systems try to fully mechanism the watering process so that no human 
+assistance is required at any point. The system may gather data, do analysis, and initiate 
+irrigation events according to user-defined thresholds and algorithms by using sensors, actuators, 
+and Internet of Things connection. This technology makes it easier for farmers and gardeners to control irrigation [10].
+ 
+The purpose of an intelligent irrigation system is to provide the best possible development and 
+health of the plants. The technology aids in preventing plant stress, illness, and decreased 
+production due to under- or over-watering by delivering the appropriate quantity of water at the 
+appropriate time. Plants and harvests benefit from consistent, ideal soil moisture levels.  
+By targeting the root zone specifically, as smart irrigation systems do, we may achieve what is known as "precision watering." The system may adjust the frequency and duration of watering 
+based on the soil moisture and plant water demands data it receives from sensors. This kind of 
+precise irrigation reduces wasteful runoff while increasing the amount of water that is absorbed 
+by plants [11].
+ 
+The ability to remotely monitor and adjust the irrigation system is another desired outcome of a "smart" irrigation system. Users may access real-time data, get messages and warnings, and 
+make remote adjustments to irrigation settings [12] by linking with cloud platforms and mobile 
+apps. The ability to control the irrigation system from afar allows for more ease and mobility.
+ 
+Smart irrigation systems are also concerned with minimizing power use. Sensor data and smart 
+algorithms allow the system to activate water pumps, valves, and irrigation systems just when 
+they are needed, drastically cutting down on energy costs. This goal is consistent with eco-
+friendly methods and savings for the end user.  
+1.3 Motivation  
+Water supplies are under severe strain due to the increased need for food production to meet the 
+needs of a rising global population. More effective and long-lasting irrigation methods are 
+required since water shortage is becoming a serious problem in the agricultural sector. 
+ Internet of Things (IoT) enabled smart irrigation systems might be the answer to this problem 
+[13]. These systems enhance water efficiency and agricultural productivity by monitoring and 
+optimizing water consumption in crops via the use of sensors, communication networks, and 
+algorithms. Using the Internet of Things to create a smart irrigation system might help farmers 
+save water, enhance output, and save expenses [14]. Therefore, it is essential to maintain 
+research and development on these systems to guarantee agricultural and food production's 
+long-term viability. 
+Improving agricultural and landscape water management is a primary motivator for adopting 
+Internet of Things (IoT) based smart irrigation systems [15]. Wasted water, higher utility bills, 
+and environmental problems are all consequences of traditional irrigation practices. Several 
+advantages may be gained by using IoT in irrigation systems.  
+Firstly, water savings via the use of sensors, meteorological data, and soil moisture sensors to 
+ascertain the precise amount of water that each plant needs. This data is used in the automation 
+of irrigation programs to ensure that just the required quantity of water is applied at the 
+appropriate times.  
+Second, smart irrigation systems assist in saving money by reducing water costs by 
+maximizing efficiency in water use. IoT-based solutions save money on labor since they can 
+automate scheduling and monitoring functions. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2E3S Web of Conferences 472, 01026 (2024)  https://doi.org/10.1051/e3sconf/2024472 01026
+ICREGCSD 2023
+--- Page 3 ---
+ 
+ 
+ 
+ 
+1. Overview  
+ 
+ 
+1.1 Introduction  
+A smart irrigation system that makes use of the Internet of Things is a cutting-edge piece of 
+technology that facilitates effective water management in rural and urban settings. Multiple sensors are included in the system to monitor local weather and air quality. When this 
+information is collected, it is sent to a cloud service where machine learning algorithms may 
+be used. The study informs the system's decision to either 
+increase or decrease the water flow 
+rate or the irrigation schedule, respectively, to  maximize efficiency and minimize waste. 
+Incorporating Internet of Things (IoT) technologies into smart irrigation systems may boost agricultural output, cut water usage, and optimize water use [4].
+ 
+An automated method of watering plants or crops, a smart irrigation system utilizes Internet 
+of Things (IoT) technology to monitor and adjust water use. It integrates sensing, controlling, 
+and networking technologies to monitor things like soil moisture, climate, and plant 
+requirements in real-time [5]. The system may then use this information to make calculated 
+judgments about when and how much water to release, resulting in the more effective use of 
+available water resources and less waste.  
+Improvements in technology in recent years have allowed novel approaches in several arenas. 
+As IoT development has accelerated, so have the opportunities for automating hitherto 
+inaccessible facets of human life. An example is the smart irrigation system, which uses 
+Internet of Things (IoT) sensors for precise management and control of watering plants and 
+crops [6]. The inefficiency and wastefulness of conventional irrigation techniques are well-
+documented. However, a smart irrigation system can track and adjust water distribution in 
+response to real-time data collected through the Internet of Things and sensors. This not only 
+improves plant health and crop yields by minimizing wasteful water use, but it also maximizes 
+efficiency by delivering water precisely when it is needed [7].  
+IoT-enabled smart irrigation systems provide a cutting-edge answer to the traditional problems 
+farmers have always had with water management. These systems optimize water use, preserve 
+resources, and boost agricultural output by combining sensor data, meteorological 
+information, and sophisticated control algorithms [8,9]. As science and engineering progress, 
+smart irrigation systems will become more important in promoting ecologically responsible 
+agricultural methods. 
+1.2 Objective  
+Using Internet of Things (IoT) technology and data-driven decision-making, a smart irrigation 
+system seeks to enhance the efficiency and efficacy of the irrigation process. The primary 
+goals of an intelligent irrigation system are as follows:  
+The fundamental goal of a smart irrigation system is water conservation via efficient use. 
+Technology is able to minimize overwatering and reduce water waste by keeping track of 
+environmental conditions, soil moisture levels, and plant water needs and delivering water 
+only when and where it is required. 
+ 
+ 
+ 
+ Smart irrigation systems try to fully mechanism the watering process so that no human 
+assistance is required at any point. The system may gather data, do analysis, and initiate 
+irrigation events according to user-defined thresholds and algorithms by using sensors, actuators, 
+and Internet of Things connection. This technology makes it easier for farmers and gardeners 
+to control irrigation [10].  
+The purpose of an intelligent irrigation system is to provide the best possible development and 
+health of the plants. The technology aids in preventing plant stress, illness, and decreased 
+production due to under- or over-watering by delivering the appropriate quantity of water at the 
+appropriate time. Plants and harvests benefit from consistent, ideal soil moisture levels.  
+By targeting the root zone specifically, as smart irrigation systems do, we may achieve what is 
+known as "precision watering." The system may adjust the frequency and duration of watering 
+based on the soil moisture and plant water demands data it receives from sensors. This kind of 
+precise irrigation reduces wasteful runoff while increasing the amount of water that is absorbed 
+by plants [11].  
+The ability to remotely monitor and adjust the irrigation system is another desired outcome of a 
+"smart" irrigation system. Users may access real-time data, get messages and warnings, and 
+make remote adjustments to irrigation settings [12] by linking with cloud platforms and mobile 
+apps. The ability to control the irrigation system from afar allows for more ease and mobility.  
+Smart irrigation systems are also concerned with minimizing power use. Sensor data and smart 
+algorithms allow the system to activate water pumps, valves, and irrigation systems just when 
+they are needed, drastically cutting down on energy costs. This goal is consistent with eco-
+friendly methods and savings for the end user.  
+1.3 Motivation  
+Water supplies are under severe strain due to the increased need for food production to meet the 
+needs of a rising global population. More effective and long-lasting irrigation methods are 
+required since water shortage is becoming a serious problem in the agricultural sector. 
+ Internet of Things (IoT) enabled smart irrigation systems might be the answer to this problem 
+[13]. These systems enhance water efficiency and agricultural productivity by monitoring and 
+optimizing water consumption in crops via the use of sensors, communication networks, and 
+algorithms. Using the Internet of Things to create a smart irrigation system might help farmers 
+save water, enhance output, and save expenses [14]. Therefore, it is essential to maintain 
+research and development on these systems to guarantee agricultural and food production's 
+long-term viability. 
+Improving agricultural and landscape water management is a primary motivator for adopting 
+Internet of Things (IoT) based smart irrigation systems [15]. Wasted water, higher utility bills, 
+and environmental problems are all consequences of traditional irrigation practices. Several 
+advantages may be gained by using IoT in irrigation systems.  
+Firstly, water savings via the use of sensors, meteorological data, and soil moisture sensors to 
+ascertain the precise amount of water that each plant needs. This data is used in the automation 
+of irrigation programs to ensure that just the required quantity of water is applied at the 
+appropriate times.  
+Second, smart irrigation systems assist in saving money by reducing water costs by 
+maximizing efficiency in water use. IoT-based solutions save money on labor since they can 
+automate scheduling and monitoring functions. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 3E3S Web of Conferences 472, 01026 (2024)  https://doi.org/10.1051/e3sconf/2024472 01026
+ICREGCSD 2023
+--- Page 4 ---
+ 
+Thirdly, water conservation is a key aspect of smart irrigation systems' impact on 
+environmental sustainability [16]. Efficient irrigation practices assist in alleviating the problem 
+of water shortage, which is a serious issue in many areas. Water conservation also lessens the 
+strain on regional ecologies and cuts down on the amount of power needed to pump and treat 
+water. 
+The fourth point is that sensors enabled by the Internet of Things provide real-time information 
+on soil moisture, temperature, humidity, and other environmental conditions, enhancing plant health and production. Using this information, farmers can fine-tune their watering schedules 
+and give their plants just what they need to flourish. If you want healthier plants and higher 
+yields from your crops, you need to prevent overwatering and underwatering.
+ 
+Fifth, IoT-based smart irrigation systems allow for remote monitoring and control through 
+mobile apps or online interfaces. This allows farmers and gardeners the freedom and 
+convenience of remotely monitoring and controlling their irrigation systems [17]. They can 
+fine-tune the system, be notified of any problems, and base their judgment on accurate, up-to-the-moment information.
+ 
+Insights gleaned from data: Smart irrigation systems record information about water use, soil 
+quality, and other environmental parameters. This information may be used for a variety of 
+purposes, including but not limited to pattern recognition, irrigation strategy improvement, and 
+water demand forecasting [18]. This data gives farmers and landscapers the ability to make 
+better choices, allocate resources more effectively, and increase productivity. The goal of an 
+Internet of Things (IoT)- enabled smart irrigation system is to increase plant health and 
+production while simultaneously decreasing water use and operating expenses.  
+ 
+1.4 Literature Survey  
+ 
+[1] Kavitha and Kumar's (2020) research on Smart irrigation systems using IoT Technology 
+examined the process of creating such a system. The technology used soil moisture sensors, 
+which sent measurements of soil moisture to a server in the cloud. After compiling the 
+information, the system advised users on when to water, how much water to apply, and for how 
+long. A preliminary analysis of the system's efficacy suggests it may save as much as 40% of 
+water while maintaining the same level of crop output.  
+[2] Soil moisture levels and irrigation schedules may be predicted with the use of a smart 
+irrigation system, as presented by Li et al. (2021) in their work titled "Smart irrigation system 
+using IoT and Machine Learning Algorithms". The system integrated information from several 
+channels to provide reliable forecasts, such as meteorological models, ground sensors, and 
+satellite imaging. According to the research, the technology may increase crop output by up to 
+30% while cutting water use by up to 50%.  
+Zaman et al.'s (2020) review paper "Smart irrigation system" presented an overview  of many types 
+of smart irrigation systems and their components (see [3]). Soil moisture sensors and weather 
+sensors were two examples of the sorts of sensors described in this article (see also [3]). 
+Controllers like programmable logic controllers (PLCs) and Micro-controllers, used for 
+automating irrigation, were also covered. According to the article's findings, smart irrigation 
+systems might significantly enhance agriculture's efficiency in its water-use practices [19]. It 
+has been shown that smart irrigation systems may significantly cut water use without 
+negatively impacting crop output. Depending on the soil's moisture content, the weather 
+forecast, and the rate at which plants are growing, these systems may adjust the amount of water 
+they consume to get the best possible results. For these technologies to be extensively 
+implemented in agriculture, additional study is required to develop them. 
+ 
+ 
+  
+ 
+2. Implementation  
+Hardware components for monitoring, controlling, and optimizing watering are essential in an 
+Internet of Things (IoT)-based smart irrigation system. A NodeMCU, a DHT11 sensor, and soil 
+moisture sensors are the brains of a smart irrigation system. The monitoring of environmental 
+conditions, analysis of data, intelligent judgements, and automation of the watering process are 
+all possible thanks to the hardware components that make up a smart irrigation system. Effective 
+water management made possible by the Internet of Things (IoT) enables optimal plant 
+development, less water waste, and increased sustainability in agricultural practices. 
+ 
+2.1 Block Diagram  
+A smart irrigation system that makes use of the Internet of Things comprises of hardware 
+components that combine to gather data, analyze that data, and then regulate the irrigation 
+process in real time. Together, the Internet of Things and other pieces of hardware allow for better water management, higher agricultural yields, and environmentally friendly farming.
+ 
+ 
+ 
+Fig 1. Block diagram of Smart irrigation system using IoT 
+The Internet of Things (IoT) is shown in Figure 1 as a block schematic of a smart irrigation 
+system. The following are some of the parts of the system.  
+Sensors: sensors are used to gather information in the field. Temperature and humidity sensors, 
+as well as soil moisture sensors, might fall within this category. Real-time data on soil and 
+weather conditions is provided, allowing for more precise irrigation scheduling.  
+IoT Gateway: the Internet of Things gateway connects the sensors in the field to the cloud or 
+command hub. It takes readings from the sensors and sends them over to a remote server or 
+control hub for examination. 
+Cloud or Central Control System: the cloud or centralized control system, receives data from 
+the IoT gateway and processes, analyses, and makes decisions based on that data. The data it 
+collects may be stored and processed using cloud-based platforms or dedicated servers [20]. 
+The cloud or control system must use smart algorithms to fine-tune watering times and 
+distribution rates. 
+ 
+ 
+4E3S Web of Conferences 472, 01026 (2024)  https://doi.org/10.1051/e3sconf/2024472 01026
+ICREGCSD 2023
+--- Page 5 ---
+ 
+Thirdly, water conservation is a key aspect of smart irrigation systems' impact on 
+environmental sustainability [16]. Efficient irrigation practices assist in alleviating the problem 
+of water shortage, which is a serious issue in many areas. Water conservation also lessens the 
+strain on regional ecologies and cuts down on the amount of power needed to pump and treat 
+water. 
+The fourth point is that sensors enabled by the Internet of Things provide real-time information 
+on soil moisture, temperature, humidity, and other environmental conditions, enhancing plant health and production. Using this information, farmers can fine-tune their watering schedules 
+and give their plants just what they need to flourish. If you want healthier plants and higher 
+yields from your crops, you need to prevent overwatering and underwatering.
+ 
+Fifth, IoT-based smart irrigation systems allow for remote monitoring and control through 
+mobile apps or online interfaces. This allows farmers and gardeners the freedom and 
+convenience of remotely monitoring and controlling their irrigation systems [17]. They can 
+fine-tune the system, be notified of any problems, and base their judgment on accurate, up-to-the-moment information.
+ 
+Insights gleaned from data: Smart irrigation systems record information about water use, soil 
+quality, and other environmental parameters. This information may be used for a variety of 
+purposes, including but not limited to pattern recognition, irrigation strategy improvement, and 
+water demand forecasting [18]. This data gives farmers and landscapers the ability to make 
+better choices, allocate resources more effectively, and increase productivity. The goal of an 
+Internet of Things (IoT)- enabled smart irrigation system is to increase plant health and 
+production while simultaneously decreasing water use and operating expenses.  
+ 
+1.4 Literature Survey  
+ 
+[1] Kavitha and Kumar's (2020) research on Smart irrigation systems using IoT Technology 
+examined the process of creating such a system. The technology used soil moisture sensors, 
+which sent measurements of soil moisture to a server in the cloud. After compiling the 
+information, the system advised users on when to water, how much water to apply, and for how 
+long. A preliminary analysis of the system's efficacy suggests it may save as much as 40% of 
+water while maintaining the same level of crop output.  
+[2] Soil moisture levels and irrigation schedules may be predicted with the use of a smart irrigation system, as presented by Li et al. (2021) in their work titled 
+"Smart irrigation system 
+using IoT and Machine Learning Algorithms". The system integrated information from several 
+channels to provide reliable forecasts, such as meteorological models, ground sensors, and 
+satellite imaging. According to the research, the technology may increase crop output by up to 
+30% while cutting water use by up to 50%.  
+Zaman et al.'s (2020) review paper "Smart irrigation system" presented an overview  of many types 
+of smart irrigation systems and their components (see [3]). Soil moisture sensors and weather 
+sensors were two examples of the sorts of sensors described in this article (see also [3]). 
+Controllers like programmable logic controllers (PLCs) and Micro-controllers, used for 
+automating irrigation, were also covered. According to the article's findings, smart irrigation 
+systems might significantly enhance agriculture's efficiency in its water-use practices [19]. It 
+has been shown that smart irrigation systems may significantly cut water use without 
+negatively impacting crop output. Depending on the soil's moisture content, the weather 
+forecast, and the rate at which plants are growing, these systems may adjust the amount of water 
+they consume to get the best possible results. For these technologies to be extensively 
+implemented in agriculture, additional study is required to develop them. 
+ 
+ 
+ 
+ 
+ 
+2. Implementation  
+Hardware components for monitoring, controlling, and optimizing watering are essential in an 
+Internet of Things (IoT)-based smart irrigation system. A NodeMCU, a DHT11 sensor, and soil 
+moisture sensors are the brains of a smart irrigation system. The monitoring of environmental 
+conditions, analysis of data, intelligent judgements, and automation of the watering process are 
+all possible thanks to the hardware components that make up a smart irrigation system. Effective 
+water management made possible by the Internet of Things (IoT) enables optimal plant 
+development, less water waste, and increased sustainability in agricultural practices. 
+ 
+2.1 Block Diagram  
+A smart irrigation system that makes use of the Internet of Things comprises of hardware 
+components that combine to gather data, analyze that data, and then regulate the irrigation 
+process in real time. Together, the Internet of Things and other pieces of hardware allow for better water management, higher agricultural yields, and environmentally friendly farming.
+ 
+ 
+ 
+Fig 1. Block diagram of Smart irrigation system using IoT 
+The Internet of Things (IoT) is shown in Figure 1 as a block schematic of a smart irrigation 
+system. The following are some of the parts of the system.  
+Sensors: sensors are used to gather information in the field. Temperature and humidity sensors, 
+as well as soil moisture sensors, might fall within this category. Real-time data on soil and 
+weather conditions is provided, allowing for more precise irrigation scheduling.  
+IoT Gateway: the Internet of Things gateway connects the sensors in the field to the cloud or 
+command hub. It takes readings from the sensors and sends them over to a remote server or 
+control hub for examination. 
+Cloud or Central Control System: the cloud or centralized control system, receives data from 
+the IoT gateway and processes, analyses, and makes decisions based on that data. The data it 
+collects may be stored and processed using cloud-based platforms or dedicated servers [20]. 
+The cloud or control system must use smart algorithms to fine-tune watering times and 
+distribution rates. 
+ 
+ 
+5E3S Web of Conferences 472, 01026 (2024)  https://doi.org/10.1051/e3sconf/2024472 01026
+ICREGCSD 2023
+--- Page 6 ---
+Communication Network: The communication network is what allows information to flow 
+from sensors to the IoT gateway to the cloud or control system. Wi-Fi, cellular networks, and 
+other wireless communication protocols are only some of the technologies it may use to 
+guarantee a constant connection.  
+User Interface (Blynk Application): The smart irrigation system's user interface allows for 
+human interaction with the system. A dashboard, smartphone app, or online interface may all 
+be used to manage and monitor an irrigation system in real-time. Users may see sensor data, 
+set up watering schedules, and make fine-tuned modifications.  
+Actuators (Motor Driver): The component is the actuators (motor drivers), which are in 
+charge of operating the irrigation machinery in response to commands from the cloud or 
+control system [21]. Based on the results of the analysis, they may trigger valves, pumps, sprinklers, or drip irrigation systems to water the plants as needed.
+ 
+Power Supply: The sensors, IoT gateway, communication devices, and actuators in a smart 
+irrigation system can't function without a reliable power source. This can be achieved through a combination of mains power, batteries, solar panels, or other renewable energy sources.
+ 
+Overall, the block diagram of a smart irrigation system using IoT illustrates the flow of data and 
+control between the sensors in the field, the IoT gateway, the cloud or control system, the 
+communication network, the user interface, and the actuators. This interconnected system 
+enables real-time monitoring, data analysis, and intelligent irrigation management for efficient 
+water usage and sustainable agriculture practice.  
+ 
+2.2 Schematic Diagram  
+ 
+Fig. 2. Schematic diagram of the System 
+ 
+The schematic diagram of the system is shown in Figure 2. A smart irrigation system using 
+IoT (Internet of Things) typically consists of several components and sensors working 
+together to efficiently manage and automate the process of watering plants or crops. Here's a 
+description of a typical schematic diagram for such a system: 
+Water Source: The system begins with a water source, such as a well, municipal water supply, 
+or rainwater harvesting system. This source provides the water required for irrigation.  
+ 
+ 
+  
+Water Pump: A water pump is used to draw water from the source and provide the necessary 
+pressure for distribution throughout the irrigation system. A motor or solenoid valve is 
+usually used to operate it.  
+Soil Moisture Sensor: This sensor is embedded in the soil and measures the moisture content. 
+It helps determine if irrigation is required or not. 
+DHT11 Sensor: The DHT11 sensor is a data logger that records environmental conditions. 
+This data is utilized to make climate-appropriate adjustments to the watering schedule.  
+Microcontroller/Control Unit: The system's central processing unit (CPU) is a 
+microcontroller such an Arduino, NodeMCU, or Raspberry Pi. It takes sensor input, processes it, and then uses that information to command the system's different parts. In most 
+cases, the microcontroller will need to be online to communicate information with other 
+devices.
+ 
+IoT Gateway: The IoT gateway enables communication between the microcontroller and the 
+cloud server. It may use protocols like Wi-Fi, Ethernet, or cellular networks to connect to the 
+internet.  
+Cloud Server: The cloud server is responsible for storing and processing the data received 
+from the microcontroller. It performs data analytics, weather forecasting, and manages the 
+irrigation schedule based on the collected information. It also enables remote access and 
+control of the irrigation system.  
+User Interface: The user interface can be a web or mobile application that allows the user to 
+monitor and control the irrigation system remotely. It provides real-time data, historical 
+analysis, and the ability to adjust settings and irrigation schedules.  
+Solenoid Valves: These valves control the flow of water to different irrigation zones. The 
+microcontroller activates or deactivates the valves based on the desired irrigation schedule 
+and sensor inputs.  
+Drip/Sprinkler System: The irrigation system may consist of drip lines or sprinklers 
+strategically placed in the field or garden to distribute water evenly to the plants.  
+Overall, this schematic diagram demonstrates the integration of sensors, microcontrollers, 
+IoT connectivity, cloud servers, and user interfaces to create a smart irrigation system. The 
+system aims to optimize water usage, reduce manual intervention, and ensure efficient 
+irrigation based on real-time data and environmental factors. 
+2.3 Working  
+The Soil Moisture sensor (YL-69) is inserted into the soil which senses the moisture level of 
+the soil. The DHT11 sensor senses the surrounding humidity and temperature. The Motor 
+Driver (L298N) controls the water pump. The above-mentioned components are connected to 
+the NodeMCU which is a microcontroller unit. This NodeMCU is connected to the cloud 
+environment to store the data. An app is developed which helps in controlling and monitoring the 
+respective parameter values of moisture, temperature, and humidity. Based on the soil moisture level the pump turns ON or OFF automatically. These parameters are finally displayed in a 
+dashboard on the device screen. 
+ 
+ 
+  
+ 
+ 
+6E3S Web of Conferences 472, 01026 (2024)  https://doi.org/10.1051/e3sconf/2024472 01026
+ICREGCSD 2023
+--- Page 7 ---
+Communication Network: The communication network is what allows information to flow 
+from sensors to the IoT gateway to the cloud or control system. Wi-Fi, cellular networks, and 
+other wireless communication protocols are only some of the technologies it may use to 
+guarantee a constant connection.  
+User Interface (Blynk Application): The smart irrigation system's user interface allows for 
+human interaction with the system. A dashboard, smartphone app, or online interface may all 
+be used to manage and monitor an irrigation system in real-time. Users may see sensor data, 
+set up watering schedules, and make fine-tuned modifications.  
+Actuators (Motor Driver): The component is the actuators (motor drivers), which are in 
+charge of operating the irrigation machinery in response to commands from the cloud or 
+control system [21]. Based on the results of the analysis, they may trigger valves, pumps, sprinklers, or drip irrigation systems to water the plants as needed.
+ 
+Power Supply: The sensors, IoT gateway, communication devices, and actuators in a smart 
+irrigation system can't function without a reliable power source. This can be achieved through a combination of mains power, batteries, solar panels, or other renewable energy sources.
+ 
+Overall, the block diagram of a smart irrigation system using IoT illustrates the flow of data and 
+control between the sensors in the field, the IoT gateway, the cloud or control system, the 
+communication network, the user interface, and the actuators. This interconnected system 
+enables real-time monitoring, data analysis, and intelligent irrigation management for efficient 
+water usage and sustainable agriculture practice.  
+ 
+2.2 Schematic Diagram  
+ 
+Fig. 2. Schematic diagram of the System 
+ 
+The schematic diagram of the system is shown in Figure 2. A smart irrigation system using 
+IoT (Internet of Things) typically consists of several components and sensors working 
+together to efficiently manage and automate the process of watering plants or crops. Here's a 
+description of a typical schematic diagram for such a system: 
+Water Source: The system begins with a water source, such as a well, municipal water supply, 
+or rainwater harvesting system. This source provides the water required for irrigation.  
+ 
+ 
+  
+Water Pump: A water pump is used to draw water from the source and provide the necessary 
+pressure for distribution throughout the irrigation system. A motor or solenoid valve is 
+usually used to operate it.  
+Soil Moisture Sensor: This sensor is embedded in the soil and measures the moisture content. 
+It helps determine if irrigation is required or not. 
+DHT11 Sensor: The DHT11 sensor is a data logger that records environmental conditions. 
+This data is utilized to make climate-appropriate adjustments to the watering schedule.  
+Microcontroller/Control Unit: The system's central processing unit (CPU) is a 
+microcontroller such an Arduino, NodeMCU, or Raspberry Pi. It takes sensor input, processes it, and then uses that information to command the system's different parts. In most 
+cases, the microcontroller will need to be online to communicate information with other 
+devices.
+ 
+IoT Gateway: The IoT gateway enables communication between the microcontroller and the 
+cloud server. It may use protocols like Wi-Fi, Ethernet, or cellular networks to connect to the 
+internet.  
+Cloud Server: The cloud server is responsible for storing and processing the data received 
+from the microcontroller. It performs data analytics, weather forecasting, and manages the 
+irrigation schedule based on the collected information. It also enables remote access and 
+control of the irrigation system.  
+User Interface: The user interface can be a web or mobile application that allows the user to 
+monitor and control the irrigation system remotely. It provides real-time data, historical 
+analysis, and the ability to adjust settings and irrigation schedules.  
+Solenoid Valves: These valves control the flow of water to different irrigation zones. The 
+microcontroller activates or deactivates the valves based on the desired irrigation schedule 
+and sensor inputs.  
+Drip/Sprinkler System: The irrigation system may consist of drip lines or sprinklers 
+strategically placed in the field or garden to distribute water evenly to the plants.  
+Overall, this schematic diagram demonstrates the integration of sensors, microcontrollers, 
+IoT connectivity, cloud servers, and user interfaces to create a smart irrigation system. The 
+system aims to optimize water usage, reduce manual intervention, and ensure efficient 
+irrigation based on real-time data and environmental factors. 
+2.3 Working  
+The Soil Moisture sensor (YL-69) is inserted into the soil which senses the moisture level of 
+the soil. The DHT11 sensor senses the surrounding humidity and temperature. The Motor 
+Driver (L298N) controls the water pump. The above-mentioned components are connected to 
+the NodeMCU which is a microcontroller unit. This NodeMCU is connected to the cloud 
+environment to store the data. An app is developed which helps in controlling and monitoring the 
+respective parameter values of moisture, temperature, and humidity. Based on the soil moisture 
+level the pump turns ON or OFF automatically. These parameters are finally displayed in a 
+dashboard on the device screen. 
+ 
+ 
+  
+ 
+ 
+7E3S Web of Conferences 472, 01026 (2024)  https://doi.org/10.1051/e3sconf/2024472 01026
+ICREGCSD 2023
+--- Page 8 ---
+ 
+ 
+2.4 Flow Chart  
+ 
+ 
+ 
+                                                           Fig. 3.  Flow chart of the system 
+ 
+Figure 3 shows the flowchart of the system. The module is turned on and the Smart Irrigation 
+dashboard is opened through the app. The DHT11 and Soil Moisture sensors read the Humidity 
+and temperature of the surroundings and the Moisture level of the soil respectively. If the soil 
+moisture level is less than the threshold value (50%) then the pump turns ON. If the soil moisture 
+level reaches the threshold value, then the pump automatically turns OFF. The respective 
+parameter values are displayed on the mobile dashboard. This data is sent over Wi-Fi. 
+3.Results  
+The implementation of an efficient smart irrigation system using IoT technology can yield 
+several positive outcomes. Here are some potential results: 
+Water conservation: The smart irrigation system optimizes water usage by delivering precise 
+amounts of water when and where it's needed. This leads to significant water conservation by 
+avoiding overwatering and reducing water waste. As a result, water resources are preserved, and 
+the environmental impact of excessive irrigation is minimized.  
+Cost savings: By reducing water consumption and eliminating manual irrigation processes, the 
+smart irrigation system helps users save on water bills. Optimized water usage leads to cost 
+savings over time, making the system economically beneficial for homeowners, businesses, 
+and farmers. 
+ 
+  
+Improved plant health and yield: The smart irrigation system ensures that plants receive the 
+right amount of water at the right time, promoting healthier plant growth and improved crop yields. By preventing under or overwatering, the system minimizes plant stress, disease 
+susceptibility, and stunted growth, resulting in better-quality produce and more abundant 
+harvests. 
+Time efficiency: Automation features of the smart irrigation system eliminate the need for 
+manual intervention in irrigation processes. Users can schedule watering routines based on 
+plant requirements and environmental factors, and the system will automatically execute the 
+irrigation tasks accordingly. This saves time and effort for users, allowing them to focus on 
+other important tasks.
+ 
+Environmental sustainability: By optimizing water usage and minimizing water waste, the smart irrigation system contributes to environmental sustainability. It reduces the strain on 
+water resources and helps combat water scarcity issues. Additionally, by promoting healthier 
+plant growth, the system can contribute to increased carbon sequestration and improved air 
+quality.
+ 
+Data-driven insights and precision agriculture: The smart irrigation system collects and analyzes 
+data on various environmental factors, enabling users to gain valuable insights into plant water requirements, soil conditions, and weather patterns. This data-driven approach allows for more 
+precise and informed decision-making 
+regarding irrigation strategies, crop selection, and resource 
+management. It supports precision agriculture practices, leading to more efficient and 
+sustainable farming practices.  
+Overall, an efficient smart irrigation system using IoT technology can result in water 
+conservation, cost savings, improved plant health and yield, time efficiency, environmental 
+sustainability, and data-driven precision agriculture. These outcomes demonstrate the potential 
+of IoT enabled irrigation systems to revolutionize water management practices and promote 
+sustainable agriculture and landscaping. The complete hardware setup and cloud platform are 
+shown in Figures 4 and 5 respectively. 
+ 
+ 
+Fig. 4. Hardware Setup of the system 
+ 
+ 
+  
+ 
+ 
+ 
+  8E3S Web of Conferences 472, 01026 (2024)  https://doi.org/10.1051/e3sconf/2024472 01026
+ICREGCSD 2023
+--- Page 9 ---
+ 
+ 
+2.4 Flow Chart  
+ 
+ 
+ 
+                                                           Fig. 3.  Flow chart of the system 
+ 
+Figure 3 shows the flowchart of the system. The module is turned on and the Smart Irrigation 
+dashboard is opened through the app. The DHT11 and Soil Moisture sensors read the Humidity 
+and temperature of the surroundings and the Moisture level of the soil respectively. If the soil 
+moisture level is less than the threshold value (50%) then the pump turns ON. If the soil moisture 
+level reaches the threshold value, then the pump automatically turns OFF. The respective 
+parameter values are displayed on the mobile dashboard. This data is sent over Wi-Fi. 
+3.Results  
+The implementation of an efficient smart irrigation system using IoT technology can yield 
+several positive outcomes. Here are some potential results: 
+Water conservation: The smart irrigation system optimizes water usage by delivering precise 
+amounts of water when and where it's needed. This leads to significant water conservation by 
+avoiding overwatering and reducing water waste. As a result, water resources are preserved, and 
+the environmental impact of excessive irrigation is minimized.  
+Cost savings: By reducing water consumption and eliminating manual irrigation processes, the 
+smart irrigation system helps users save on water bills. Optimized water usage leads to cost 
+savings over time, making the system economically beneficial for homeowners, businesses, 
+and farmers. 
+ 
+ 
+ 
+Improved plant health and yield: The smart irrigation system ensures that plants receive the 
+right amount of water at the right time, promoting healthier plant growth and improved crop yields. By preventing under or overwatering, the system minimizes plant stress, disease 
+susceptibility, and stunted growth, resulting in better-quality produce and more abundant 
+harvests. 
+Time efficiency: Automation features of the smart irrigation system eliminate the need for 
+manual intervention in irrigation processes. Users can schedule watering routines based on 
+plant requirements and environmental factors, and the system will automatically execute the 
+irrigation tasks accordingly. This saves time and effort for users, allowing them to focus on 
+other important tasks.
+ 
+Environmental sustainability: By optimizing water usage and minimizing water waste, the 
+smart irrigation system contributes to environmental sustainability. It reduces the strain on 
+water resources and helps combat water scarcity issues. Additionally, by promoting healthier 
+plant growth, the system can contribute to increased carbon sequestration and improved air 
+quality.  
+Data-driven insights and precision agriculture: The smart irrigation system collects and analyzes 
+data on various environmental factors, enabling users to gain valuable insights into plant water requirements, soil conditions, and weather patterns. This data-driven approach allows for more 
+precise and informed decision-making 
+regarding irrigation strategies, crop selection, and resource 
+management. It supports precision agriculture practices, leading to more efficient and 
+sustainable farming practices.  
+Overall, an efficient smart irrigation system using IoT technology can result in water 
+conservation, cost savings, improved plant health and yield, time efficiency, environmental 
+sustainability, and data-driven precision agriculture. These outcomes demonstrate the potential 
+of IoT enabled irrigation systems to revolutionize water management practices and promote 
+sustainable agriculture and landscaping. The complete hardware setup and cloud platform are 
+shown in Figures 4 and 5 respectively. 
+ 
+ 
+Fig. 4. Hardware Setup of the system 
+ 
+ 
+  
+ 
+ 
+ 
+  9E3S Web of Conferences 472, 01026 (2024)  https://doi.org/10.1051/e3sconf/2024472 01026
+ICREGCSD 2023
+--- Page 10 ---
+ 
+ 
+Fig. 5. Cloud Platform 
+  
+4. Conclusion  
+ 
+In conclusion, a smart irrigation system using IoT technology brings significant advantages 
+to water management in agricultural, residential, and commercial settings. By leveraging real-
+time data, automation, and remote-control capabilities, these systems optimize water usage, 
+conserve resources, and enhance plant health and productivity.  
+The integration of IoT sensors and weather data enables precise monitoring of soil moisture 
+levels, weather conditions, and plant water requirements. This information allows for the delivery 
+of the right amount of water at the right time, avoiding overwatering and preventing plant 
+stress or diseases caused by underwatering.  
+The benefits of a smart irrigation system extend beyond water conservation. Users can remotely 
+control and monitor the system through mobile apps or web interfaces, providing convenience and 
+flexibility. The automation features save time and effort by eliminating manual irrigation tasks. 
+Financially, the efficient use of water leads to cost savings, making the system economically 
+attractive for homeowners, businesses, and farmers. Additionally, the data-driven insights 
+provided by the system enable better decision-making regarding irrigation strategies, crop 
+selection, and resource management.  
+Ultimately, a smart irrigation system using IoT technology promotes sustainable water 
+management practices, contributes to environmental conservation, and enhances agricultural 
+productivity. It is a promising solution for addressing water scarcity challenges, reducing water 
+waste, and promoting the efficient use of resources in a variety of settings. 
+ 
+ 
+ 
+  
+ 
+References 
+ 
+1.   Kavitha and   Kumar Smart irrigation system using IoT technology”, Vol. 19, No. 14.   
+     2020 
+2.   Li et al “Smart irrigation system using IoT and Machine Learning Algorithms” Li et al.   
+      2021. 
+3.   Zaman et al “Smart irrigation system” Vol. 11, No. 10. (2020). 
+4.   S. S. Saini, N. Narender, and V. Kumar, “Design and implementation of a smart  
+      irrigation system using IoT technology”, International Journal of Computer Science     
+      and Information Security, Vol. 16, No. 4. 2018 
+5.  R. K. Gupta, A. Sharma, and M. R. Sharma, ”Smart irrigation system using IoT  
+      technology”, Proceedings of the 2018 3rd International Conference on Computing  
+      Sciences (ICCS), 2018. 
+6.  S. Patil and S. S.Suryawanshi. “A review of smart irrigation systems using IoT  
+   technologies”, Journal of Ambient Intelligence and Humanized Comp, vol.20,     
+     No.13,2020. 
+7.  Li, D., Huang, G. B., Zhang, Y., & Zhu, Q. (2018). IoT-Based Smart Agriculture:        Toward Making the Fields Talk. IEEE Access, 6, 4, 2019. 
+8. Al-Saedi, H. A., Mirjalili, S., & Sadiq, A. S. (2019). Smart Irrigation Systems: A Review      
+       on Recent Literature. Sensors, 19(3), 487. 
+9. Khan, I. A., Islam, N., & Hassan, S. U. (2019). IoT-based Smart Agriculture: A      
+Review. Journal of Sensor and Actuator Networks, 8(1),12. 
+10.Jha, S. K., Ansari, M. I., & Malhotra, J. (2020). IoT-Enabled Smart Irrigation System 
+Using Machine Learning Algorithms. In Proceedings of 2020 International Conference 
+on Smart Electronics and Communication (pp. 1-6). IEEE. 
+11.Kavitha, G., & Thangavel, P. (2021). Design and Implementation of Smart Irrigation 
+System Using IoT. In 2021 International Conference on Computing, Communication, 
+and Signal Processing (ICCSP) (pp. 601-604). IEEE. 
+12.Hussain, M., Javaid, N., & Wadud, Z. (2021). Smart Irrigation Systems for Sustainable 
+Agriculture: A Comprehensive Survey. Computers and Electronics in Agriculture, 192, 106437. 
+13. Patel, S., & Shah, N. (2022). IoT-Based Smart Irrigation System: A Comprehensive   
+Survey. In Proceedings of the 3rd International Conference on Smart Systems and 
+Inventive Technology (pp. 10371042). Springer. 
+14.Zhang, Y., Zhang, C., Wang, J., & Dong, X. (2020). A Smart Irrigation System Based 
+on IoT and Edge Computing. In 2020 International Conference on Electronics and 
+Communication Engineering (ICECE) (pp. 316-321). IEEE. 
+15.Mubeen, S., Liaqat, M., Javaid, N., & Akram, A. (2020). IoT-Based Smart Irrigation 
+System Using Machine Learning Techniques. In 2020 International Conference on 
+Advances in Emerging Computing Technologies (AECT) (pp. 1-5). IEEE. 
+16.Gupta, R., Tripathi, A. K., & Mishra, S. (2021). Smart Irrigation System for Precision 
+Agriculture Using IoT. In 2021 International Conference on Automation, 
+Computational and Technology Management (pp. 423-428). IEEE. 
+ 
+ 
+10E3S Web of Conferences 472, 01026 (2024)  https://doi.org/10.1051/e3sconf/2024472 01026
+ICREGCSD 2023
+--- Page 11 ---
+ 
+ 
+Fig. 5. Cloud Platform 
+  
+4. Conclusion  
+ 
+In conclusion, a smart irrigation system using IoT technology brings significant advantages 
+to water management in agricultural, residential, and commercial settings. By leveraging real-
+time data, automation, and remote-control capabilities, these systems optimize water usage, 
+conserve resources, and enhance plant health and productivity.  
+The integration of IoT sensors and weather data enables precise monitoring of soil moisture 
+levels, weather conditions, and plant water requirements. This information allows for the delivery 
+of the right amount of water at the right time, avoiding overwatering and preventing plant 
+stress or diseases caused by underwatering.  
+The benefits of a smart irrigation system extend beyond water conservation. Users can remotely 
+control and monitor the system through mobile apps or web interfaces, providing convenience and 
+flexibility. The automation features save time and effort by eliminating manual irrigation tasks. 
+Financially, the efficient use of water leads to cost savings, making the system economically 
+attractive for homeowners, businesses, and farmers. Additionally, the data-driven insights 
+provided by the system enable better decision-making regarding irrigation strategies, crop 
+selection, and resource management.  
+Ultimately, a smart irrigation system using IoT technology promotes sustainable water 
+management practices, contributes to environmental conservation, and enhances agricultural 
+productivity. It is a promising solution for addressing water scarcity challenges, reducing water 
+waste, and promoting the efficient use of resources in a variety of settings. 
+ 
+ 
+ 
+  
+ 
+References 
+ 
+1.   Kavitha and   Kumar Smart irrigation system using IoT technology”, Vol. 19, No. 14.   
+     2020 
+2.   Li et al “Smart irrigation system using IoT and Machine Learning Algorithms” Li et al.   
+      2021. 
+3.   Zaman et al “Smart irrigation system” Vol. 11, No. 10. (2020). 
+4.   S. S. Saini, N. Narender, and V. Kumar, “Design and implementation of a smart  
+      irrigation system using IoT technology”, International Journal of Computer Science     
+      and Information Security, Vol. 16, No. 4. 2018 
+5.  R. K. Gupta, A. Sharma, and M. R. Sharma, ”Smart irrigation system using IoT  
+      technology”, Proceedings of the 2018 3rd International Conference on Computing  
+      Sciences (ICCS), 2018. 
+6.  S. Patil and S. S.Suryawanshi. “A review of smart irrigation systems using IoT  
+   technologies”, Journal of Ambient Intelligence and Humanized Comp, vol.20,     
+     No.13,2020. 
+7.  Li, D., Huang, G. B., Zhang, Y., & Zhu, Q. (2018). IoT-Based Smart Agriculture:        Toward Making the Fields Talk. IEEE Access, 6, 4, 2019. 
+8. Al-Saedi, H. A., Mirjalili, S., & Sadiq, A. S. (2019). Smart Irrigation Systems: A Review      
+       on Recent Literature. Sensors, 19(3), 487. 
+9. Khan, I. A., Islam, N., & Hassan, S. U. (2019). IoT-based Smart Agriculture: A      
+Review. Journal of Sensor and Actuator Networks, 8(1),12. 
+10.Jha, S. K., Ansari, M. I., & Malhotra, J. (2020). IoT-Enabled Smart Irrigation System 
+Using Machine Learning Algorithms. In Proceedings of 2020 International Conference 
+on Smart Electronics and Communication (pp. 1-6). IEEE. 
+11.Kavitha, G., & Thangavel, P. (2021). Design and Implementation of Smart Irrigation 
+System Using IoT. In 2021 International Conference on Computing, Communication, 
+and Signal Processing (ICCSP) (pp. 601-604). IEEE. 
+12.Hussain, M., Javaid, N., & Wadud, Z. (2021). Smart Irrigation Systems for Sustainable 
+Agriculture: A Comprehensive Survey. Computers and Electronics in Agriculture, 192, 106437. 
+13. Patel, S., & Shah, N. (2022). IoT-Based Smart Irrigation System: A Comprehensive   
+Survey. In Proceedings of the 3rd International Conference on Smart Systems and 
+Inventive Technology (pp. 10371042). Springer. 
+14.Zhang, Y., Zhang, C., Wang, J., & Dong, X. (2020). A Smart Irrigation System Based 
+on IoT and Edge Computing. In 2020 International Conference on Electronics and 
+Communication Engineering (ICECE) (pp. 316-321). IEEE. 
+15.Mubeen, S., Liaqat, M., Javaid, N., & Akram, A. (2020). IoT-Based Smart Irrigation 
+System Using Machine Learning Techniques. In 2020 International Conference on 
+Advances in Emerging Computing Technologies (AECT) (pp. 1-5). IEEE. 
+16.Gupta, R., Tripathi, A. K., & Mishra, S. (2021). Smart Irrigation System for Precision 
+Agriculture Using IoT. In 2021 International Conference on Automation, 
+Computational and Technology Management (pp. 423-428). IEEE. 
+ 
+ 
+11E3S Web of Conferences 472, 01026 (2024)  https://doi.org/10.1051/e3sconf/2024472 01026
+ICREGCSD 2023
+--- Page 12 ---
+ 
+ 
+ 
+ 17. Taha, A. M., Othman, S. A., & Hassan, W. H. (2021). Smart Irrigation System Based on 
+IoT and Machine Learning for Water Conservation. In Proceedings of the International 
+Conference on Smart Systems and Technologies (pp. 107-119). Springer. 
+18. Qazi, T. U., Hanif, U., Khan, M. A., & Waheed, S. (2022). Smart IoT-based Irrigation 
+System Using Machine Learning for Efficient Crop Growth. In Proceedings of the 3rd 
+International Conference on Smart Systems and Inventive Technology (pp. 1324-
+1328). Springer. 
+19. Ling, W., Zhang, J., & Hu, W. (2022). Smart Irrigation System Based on IoT and 
+Cloud Computing. In Proceedings of the 6th International Conference on Control 
+Engineering and Artificial Intelligence (CEAI) (pp. 134-139). IEEE. 
+20. Zhang, Y., Jiang, C., Wang, Z., Wang, J., & Luo, L. (2022). An Intelligent Irrigation 
+System Based on IoT and Cloud Computing. In Proceedings of the 4th International Conference on Artificial Intelligence and Big Data (pp. 95-100). Springer. 
+21.Chouhan, P., Khare, M., Rana, M. M., & Pathak, A. (2022). IoT-Based Smart 
+Irrigation System for Precision Agriculture. In Proceedings of the International 
+Conference on Advances in Electronics, Communication and Computing (pp. 103-
+114). Springer. 
+12E3S Web of Conferences 472, 01026 (2024)  https://doi.org/10.1051/e3sconf/2024472 01026
+ICREGCSD 2023

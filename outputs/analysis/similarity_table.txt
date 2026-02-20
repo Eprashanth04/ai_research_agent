@@ -1,0 +1,27 @@
+
+============================================================================================================================================
+CROSS-PAPER SIMILARITY ANALYSIS & KEY FINDINGS
+============================================================================================================================================
+
+Total Papers Analyzed: 3
+
+1. AMSTAR_2_a_critical_appraisal_tool_for_systematic_reviews_that_include_randomised_or_non-randomised_
+   Key Findings: we propose
+2. ChatGPT_Utility_in_Healthcare_Education,_Research,_and_Practice_Systematic_Review_on_the_Promising_P
+   Key Findings: None found from predefined phrases
+3. Prevalence_of_depression,_anxiety,_and_insomnia_among_healthcare_workers_during_the_COVID-19_pandemi
+   Key Findings: None found from predefined phrases
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+SIMILARITY MATRIX - TABLE FORMAT
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+| # | Paper 1                                      | Paper 2                                      | Similarity | Score %     |
+|---|------------------------------------------------|------------------------------------------------|----------|-------------|
+| 1 | AMSTAR_2_a_critical_appraisal_tool_for_syst... | ChatGPT_Utility_in_Healthcare_Education,_Re... | 0.142105 |      14.21% |
+| 2 | AMSTAR_2_a_critical_appraisal_tool_for_syst... | Prevalence_of_depression,_anxiety,_and_inso... | 0.136081 |      13.61% |
+| 3 | ChatGPT_Utility_in_Healthcare_Education,_Re... | Prevalence_of_depression,_anxiety,_and_inso... | 0.095010 |       9.50% |
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+============================================================================================================================================
+

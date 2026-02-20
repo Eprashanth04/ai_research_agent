@@ -1,0 +1,130 @@
+2026-02-19 00:15:10,687 INFO research_agent: Started research job 63cd1f23-fd50-47a5-873b-5e66b0fe91ff for topic: Reinforcement Learning
+2026-02-19 00:15:29,341 INFO research_agent: Calling Semantic Scholar API: https://api.semanticscholar.org/graph/v1/paper/search with params {'query': 'Reinforcement Learning', 'limit': 3, 'fields': 'paperId,title,authors,year,abstract,url,isOpenAccess,openAccessPdf'} (Attempt 1)
+2026-02-19 00:15:30,510 WARNING research_agent: Rate limit hit (429). Retry 1/3. Waiting 1.71s...
+2026-02-19 00:15:32,230 INFO research_agent: Calling Semantic Scholar API: https://api.semanticscholar.org/graph/v1/paper/search with params {'query': 'Reinforcement Learning', 'limit': 3, 'fields': 'paperId,title,authors,year,abstract,url,isOpenAccess,openAccessPdf'} (Attempt 2)
+2026-02-19 00:15:34,446 WARNING research_agent: Rate limit hit (429). Retry 2/3. Waiting 2.01s...
+2026-02-19 00:15:36,461 INFO research_agent: Calling Semantic Scholar API: https://api.semanticscholar.org/graph/v1/paper/search with params {'query': 'Reinforcement Learning', 'limit': 3, 'fields': 'paperId,title,authors,year,abstract,url,isOpenAccess,openAccessPdf'} (Attempt 3)
+2026-02-19 00:15:39,809 WARNING research_agent: Rate limit hit (429). Retry 3/3. Waiting 4.59s...
+2026-02-19 00:15:44,413 ERROR research_agent: Failed to fetch papers after multiple attempts.
+2026-02-19 00:16:11,539 INFO research_agent: Started research job 610acfbe-8fb4-4a63-9081-99eda77da249 for topic: Machine Learning
+2026-02-19 00:16:11,541 INFO research_agent: Calling Semantic Scholar API: https://api.semanticscholar.org/graph/v1/paper/search with params {'query': 'Machine Learning', 'limit': 3, 'fields': 'paperId,title,authors,year,abstract,url,isOpenAccess,openAccessPdf'} (Attempt 1)
+2026-02-19 00:16:12,466 WARNING research_agent: Rate limit hit (429). Retry 1/3. Waiting 1.27s...
+2026-02-19 00:16:13,738 INFO research_agent: Calling Semantic Scholar API: https://api.semanticscholar.org/graph/v1/paper/search with params {'query': 'Machine Learning', 'limit': 3, 'fields': 'paperId,title,authors,year,abstract,url,isOpenAccess,openAccessPdf'} (Attempt 2)
+2026-02-19 00:16:15,578 INFO research_agent: Successfully fetched 3 papers for 'Machine Learning'
+2026-02-19 00:16:15,592 INFO research_agent: Database table created/verified in data\papers.db
+2026-02-19 00:16:16,217 INFO research_agent: Synthesis completed. Saved to outputs\synthesis.json
+2026-02-19 00:16:31,695 INFO research_agent: Job 610acfbe-8fb4-4a63-9081-99eda77da249 completed successfully for topic: Machine Learning
+2026-02-19 00:19:11,695 INFO research_agent: Started research job 5ec0ba1c-12be-4bff-a46b-0a5ce0b0304d for topic: healthcare
+2026-02-19 00:19:11,698 INFO research_agent: Calling Semantic Scholar API: https://api.semanticscholar.org/graph/v1/paper/search with params {'query': 'healthcare', 'limit': 3, 'fields': 'paperId,title,authors,year,abstract,url,isOpenAccess,openAccessPdf'} (Attempt 1)
+2026-02-19 00:19:13,760 WARNING research_agent: Rate limit hit (429). Retry 1/3. Waiting 1.36s...
+2026-02-19 00:19:15,131 INFO research_agent: Calling Semantic Scholar API: https://api.semanticscholar.org/graph/v1/paper/search with params {'query': 'healthcare', 'limit': 3, 'fields': 'paperId,title,authors,year,abstract,url,isOpenAccess,openAccessPdf'} (Attempt 2)
+2026-02-19 00:19:16,091 WARNING research_agent: Rate limit hit (429). Retry 2/3. Waiting 2.71s...
+2026-02-19 00:19:18,813 INFO research_agent: Calling Semantic Scholar API: https://api.semanticscholar.org/graph/v1/paper/search with params {'query': 'healthcare', 'limit': 3, 'fields': 'paperId,title,authors,year,abstract,url,isOpenAccess,openAccessPdf'} (Attempt 3)
+2026-02-19 00:19:20,471 INFO research_agent: Successfully fetched 3 papers for 'healthcare'
+2026-02-19 00:19:20,500 INFO research_agent: Database table created/verified in data\papers.db
+2026-02-19 00:19:22,543 INFO research_agent: Synthesis completed. Saved to outputs\synthesis.json
+2026-02-19 00:19:35,956 INFO research_agent: Job 5ec0ba1c-12be-4bff-a46b-0a5ce0b0304d completed successfully for topic: healthcare
+2026-02-19 00:20:14,444 INFO research_agent: Started research job 45162bc6-1e2e-478c-8084-527b028b85d8 for topic: healthcare
+2026-02-19 00:20:14,455 INFO research_agent: Calling Semantic Scholar API: https://api.semanticscholar.org/graph/v1/paper/search with params {'query': 'healthcare', 'limit': 3, 'fields': 'paperId,title,authors,year,abstract,url,isOpenAccess,openAccessPdf'} (Attempt 1)
+2026-02-19 00:20:16,736 INFO research_agent: Successfully fetched 3 papers for 'healthcare'
+2026-02-19 00:20:16,770 INFO research_agent: Database table created/verified in data\papers.db
+2026-02-19 00:20:18,600 INFO research_agent: Synthesis completed. Saved to outputs\synthesis.json
+2026-02-19 00:20:26,730 INFO research_agent: Job 45162bc6-1e2e-478c-8084-527b028b85d8 completed successfully for topic: healthcare
+2026-02-19 00:21:08,611 INFO research_agent: Started research job 184d56ce-b4aa-4d32-84bb-c3fa649086a4 for topic: iot applications
+2026-02-19 00:21:08,615 INFO research_agent: Calling Semantic Scholar API: https://api.semanticscholar.org/graph/v1/paper/search with params {'query': 'iot applications', 'limit': 5, 'fields': 'paperId,title,authors,year,abstract,url,isOpenAccess,openAccessPdf'} (Attempt 1)
+2026-02-19 00:21:10,963 INFO research_agent: Successfully fetched 5 papers for 'iot applications'
+2026-02-19 00:21:10,994 INFO research_agent: Database table created/verified in data\papers.db
+2026-02-19 00:21:11,136 INFO research_agent: Synthesis completed. Saved to outputs\synthesis.json
+2026-02-19 00:21:14,677 INFO research_agent: Job 184d56ce-b4aa-4d32-84bb-c3fa649086a4 completed successfully for topic: iot applications
+2026-02-20 16:06:10,868 INFO research_agent: Started research job e78121c0-10e0-4eaf-9c77-378172292f5d for topic: test
+2026-02-20 16:06:24,564 INFO research_agent: Calling Groq API: https://your-groq-endpoint.example/search with payload {'query': 'test', 'limit': 1} (Attempt 1)
+2026-02-20 16:06:24,606 ERROR research_agent: Connection error to Groq API: HTTPSConnectionPool(host='your-groq-endpoint.example', port=443): Max retries exceeded with url: /search (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000193F3FF4A90>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2026-02-20 16:06:24,606 INFO research_agent: Retrying in 1.91s...
+2026-02-20 16:06:26,524 INFO research_agent: Calling Groq API: https://your-groq-endpoint.example/search with payload {'query': 'test', 'limit': 1} (Attempt 2)
+2026-02-20 16:06:26,528 ERROR research_agent: Connection error to Groq API: HTTPSConnectionPool(host='your-groq-endpoint.example', port=443): Max retries exceeded with url: /search (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000193F3FF4A90>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2026-02-20 16:06:26,528 INFO research_agent: Retrying in 2.85s...
+2026-02-20 16:06:29,386 INFO research_agent: Calling Groq API: https://your-groq-endpoint.example/search with payload {'query': 'test', 'limit': 1} (Attempt 3)
+2026-02-20 16:06:29,396 ERROR research_agent: Connection error to Groq API: HTTPSConnectionPool(host='your-groq-endpoint.example', port=443): Max retries exceeded with url: /search (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000193F3FF4A90>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2026-02-20 16:06:29,396 ERROR research_agent: Failed to fetch papers from Groq after multiple attempts.
+2026-02-20 16:06:29,401 INFO research_agent: Started research job 2bc5de66-cf41-42a1-bbea-9684a4c1d489 for topic: deep learning
+2026-02-20 16:06:29,411 INFO research_agent: Calling Groq API: https://your-groq-endpoint.example/search with payload {'query': 'deep learning', 'limit': 5} (Attempt 1)
+2026-02-20 16:06:29,415 ERROR research_agent: Connection error to Groq API: HTTPSConnectionPool(host='your-groq-endpoint.example', port=443): Max retries exceeded with url: /search (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000193F3FF4D30>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2026-02-20 16:06:29,416 INFO research_agent: Retrying in 1.79s...
+2026-02-20 16:06:31,208 INFO research_agent: Calling Groq API: https://your-groq-endpoint.example/search with payload {'query': 'deep learning', 'limit': 5} (Attempt 2)
+2026-02-20 16:06:31,218 ERROR research_agent: Connection error to Groq API: HTTPSConnectionPool(host='your-groq-endpoint.example', port=443): Max retries exceeded with url: /search (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000193F3FF4D30>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2026-02-20 16:06:31,220 INFO research_agent: Retrying in 2.13s...
+2026-02-20 16:06:33,370 INFO research_agent: Calling Groq API: https://your-groq-endpoint.example/search with payload {'query': 'deep learning', 'limit': 5} (Attempt 3)
+2026-02-20 16:06:33,375 ERROR research_agent: Connection error to Groq API: HTTPSConnectionPool(host='your-groq-endpoint.example', port=443): Max retries exceeded with url: /search (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000193F3FF4D30>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2026-02-20 16:06:33,376 ERROR research_agent: Failed to fetch papers from Groq after multiple attempts.
+2026-02-20 16:08:39,866 INFO research_agent: Started research job 27dd6fda-69f9-42a7-9df7-6f9f418633b4 for topic: Transformer models 
+2026-02-20 16:08:39,868 INFO research_agent: Calling Groq API: https://your-groq-endpoint.example/search with payload {'query': 'Transformer models ', 'limit': 5} (Attempt 1)
+2026-02-20 16:08:39,905 ERROR research_agent: Connection error to Groq API: HTTPSConnectionPool(host='your-groq-endpoint.example', port=443): Max retries exceeded with url: /search (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000193F3FF4F28>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2026-02-20 16:08:39,905 INFO research_agent: Retrying in 1.34s...
+2026-02-20 16:08:41,254 INFO research_agent: Calling Groq API: https://your-groq-endpoint.example/search with payload {'query': 'Transformer models ', 'limit': 5} (Attempt 2)
+2026-02-20 16:08:41,259 ERROR research_agent: Connection error to Groq API: HTTPSConnectionPool(host='your-groq-endpoint.example', port=443): Max retries exceeded with url: /search (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000193F3FF4F60>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2026-02-20 16:08:41,261 INFO research_agent: Retrying in 2.88s...
+2026-02-20 16:08:44,156 INFO research_agent: Calling Groq API: https://your-groq-endpoint.example/search with payload {'query': 'Transformer models ', 'limit': 5} (Attempt 3)
+2026-02-20 16:08:44,162 ERROR research_agent: Connection error to Groq API: HTTPSConnectionPool(host='your-groq-endpoint.example', port=443): Max retries exceeded with url: /search (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000193F3FF4278>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2026-02-20 16:08:44,163 ERROR research_agent: Failed to fetch papers from Groq after multiple attempts.
+2026-02-20 16:17:07,294 INFO research_agent: Started research job b4c741d8-7644-44d7-a067-c77d6e40b4f1 for topic: deep learning
+2026-02-20 16:17:07,319 INFO research_agent: Calling Groq API: https://your-groq-endpoint.example/search with payload {'query': 'deep learning', 'limit': 5} (Attempt 1)
+2026-02-20 16:17:07,383 ERROR research_agent: Connection error to Groq API: HTTPSConnectionPool(host='your-groq-endpoint.example', port=443): Max retries exceeded with url: /search (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000193F401CD68>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2026-02-20 16:17:07,384 INFO research_agent: Retrying in 1.58s...
+2026-02-20 16:17:08,967 INFO research_agent: Calling Groq API: https://your-groq-endpoint.example/search with payload {'query': 'deep learning', 'limit': 5} (Attempt 2)
+2026-02-20 16:17:08,972 ERROR research_agent: Connection error to Groq API: HTTPSConnectionPool(host='your-groq-endpoint.example', port=443): Max retries exceeded with url: /search (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000193F401CD68>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2026-02-20 16:17:08,974 INFO research_agent: Retrying in 2.68s...
+2026-02-20 16:17:11,665 INFO research_agent: Calling Groq API: https://your-groq-endpoint.example/search with payload {'query': 'deep learning', 'limit': 5} (Attempt 3)
+2026-02-20 16:17:11,677 ERROR research_agent: Connection error to Groq API: HTTPSConnectionPool(host='your-groq-endpoint.example', port=443): Max retries exceeded with url: /search (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000193F401CD68>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2026-02-20 16:17:11,678 ERROR research_agent: Failed to fetch papers from Groq after multiple attempts.
+2026-02-20 16:17:27,904 INFO research_agent: Started research job fca1fbbe-a21e-4c19-9227-7f43744a4233 for topic: machine learning
+2026-02-20 16:17:27,906 INFO research_agent: Calling Groq API: https://your-groq-endpoint.example/search with payload {'query': 'machine learning', 'limit': 5} (Attempt 1)
+2026-02-20 16:17:28,218 ERROR research_agent: Connection error to Groq API: HTTPSConnectionPool(host='your-groq-endpoint.example', port=443): Max retries exceeded with url: /search (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000193F401B0F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2026-02-20 16:17:28,218 INFO research_agent: Retrying in 1.77s...
+2026-02-20 16:17:29,996 INFO research_agent: Calling Groq API: https://your-groq-endpoint.example/search with payload {'query': 'machine learning', 'limit': 5} (Attempt 2)
+2026-02-20 16:17:30,001 ERROR research_agent: Connection error to Groq API: HTTPSConnectionPool(host='your-groq-endpoint.example', port=443): Max retries exceeded with url: /search (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000193F401B0F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2026-02-20 16:17:30,002 INFO research_agent: Retrying in 2.62s...
+2026-02-20 16:17:32,632 INFO research_agent: Calling Groq API: https://your-groq-endpoint.example/search with payload {'query': 'machine learning', 'limit': 5} (Attempt 3)
+2026-02-20 16:17:32,656 ERROR research_agent: Connection error to Groq API: HTTPSConnectionPool(host='your-groq-endpoint.example', port=443): Max retries exceeded with url: /search (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000193F401B0F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2026-02-20 16:17:32,657 ERROR research_agent: Failed to fetch papers from Groq after multiple attempts.
+2026-02-20 16:17:55,309 INFO research_agent: Started research job 1b80c73f-0234-490c-bdc8-af6a027f22fa for topic: iot
+2026-02-20 16:17:55,311 INFO research_agent: Calling Groq API: https://your-groq-endpoint.example/search with payload {'query': 'iot', 'limit': 5} (Attempt 1)
+2026-02-20 16:17:55,325 ERROR research_agent: Connection error to Groq API: HTTPSConnectionPool(host='your-groq-endpoint.example', port=443): Max retries exceeded with url: /search (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000193F4017438>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2026-02-20 16:17:55,326 INFO research_agent: Retrying in 1.66s...
+2026-02-20 16:17:56,989 INFO research_agent: Calling Groq API: https://your-groq-endpoint.example/search with payload {'query': 'iot', 'limit': 5} (Attempt 2)
+2026-02-20 16:17:56,993 ERROR research_agent: Connection error to Groq API: HTTPSConnectionPool(host='your-groq-endpoint.example', port=443): Max retries exceeded with url: /search (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000193F4017438>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2026-02-20 16:17:56,994 INFO research_agent: Retrying in 2.14s...
+2026-02-20 16:17:59,141 INFO research_agent: Calling Groq API: https://your-groq-endpoint.example/search with payload {'query': 'iot', 'limit': 5} (Attempt 3)
+2026-02-20 16:17:59,159 ERROR research_agent: Connection error to Groq API: HTTPSConnectionPool(host='your-groq-endpoint.example', port=443): Max retries exceeded with url: /search (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000193F4017438>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2026-02-20 16:17:59,160 ERROR research_agent: Failed to fetch papers from Groq after multiple attempts.
+2026-02-20 16:19:01,354 INFO research_agent: Started research job 7514ef01-9bfc-433c-92a5-91a7883962f6 for topic: iot
+2026-02-20 16:19:01,358 INFO research_agent: Calling Semantic Scholar API: https://api.semanticscholar.org/graph/v1/paper/search with params {'query': 'iot', 'limit': 5, 'fields': 'paperId,title,authors,year,abstract,url,isOpenAccess,openAccessPdf'} (Attempt 1)
+2026-02-20 16:19:02,742 WARNING research_agent: Rate limit hit (429). Retry 1/3. Waiting 1.38s...
+2026-02-20 16:19:04,129 INFO research_agent: Calling Semantic Scholar API: https://api.semanticscholar.org/graph/v1/paper/search with params {'query': 'iot', 'limit': 5, 'fields': 'paperId,title,authors,year,abstract,url,isOpenAccess,openAccessPdf'} (Attempt 2)
+2026-02-20 16:19:05,034 WARNING research_agent: Rate limit hit (429). Retry 2/3. Waiting 2.53s...
+2026-02-20 16:19:07,570 INFO research_agent: Calling Semantic Scholar API: https://api.semanticscholar.org/graph/v1/paper/search with params {'query': 'iot', 'limit': 5, 'fields': 'paperId,title,authors,year,abstract,url,isOpenAccess,openAccessPdf'} (Attempt 3)
+2026-02-20 16:19:08,480 WARNING research_agent: Rate limit hit (429). Retry 3/3. Waiting 4.00s...
+2026-02-20 16:19:12,485 ERROR research_agent: Failed to fetch papers after multiple attempts.
+2026-02-20 16:25:15,065 INFO research_agent: Started research job e3dcc94c-1aaa-4e96-9cad-d9e759f77d7d for topic: deep learning
+2026-02-20 16:25:15,067 INFO research_agent: Calling Semantic Scholar API: https://api.semanticscholar.org/graph/v1/paper/search with params {'query': 'deep learning', 'limit': 5, 'fields': 'paperId,title,authors,year,abstract,url,isOpenAccess,openAccessPdf'} (Attempt 1)
+2026-02-20 16:25:15,981 WARNING research_agent: Rate limit hit (429). Retry 1/3. Waiting 1.99s...
+2026-02-20 16:25:17,982 INFO research_agent: Calling Semantic Scholar API: https://api.semanticscholar.org/graph/v1/paper/search with params {'query': 'deep learning', 'limit': 5, 'fields': 'paperId,title,authors,year,abstract,url,isOpenAccess,openAccessPdf'} (Attempt 2)
+2026-02-20 16:25:19,061 WARNING research_agent: Rate limit hit (429). Retry 2/3. Waiting 2.83s...
+2026-02-20 16:25:21,900 INFO research_agent: Calling Semantic Scholar API: https://api.semanticscholar.org/graph/v1/paper/search with params {'query': 'deep learning', 'limit': 5, 'fields': 'paperId,title,authors,year,abstract,url,isOpenAccess,openAccessPdf'} (Attempt 3)
+2026-02-20 16:25:23,455 INFO research_agent: Successfully fetched 5 papers for 'deep learning'
+2026-02-20 16:25:23,493 INFO research_agent: Database table created/verified in data\papers.db
+2026-02-20 16:25:25,442 INFO research_agent: Synthesis completed. Saved to outputs\synthesis.json
+2026-02-20 16:25:55,773 INFO research_agent: Job e3dcc94c-1aaa-4e96-9cad-d9e759f77d7d completed successfully for topic: deep learning
+2026-02-20 16:31:20,398 INFO research_agent: Started research job 7947d2fe-9261-4287-8fe4-712397203fe6 for topic: iot
+2026-02-20 16:31:20,398 INFO research_agent: Calling Semantic Scholar API: https://api.semanticscholar.org/graph/v1/paper/search with params {'query': 'iot', 'limit': 5, 'fields': 'paperId,title,authors,year,abstract,url,isOpenAccess,openAccessPdf'} (Attempt 1)
+2026-02-20 16:31:20,971 WARNING research_agent: Rate limit hit (429). Retry 1/3. Waiting 1.04s...
+2026-02-20 16:31:22,029 INFO research_agent: Calling Semantic Scholar API: https://api.semanticscholar.org/graph/v1/paper/search with params {'query': 'iot', 'limit': 5, 'fields': 'paperId,title,authors,year,abstract,url,isOpenAccess,openAccessPdf'} (Attempt 2)
+2026-02-20 16:31:23,040 INFO research_agent: Successfully fetched 5 papers for 'iot'
+2026-02-20 16:31:23,054 INFO research_agent: Database table created/verified in data\papers.db
+2026-02-20 16:31:23,130 INFO research_agent: Synthesis completed. Saved to outputs\synthesis.json
+2026-02-20 16:31:53,339 INFO research_agent: Job 7947d2fe-9261-4287-8fe4-712397203fe6 completed successfully for topic: iot
+2026-02-20 16:32:26,479 INFO research_agent: Started research job 16b59463-91c2-4400-920e-75f1630887e3 for topic: healthcare
+2026-02-20 16:32:26,484 INFO research_agent: Calling Semantic Scholar API: https://api.semanticscholar.org/graph/v1/paper/search with params {'query': 'healthcare', 'limit': 3, 'fields': 'paperId,title,authors,year,abstract,url,isOpenAccess,openAccessPdf'} (Attempt 1)
+2026-02-20 16:32:29,297 INFO research_agent: Successfully fetched 3 papers for 'healthcare'
+2026-02-20 16:32:29,313 INFO research_agent: Database table created/verified in data\papers.db
+2026-02-20 16:32:29,971 INFO research_agent: Synthesis completed. Saved to outputs\synthesis.json
+2026-02-20 16:33:01,261 INFO research_agent: Job 16b59463-91c2-4400-920e-75f1630887e3 completed successfully for topic: healthcare

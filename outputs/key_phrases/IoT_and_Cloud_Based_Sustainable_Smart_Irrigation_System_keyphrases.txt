@@ -1,0 +1,36 @@
+Key Phrases from: IoT_and_Cloud_Based_Sustainable_Smart_Irrigation_System.txt
+Total Words: 8309
+================================================================================
+
+TOP KEYWORDS (Frequency-Based):
+--------------------------------------------------------------------------------
+ 1. irrigation                               (frequency: 235)
+ 2. system                                   (frequency: 188)
+ 3. water                                    (frequency: 184)
+ 4. smart                                    (frequency: 151)
+ 5. data                                     (frequency: 79)
+ 6. systems                                  (frequency: 72)
+ 7. sensors                                  (frequency: 62)
+ 8. soil                                     (frequency: 53)
+ 9. moisture                                 (frequency: 51)
+10. using                                    (frequency: 50)
+11. based                                    (frequency: 46)
+12. cloud                                    (frequency: 43)
+13. internet                                 (frequency: 42)
+14. things                                   (frequency: 42)
+15. time                                     (frequency: 40)
+16. technology                               (frequency: 39)
+17. control                                  (frequency: 38)
+18. plant                                    (frequency: 38)
+19. information                              (frequency: 37)
+20. environmental                            (frequency: 30)
+21. watering                                 (frequency: 29)
+22. sensor                                   (frequency: 28)
+23. management                               (frequency: 28)
+24. real                                     (frequency: 24)
+25. agriculture                              (frequency: 24)
+26. plants                                   (frequency: 24)
+27. communication                            (frequency: 22)
+28. agricultural                             (frequency: 22)
+29. international                            (frequency: 21)
+30. these                                    (frequency: 20)

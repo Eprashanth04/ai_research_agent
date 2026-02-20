@@ -1,0 +1,36 @@
+Key Phrases from: Prevalence_of_depression,_anxiety,_and_insomnia_among_healthcare_workers_during_the_COVID-19_pandemi.txt
+Total Words: 3483
+================================================================================
+
+TOP KEYWORDS (Frequency-Based):
+--------------------------------------------------------------------------------
+ 1. covid                                    (frequency: 33)
+ 2. studies                                  (frequency: 28)
+ 3. prevalence                               (frequency: 26)
+ 4. anxiety                                  (frequency: 22)
+ 5. depression                               (frequency: 21)
+ 6. analysis                                 (frequency: 20)
+ 7. health                                   (frequency: 20)
+ 8. study                                    (frequency: 13)
+ 9. pooled                                   (frequency: 13)
+10. etal                                     (frequency: 13)
+11. china                                    (frequency: 12)
+12. mental                                   (frequency: 11)
+13. hcws                                     (frequency: 11)
+14. during                                   (frequency: 10)
+15. review                                   (frequency: 10)
+16. insomnia                                 (frequency: 10)
+17. assessment                               (frequency: 9)
+18. immunity                                 (frequency: 7)
+19. quality                                  (frequency: 7)
+20. zhang                                    (frequency: 7)
+21. available                                (frequency: 6)
+22. thecovid                                 (frequency: 6)
+23. pandemic                                 (frequency: 6)
+24. healthcare                               (frequency: 6)
+25. included                                 (frequency: 6)
+26. total                                    (frequency: 6)
+27. participants                             (frequency: 6)
+28. risk                                     (frequency: 6)
+29. patients                                 (frequency: 6)
+30. psychological                            (frequency: 6)

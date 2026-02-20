@@ -1,0 +1,36 @@
+Key Phrases from: Separable_Self-attention_for_Mobile_Vision_Transformers.txt
+Total Words: 8864
+================================================================================
+
+TOP KEYWORDS (Frequency-Based):
+--------------------------------------------------------------------------------
+ 1. attention                                (frequency: 112)
+ 2. self                                     (frequency: 87)
+ 3. latexit                                  (frequency: 71)
+ 4. imagenet                                 (frequency: 68)
+ 5. models                                   (frequency: 58)
+ 6. context                                  (frequency: 45)
+ 7. separable                                (frequency: 42)
+ 8. vision                                   (frequency: 42)
+ 9. transformer                              (frequency: 40)
+10. performance                              (frequency: 37)
+11. mobile                                   (frequency: 35)
+12. devices                                  (frequency: 34)
+13. tokens                                   (frequency: 31)
+14. transformers                             (frequency: 30)
+15. based                                    (frequency: 30)
+16. operations                               (frequency: 30)
+17. input                                    (frequency: 30)
+18. training                                 (frequency: 29)
+19. output                                   (frequency: 29)
+20. none                                     (frequency: 29)
+21. conference                               (frequency: 29)
+22. these                                    (frequency: 28)
+23. proposed                                 (frequency: 28)
+24. different                                (frequency: 28)
+25. dataset                                  (frequency: 27)
+26. methods                                  (frequency: 27)
+27. weight                                   (frequency: 25)
+28. block                                    (frequency: 24)
+29. table                                    (frequency: 23)
+30. wise                                     (frequency: 22)
