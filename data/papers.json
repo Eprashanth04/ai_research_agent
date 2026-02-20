@@ -1,0 +1,965 @@
+{
+    "healthcare": [
+        {
+            "title": "AMSTAR 2: a critical appraisal tool for systematic reviews that include randomised or non-randomised studies of healthcare interventions, or both",
+            "authors": [
+                "B. Shea",
+                "Barnaby C Reeves",
+                "George Wells",
+                "Micere Thuku",
+                "Candyce Hamel",
+                "Julian Moran",
+                "D. Moher",
+                "P. Tugwell",
+                "Vivian Welch",
+                "Elizabeth Kristjansson",
+                "David A Henry"
+            ],
+            "year": 2017,
+            "download_link": "https://www.semanticscholar.org/paper/d926f7ad7cc14b4ec56b04b27138ffbb7131f10d"
+        },
+        {
+            "title": "ChatGPT Utility in Healthcare Education, Research, and Practice: Systematic Review on the Promising Perspectives and Valid Concerns",
+            "authors": [
+                "Malik Sallam"
+            ],
+            "year": 2023,
+            "download_link": "https://www.semanticscholar.org/paper/dfdf7ff01aa6f691831e663fd29bc71890be39e2"
+        },
+        {
+            "title": "Prevalence of depression, anxiety, and insomnia among healthcare workers during the COVID-19 pandemic: A systematic review and meta-analysis",
+            "authors": [
+                "S. Pappa",
+                "Vasiliki Ntella",
+                "Timoleon Giannakas",
+                "V. Giannakoulis",
+                "E. Papoutsi",
+                "P. Katsaounou"
+            ],
+            "year": 2020,
+            "download_link": "https://www.semanticscholar.org/paper/5cf874db9f31821d128a78e7d0d2560f990a2ba0"
+        },
+        {
+            "title": "A guide to deep learning in healthcare",
+            "authors": [
+                "A. Esteva",
+                "Alexandre Robicquet",
+                "Bharath Ramsundar",
+                "Volodymyr Kuleshov",
+                "M. DePristo",
+                "Katherine Chou",
+                "Claire Cui",
+                "Greg S. Corrado",
+                "S. Thrun",
+                "J. Dean"
+            ],
+            "year": 2019,
+            "download_link": "https://www.semanticscholar.org/paper/44e1dd74f0446ec91221189ad3a65edb1a0208fe"
+        },
+        {
+            "title": "Revolutionizing healthcare: the role of artificial intelligence in clinical practice",
+            "authors": [
+                "Shuroug A. Alowais",
+                "Sahar S. Alghamdi",
+                "Nada Alsuhebany",
+                "Tariq Alqahtani",
+                "Abdulrahman I. Alshaya",
+                "Sumaya N Almohareb",
+                "Atheer Aldairem",
+                "Mohammed A. Alrashed",
+                "Khalid Bin saleh",
+                "H. Badreldin",
+                "Majed S. Al Yami",
+                "Shmeylan A. Al Harbi",
+                "Abdulkareem M. Albekairy"
+            ],
+            "year": 2023,
+            "download_link": "https://www.semanticscholar.org/paper/5cde474869cb230a29b3ba0f6f685f5162b1a1a1"
+        }
+    ],
+    "recommandation system": [
+        {
+            "title": "P066/124  Interobserver agreement among endovascular neurosurgeons for unruptured intracranial aneurysmsusing a new grade of recommandation system",
+            "authors": [
+                "Young Deok Kim",
+                "O. Kwon",
+                "S. Ban"
+            ],
+            "year": 2023,
+            "download_link": "https://www.semanticscholar.org/paper/06cea6d54cfbea6715fef1ad6001c5c095f14183"
+        }
+    ],
+    "deep learning": [
+        {
+            "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library",
+            "authors": [
+                "Adam Paszke",
+                "Sam Gross",
+                "Francisco Massa",
+                "Adam Lerer",
+                "James Bradbury",
+                "Gregory Chanan",
+                "Trevor Killeen",
+                "Zeming Lin",
+                "N. Gimelshein",
+                "L. Antiga",
+                "Alban Desmaison",
+                "Andreas Köpf",
+                "E. Yang",
+                "Zachary DeVito",
+                "Martin Raison",
+                "Alykhan Tejani",
+                "Sasank Chilamkurthy",
+                "Benoit Steiner",
+                "Lu Fang",
+                "Junjie Bai",
+                "Soumith Chintala"
+            ],
+            "year": 2019,
+            "download_link": "https://www.semanticscholar.org/paper/3c8a456509e6c0805354bd40a35e3f2dbf8069b1"
+        },
+        {
+            "title": "nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation",
+            "authors": [
+                "Fabian Isensee",
+                "P. Jaeger",
+                "Simon A. A. Kohl",
+                "Jens Petersen",
+                "Klaus Hermann Maier-Hein"
+            ],
+            "year": 2020,
+            "download_link": "https://www.semanticscholar.org/paper/f28e387d4229c5f690ce4570a391c0f47e7155c7"
+        },
+        {
+            "title": "Review of deep learning: concepts, CNN architectures, challenges, applications, future directions",
+            "authors": [
+                "Laith Alzubaidi",
+                "Jinglan Zhang",
+                "A. Humaidi",
+                "Ayad Al-dujaili",
+                "Y. Duan",
+                "O. Al-Shamma",
+                "José I. Santamaría",
+                "M. Fadhel",
+                "Muthana Al-Amidie",
+                "Laith Farhan"
+            ],
+            "year": 2021,
+            "download_link": "https://www.semanticscholar.org/paper/0084f3cb0a1754272151c5268a783f24bf5676a0"
+        },
+        {
+            "title": "Towards Deep Learning Models Resistant to Adversarial Attacks",
+            "authors": [
+                "A. Ma̧dry",
+                "Aleksandar Makelov",
+                "Ludwig Schmidt",
+                "Dimitris Tsipras",
+                "Adrian Vladu"
+            ],
+            "year": 2017,
+            "download_link": "https://www.semanticscholar.org/paper/7aa38b85fa8cba64d6a4010543f6695dbf5f1386"
+        },
+        {
+            "title": "What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision?",
+            "authors": [
+                "Alex Kendall",
+                "Y. Gal"
+            ],
+            "year": 2017,
+            "download_link": "https://www.semanticscholar.org/paper/ff7bcaa4556cb13fc7bf03e477172493546172cd"
+        }
+    ],
+    "computer vision": [
+        {
+            "title": "What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision?",
+            "authors": [
+                "Alex Kendall",
+                "Y. Gal"
+            ],
+            "year": 2017,
+            "download_link": "https://www.semanticscholar.org/paper/ff7bcaa4556cb13fc7bf03e477172493546172cd"
+        },
+        {
+            "title": "Rethinking the Inception Architecture for Computer Vision",
+            "authors": [
+                "Christian Szegedy",
+                "Vincent Vanhoucke",
+                "Sergey Ioffe",
+                "Jonathon Shlens",
+                "Z. Wojna"
+            ],
+            "year": 2015,
+            "download_link": "https://www.semanticscholar.org/paper/23ffaa0fe06eae05817f527a47ac3291077f9e58"
+        },
+        {
+            "title": "Design and Development of Cost-Effective Child Surveillance System using Computer Vision Technology",
+            "authors": [
+                "Vedavyas Peddiraju",
+                "Ramchandar Rao Pamulaparthi",
+                "Chakaradhar Adupa",
+                "Laxman Raju Thoutam"
+            ],
+            "year": 2022,
+            "download_link": "https://www.semanticscholar.org/paper/290f40b6e5ad78a7f5c2cb226e48f98132843d9f"
+        }
+    ],
+    "transformer models": [],
+    "AI Agents": [],
+    "transformers": [],
+    "Transformers": [
+        {
+            "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "authors": [
+                "Jacob Devlin",
+                "Ming-Wei Chang",
+                "Kenton Lee",
+                "Kristina Toutanova"
+            ],
+            "year": 2019,
+            "download_link": "https://www.semanticscholar.org/paper/df2b0e26d0599ce3e70df8a9da02e51594e0e992"
+        },
+        {
+            "title": "Training data-efficient image transformers & distillation through attention",
+            "authors": [
+                "Hugo Touvron",
+                "M. Cord",
+                "Matthijs Douze",
+                "Francisco Massa",
+                "Alexandre Sablayrolles",
+                "Herv'e J'egou"
+            ],
+            "year": 2020,
+            "download_link": "https://www.semanticscholar.org/paper/ad7ddcc14984caae308c397f1a589aae75d4ab71"
+        }
+    ],
+    "Deep Learning": [
+        {
+            "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library",
+            "authors": [
+                "Adam Paszke",
+                "Sam Gross",
+                "Francisco Massa",
+                "Adam Lerer",
+                "James Bradbury",
+                "Gregory Chanan",
+                "Trevor Killeen",
+                "Zeming Lin",
+                "N. Gimelshein",
+                "L. Antiga",
+                "Alban Desmaison",
+                "Andreas Köpf",
+                "E. Yang",
+                "Zachary DeVito",
+                "Martin Raison",
+                "Alykhan Tejani",
+                "Sasank Chilamkurthy",
+                "Benoit Steiner",
+                "Lu Fang",
+                "Junjie Bai",
+                "Soumith Chintala"
+            ],
+            "year": 2019,
+            "download_link": "https://www.semanticscholar.org/paper/3c8a456509e6c0805354bd40a35e3f2dbf8069b1"
+        },
+        {
+            "title": "nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation",
+            "authors": [
+                "Fabian Isensee",
+                "P. Jaeger",
+                "Simon A. A. Kohl",
+                "Jens Petersen",
+                "Klaus Hermann Maier-Hein"
+            ],
+            "year": 2020,
+            "download_link": "https://www.semanticscholar.org/paper/f28e387d4229c5f690ce4570a391c0f47e7155c7"
+        }
+    ],
+    "hea;lthcare": [
+        {
+            "title": "Experiencia de Implementación de Lean en un Centro de Salud de Uruguay A Lean Implementation Experience in a Uruguayan Hea lthcare Center",
+            "authors": [
+                "Matías Escuder",
+                "M. Tanco",
+                "A. Santoro"
+            ],
+            "year": 2015,
+            "download_link": "https://www.semanticscholar.org/paper/93394b480a61d8f688adde43753c22a223e4cffc"
+        },
+        {
+            "title": "Patient safety as a national priority: from concept to implementation in Russian healthcare",
+            "authors": [
+                "M. A. Murashko",
+                "A. V. Samoylova",
+                "I. V. Ivanov"
+            ],
+            "year": 2025,
+            "download_link": "https://www.semanticscholar.org/paper/f78aae8b26c937d6316db2d081fa97b6c80ca63a"
+        },
+        {
+            "title": "Design and the Development of Healthcare System for Systematic Process Impleemtation Using AI",
+            "authors": [
+                "Aman Mittal"
+            ],
+            "year": 2024,
+            "download_link": "https://www.semanticscholar.org/paper/4a06f4e31899b666722e036d7f7ccf153c6364b2"
+        },
+        {
+            "title": "SAĞLIK KURUMLARINDA PSİKOLOJİK SÖZLEŞME İHLALİ VE HASTA GÜVENLİĞİ ARASINDAKİ İLİŞKİDE YÖNETİM DESTEĞİNİN ETKİSİ",
+            "authors": [
+                "Hakan Erkutlu",
+                "Hatice Uçak"
+            ],
+            "year": 2022,
+            "download_link": "https://www.semanticscholar.org/paper/5bc6ae7ceba4f83491b5af792f7a88ee33aa4690"
+        },
+        {
+            "title": "The consumer has spoken: Patient experience is now healthcare’s core differentiator",
+            "authors": [
+                "J. Wolf"
+            ],
+            "year": 2018,
+            "download_link": "https://www.semanticscholar.org/paper/ec9129ee3ee80fbc49972812ac0b16d49bd6b457"
+        }
+    ],
+    "generative ai": [
+        {
+            "title": "Students’ voices on generative AI: perceptions, benefits, and challenges in higher education",
+            "authors": [
+                "C. Chan",
+                "Wenjie Hu"
+            ],
+            "year": 2023,
+            "download_link": "https://www.semanticscholar.org/paper/49b66b980c91f989637b089c2e8284af443aaa25"
+        },
+        {
+            "title": "scGPT: toward building a foundation model for single-cell multi-omics using generative AI",
+            "authors": [
+                "Haotian Cui",
+                "Chloe Wang",
+                "Hassaan Maan",
+                "Kuan Pang",
+                "Fengning Luo",
+                "Nan Duan",
+                "Bo Wang"
+            ],
+            "year": 2024,
+            "download_link": "https://www.semanticscholar.org/paper/13dc81fce2c73de67dbe3829a32ec23d663cec89"
+        },
+        {
+            "title": "Generative AI",
+            "authors": [
+                "Stefan Feuerriegel",
+                "Jochen Hartmann",
+                "Christian Janiesch",
+                "Patrick Zschech"
+            ],
+            "year": 2023,
+            "download_link": "https://www.semanticscholar.org/paper/ac675900f7c6c14c8488e09a2a6e8525bcf9d45a"
+        }
+    ],
+    "Transformers in Healthcare": [
+        {
+            "title": "Possibilities and Pitfalls of Generative Pre-Trained Transformers in Healthcare",
+            "authors": [
+                "Tajinder Kumar",
+                "Ramesh Kait",
+                "Ankita",
+                "Sunita Rani"
+            ],
+            "year": 2023,
+            "download_link": "https://www.semanticscholar.org/paper/e14c1c0deb6de5a1112e31f1c52ff29907c4d26b"
+        },
+        {
+            "title": "From Bag-of-Words to Transformers: A Comparative Study for Text Classification in Healthcare Discussions in Social Media",
+            "authors": [
+                "Enrico De Santis",
+                "A. Martino",
+                "Francesca Ronci",
+                "A. Rizzi"
+            ],
+            "year": 2025,
+            "download_link": "https://www.semanticscholar.org/paper/8d0a5f3be71151e76c188ec39e558bb586ad6edb"
+        },
+        {
+            "title": "TransUNet: Transformers Make Strong Encoders for Medical Image Segmentation",
+            "authors": [
+                "Jieneng Chen",
+                "Yongyi Lu",
+                "Qihang Yu",
+                "Xiangde Luo",
+                "Ehsan Adeli",
+                "Yan Wang",
+                "Le Lu",
+                "A. Yuille",
+                "Yuyin Zhou"
+            ],
+            "year": 2021,
+            "download_link": "https://www.semanticscholar.org/paper/24b8a0b02bcb7934967757fc59d273a71ba67e30"
+        }
+    ],
+    "Mock Topic": [
+        {
+            "title": "Attention Is All You Need",
+            "authors": [
+                "Ashish Vaswani"
+            ],
+            "year": 2017,
+            "download_link": "https://arxiv.org/abs/1706.03762"
+        },
+        {
+            "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "authors": [
+                "Jacob Devlin"
+            ],
+            "year": 2018,
+            "download_link": "https://arxiv.org/abs/1810.04805"
+        }
+    ],
+    "iot on cloud based": [
+        {
+            "title": "Cloud-based Decision Support Systems for Securing Farm-to-Table Traceability using IoT and KNN Algorithm",
+            "authors": [
+                "V. V. Baskar",
+                "Satheeshkumar Sekar",
+                "K. S. Rajesh",
+                "N. C. Sendhilkumar",
+                "Thamizhamuthu R",
+                "S. Murugan"
+            ],
+            "year": 2024,
+            "download_link": "https://www.semanticscholar.org/paper/869a5e066e8e2f9bb52e40090bcab9a67024b0ea"
+        },
+        {
+            "title": "Predicting Patient Disease Progression with Cloud-based Decision Trees and IoT Data Integration",
+            "authors": [
+                "J. G. Jeslin",
+                "K. Vijayalakshmi",
+                "C. C. Vignesh",
+                "G. Suresh",
+                "Gopala Varma Kosuri",
+                "S. Murugan"
+            ],
+            "year": 2024,
+            "download_link": "https://www.semanticscholar.org/paper/889d7f24c83d43264e93de14baea4ceaa53ed522"
+        },
+        {
+            "title": "IoT and Cloud Based Sustainable Smart Irrigation System",
+            "authors": [
+                "V. S. Reddy",
+                "S. Harivardhagini",
+                "G. Sreelakshmi"
+            ],
+            "year": 2024,
+            "download_link": "https://www.semanticscholar.org/paper/da7e2a8b71dc1ebb156bca1d46af7fde3319893b"
+        },
+        {
+            "title": "Iot And Cloud Based Healthcare Monitoring System",
+            "authors": [
+                "M. Manivannan",
+                "G. P. Reddy",
+                "G. Tharunkumar",
+                "G. M. Reddy",
+                "Y. Manasa",
+                "K. Kumar"
+            ],
+            "year": 2025,
+            "download_link": "https://www.semanticscholar.org/paper/dc26bcd960eb07d47cb1bd4ff53c77cadcae55d2"
+        },
+        {
+            "title": "An IoT- and Cloud-Based E-Waste Management System for Resource Reclamation with a Data-Driven Decision-Making Process",
+            "authors": [
+                "Mithila Farjana",
+                "Abubakar Fahad",
+                "Syed Eftasum Alam",
+                "Md. Motaharul Islam"
+            ],
+            "year": 2023,
+            "download_link": "https://www.semanticscholar.org/paper/52c17a191cd4d096e3574a96b738a9b4bd18900b"
+        }
+    ],
+    "history of karnataka": [
+        {
+            "title": "A Brief Survey of Archaeological Sources for The History of Karnataka",
+            "authors": [
+                "Dr.B.Suresha"
+            ],
+            "year": null,
+            "download_link": "https://www.semanticscholar.org/paper/62912fed9ea77547edd9cf355fb00989d35183d6"
+        },
+        {
+            "title": "Test positivity rate, contact history, and vaccination status of COVID-19 among patients visiting flu corner (fever clinic) of a tertiary care health center of Karnataka: A prospective longitudinal study",
+            "authors": [
+                "Sijin Wilson",
+                "Raghavendraswamy Koppad",
+                "K. Nagendra",
+                "Sakshi Kumari",
+                "C. Liana",
+                "C. Joseph"
+            ],
+            "year": 2023,
+            "download_link": "https://www.semanticscholar.org/paper/a3f199b72551ee663e1f1b22385c2d5434356797"
+        },
+        {
+            "title": "Perceived Factors Affecting Patient Disclosure on Matters Concerning Contraception and Sexual History in Young Adults in Bengaluru, Karnataka.",
+            "authors": [
+                "Shirin Laturkar",
+                "A. N. Dias",
+                "Vanshikha Agarwal",
+                "Anand D Meundi"
+            ],
+            "year": 2025,
+            "download_link": "https://www.semanticscholar.org/paper/7ae4ee25f0b75038a2ec98ef0935e9613a4f06c1"
+        },
+        {
+            "title": "History of Karnataka",
+            "authors": [
+                "История"
+            ],
+            "year": 2010,
+            "download_link": "https://www.semanticscholar.org/paper/b91f574ffd2987582c3ea8245c3063e2645d88c8"
+        },
+        {
+            "title": "History of Karnataka : history administration & culture",
+            "authors": [
+                "I. Muthanna"
+            ],
+            "year": 1962,
+            "download_link": "https://www.semanticscholar.org/paper/110d6e3b64e82dc9df25989abb194cbfeca96a41"
+        }
+    ],
+    "Attention Mechanism": [
+        {
+            "title": "A review on the attention mechanism of deep learning",
+            "authors": [
+                "Zhaoyang Niu",
+                "G. Zhong",
+                "Hui Yu"
+            ],
+            "year": 2021,
+            "download_link": "https://www.semanticscholar.org/paper/a56bf7ee9a56d8f84079684339a953c2df9ce76b"
+        },
+        {
+            "title": "CrossFuse: A novel cross attention mechanism based infrared and visible image fusion approach",
+            "authors": [
+                "Hui Li",
+                "Xiao-Jun Wu"
+            ],
+            "year": 2024,
+            "download_link": "https://www.semanticscholar.org/paper/0e17997cdc00e7011743c8e376f06701a9d91755"
+        }
+    ],
+    "5G phones": [
+        {
+            "title": "An Evaluation of Mid-Band Signal Level Variability with 4G and 5G Phones",
+            "authors": [
+                "Max Hollingsworth",
+                "Dirk Grunwald"
+            ],
+            "year": 2025,
+            "download_link": "https://www.semanticscholar.org/paper/9de9dbd7d084d3bcb9e14a37981110812b32ffbe"
+        },
+        {
+            "title": "Applying Impedance Tuning to Maximize Antenna Performance in 5G Phones",
+            "authors": [
+                "Abhinay Kuchikulla"
+            ],
+            "year": 2020,
+            "download_link": "https://www.semanticscholar.org/paper/f92d5a26c499438a81d4771b52d08bdf5dd48ec0"
+        },
+        {
+            "title": "5G MIMO Antenna: Compact Design at 28/38 GHz with Metamaterial and SAR Analysis for Mobile Phones",
+            "authors": [
+                "Ahmed Jamal Abdullah Al-Gburi"
+            ],
+            "year": 2024,
+            "download_link": "https://www.semanticscholar.org/paper/da3f042db8e6fb5575ba784c81fa288c9c879e20"
+        },
+        {
+            "title": "Flexible Shared-Aperture Millimeter-Wave and Microwave Antennas for 5G and B5G Cell Phones",
+            "authors": [
+                "Guang-Xiong Chen",
+                "Huan-Chu Huang",
+                "Xiao Zhang",
+                "Tao Yuan"
+            ],
+            "year": 2024,
+            "download_link": "https://www.semanticscholar.org/paper/8b011c45b9c36c969ae49ba7547d26d83691b13c"
+        },
+        {
+            "title": "Memory and Latency Requirements on a gNodeB SoC for Supporting 5G NR Dual-SIM Phones",
+            "authors": [
+                "N. R. Sanjeev",
+                "Abhinav Kumar"
+            ],
+            "year": 2024,
+            "download_link": "https://www.semanticscholar.org/paper/d4829c96e1588afa66438dc7cf7ba07575659e10"
+        }
+    ],
+    "Large Language Model Fine-Tuning": [
+        {
+            "title": "LISA: Layerwise Importance Sampling for Memory-Efficient Large Language Model Fine-Tuning",
+            "authors": [
+                "Rui Pan",
+                "Xiang Liu",
+                "Shizhe Diao",
+                "Renjie Pi",
+                "Jipeng Zhang",
+                "Chi Han",
+                "Tong Zhang"
+            ],
+            "year": 2024,
+            "download_link": "https://www.semanticscholar.org/paper/c739eb7f0302e85e935d1e2fdb903fe01b812804"
+        },
+        {
+            "title": "Automating Research Synthesis with Domain-Specific Large Language Model Fine-Tuning",
+            "authors": [
+                "Teo Sušnjak",
+                "Peter Hwang",
+                "N. Reyes",
+                "A. Barczak",
+                "Timothy R. Mcintosh",
+                "Surangika Ranathunga"
+            ],
+            "year": 2024,
+            "download_link": "https://www.semanticscholar.org/paper/7dfbe4882188dbac938306be93bc58b34450b87f"
+        },
+        {
+            "title": "Investigating the Catastrophic Forgetting in Multimodal Large Language Model Fine-Tuning",
+            "authors": [
+                "Yuexiang Zhai",
+                "Shengbang Tong",
+                "Xiao Li",
+                "Mu Cai",
+                "Qing Qu",
+                "Yong Jae Lee",
+                "Yi Ma"
+            ],
+            "year": 2024,
+            "download_link": "https://www.semanticscholar.org/paper/8a6580a0d894c05075fde1dbe3e1aede23d236f9"
+        }
+    ],
+    "Transformers and Self-Attention": [
+        {
+            "title": "Eye Gaze and Self-attention: How Humans and Transformers Attend Words in Sentences",
+            "authors": [
+                "Joshua Bensemann",
+                "A. Peng",
+                "Diana Benavides Prado",
+                "Yang Chen",
+                "N. Tan",
+                "P. Corballis",
+                "Patricia Riddle",
+                "Michael Witbrock"
+            ],
+            "year": 2022,
+            "download_link": "https://www.semanticscholar.org/paper/08ec1848527cd46e34b04ff401b01785cf04e935"
+        },
+        {
+            "title": "MiniLM: Deep Self-Attention Distillation for Task-Agnostic Compression of Pre-Trained Transformers",
+            "authors": [
+                "Wenhui Wang",
+                "Furu Wei",
+                "Li Dong",
+                "Hangbo Bao",
+                "Nan Yang",
+                "Ming Zhou"
+            ],
+            "year": 2020,
+            "download_link": "https://www.semanticscholar.org/paper/c6c734e16f66fbfcefac7625cc64599e83292c1e"
+        },
+        {
+            "title": "UniFormer: Unifying Convolution and Self-Attention for Visual Recognition",
+            "authors": [
+                "Kunchang Li",
+                "Yali Wang",
+                "Junhao Zhang",
+                "Peng Gao",
+                "Guanglu Song",
+                "Yu Liu",
+                "Hongsheng Li",
+                "Y. Qiao"
+            ],
+            "year": 2022,
+            "download_link": "https://www.semanticscholar.org/paper/f4b11a696aa5a03fed1bfc47e65fdb7eb0e529c1"
+        },
+        {
+            "title": "CAS-ViT: Convolutional Additive Self-attention Vision Transformers for Efficient Mobile Applications",
+            "authors": [
+                "Tianfang Zhang",
+                "Lei Li",
+                "Yang Zhou",
+                "Wentao Liu",
+                "Chen Qian",
+                "Xiangyang Ji"
+            ],
+            "year": 2024,
+            "download_link": "https://www.semanticscholar.org/paper/df46e8e0382f90bd8ac9e6493866e9833d7769c8"
+        },
+        {
+            "title": "Separable Self-attention for Mobile Vision Transformers",
+            "authors": [
+                "Sachin Mehta",
+                "Mohammad Rastegari"
+            ],
+            "year": 2022,
+            "download_link": "https://www.semanticscholar.org/paper/066c143b427571fb5568f2c581ea9066478d2e55"
+        }
+    ],
+    "Transformers and Self-AttentionTransformers and Self-Attention": [
+        {
+            "title": "Retracted: Identification of Navel Orange Diseases and Pests Based on the Fusion of DenseNet and Self-Attention Mechanism",
+            "authors": [
+                "Computational Intelligence and Neuroscience"
+            ],
+            "year": 2023,
+            "download_link": "https://www.semanticscholar.org/paper/04a8d16e443d167d8b7cd128de6c4ae4b75736cf"
+        },
+        {
+            "title": "Retracted: Magnetic Tile Surface Defect Detection Methodology Based on Self-Attention and Self-Supervised Learning",
+            "authors": [
+                "Computational Intelligence and Neuroscience"
+            ],
+            "year": 2023,
+            "download_link": "https://www.semanticscholar.org/paper/9101c4f25ac504176e2a6c33751453b0885c8277"
+        },
+        {
+            "title": "Retracted: Text Sentiment Analysis of German Multilevel Features Based on Self-Attention Mechanism",
+            "authors": [
+                "Security and Communication Networks"
+            ],
+            "year": 2023,
+            "download_link": "https://www.semanticscholar.org/paper/53940cb0b3e42cc3cf66ec055be35d10e011a575"
+        },
+        {
+            "title": "SparseMeshCNN with Self-Attention for Segmentation of Large Meshes",
+            "authors": [
+                "B. Hansen",
+                "M. Lowes",
+                "Thomas Ørkild",
+                "A. Dahl",
+                "Vedrana Andersen Dahl",
+                "Ole De Backer",
+                "O. Camara",
+                "R. Paulsen",
+                "Christian Ingwersen",
+                "K. Sørensen"
+            ],
+            "year": 2022,
+            "download_link": "https://www.semanticscholar.org/paper/1db6f6ec7b0f622ec14fc9037fafd252a549c710"
+        },
+        {
+            "title": "Linguistically-Informed Self-Attention for Semantic Role Labeling",
+            "authors": [
+                "Emma Strubell",
+                "Pat Verga",
+                "D. Andor",
+                "David Weiss",
+                "A. McCallum"
+            ],
+            "year": 2018,
+            "download_link": "https://www.semanticscholar.org/paper/060ff1aad5619a7d6d6cdfaf8be5da29bff3808c"
+        }
+    ],
+    "Machine Learning": [
+        {
+            "title": "Physics-informed machine learning",
+            "authors": [
+                "G. Karniadakis",
+                "I. Kevrekidis",
+                "Lu Lu",
+                "P. Perdikaris",
+                "Sifan Wang",
+                "Liu Yang"
+            ],
+            "year": 2021,
+            "download_link": "https://www.semanticscholar.org/paper/53c9f3c34d8481adaf24df3b25581ccf1bc53f5c"
+        },
+        {
+            "title": "Machine Learning: Algorithms, Real-World Applications and Research Directions",
+            "authors": [
+                "Iqbal H. Sarker"
+            ],
+            "year": 2021,
+            "download_link": "https://www.semanticscholar.org/paper/7872f34e2a164c5cf3c34a7a7433dc3342b6c7ea"
+        },
+        {
+            "title": "Fashion-MNIST: a Novel Image Dataset for Benchmarking Machine Learning Algorithms",
+            "authors": [
+                "Han Xiao",
+                "Kashif Rasul",
+                "Roland Vollgraf"
+            ],
+            "year": 2017,
+            "download_link": "https://www.semanticscholar.org/paper/f9c602cc436a9ea2f9e7db48c77d924e09ce3c32"
+        }
+    ],
+    "Natural Language Processing": [
+        {
+            "title": "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing",
+            "authors": [
+                "Pengfei Liu",
+                "Weizhe Yuan",
+                "Jinlan Fu",
+                "Zhengbao Jiang",
+                "Hiroaki Hayashi",
+                "Graham Neubig"
+            ],
+            "year": 2021,
+            "download_link": "https://www.semanticscholar.org/paper/28692beece311a90f5fa1ca2ec9d0c2ce293d069"
+        },
+        {
+            "title": "HuggingFace's Transformers: State-of-the-art Natural Language Processing",
+            "authors": [
+                "Thomas Wolf",
+                "Lysandre Debut",
+                "Victor Sanh",
+                "Julien Chaumond",
+                "Clement Delangue",
+                "Anthony Moi",
+                "Pierric Cistac",
+                "Tim Rault",
+                "Rémi Louf",
+                "Morgan Funtowicz",
+                "Joe Davison",
+                "Sam Shleifer",
+                "Patrick von Platen",
+                "Clara Ma",
+                "Yacine Jernite",
+                "J. Plu",
+                "Canwen Xu",
+                "Teven Le Scao",
+                "Sylvain Gugger",
+                "Mariama Drame",
+                "Quentin Lhoest",
+                "Alexander M. Rush"
+            ],
+            "year": 2019,
+            "download_link": "https://www.semanticscholar.org/paper/c95383f251a62c63217586059c67f63507c3e839"
+        }
+    ],
+    "iot applications": [
+        {
+            "title": "The Internet of Things (IoT): Applications, investments, and challenges for enterprises",
+            "authors": [
+                "In Lee",
+                "Kyoochun Lee"
+            ],
+            "year": 2015,
+            "download_link": "https://www.semanticscholar.org/paper/441b480d2b2d8d59aa28f0911b57d4e7d2c2f57b"
+        },
+        {
+            "title": "Latency Critical IoT Applications in 5G: Perspective on the Design of Radio Interface and Network Architecture",
+            "authors": [
+                "Philipp Schulz",
+                "Maximilian Matthé",
+                "Henrik Klessig",
+                "M. Simsek",
+                "G. Fettweis",
+                "J. Ansari",
+                "S. Ashraf",
+                "B. Almeroth",
+                "J. Voigt",
+                "I. Riedel",
+                "André Puschmann",
+                "A. Mitschele-Thiel",
+                "Michael Muller",
+                "T. Elste",
+                "M. Windisch"
+            ],
+            "year": 2017,
+            "download_link": "https://www.semanticscholar.org/paper/5b8377c228761d0ae926821ac390fff31cb119c2"
+        },
+        {
+            "title": "A review of IoT applications in healthcare",
+            "authors": [
+                "Chunyan Li",
+                "Jiaji Wang",
+                "Shuihua Wang",
+                "Yudong Zhang"
+            ],
+            "year": 2024,
+            "download_link": "https://www.semanticscholar.org/paper/bb53b2d5c1ce84215739352b37645cb2776f55ec"
+        },
+        {
+            "title": "Integrating Sensing and Communications for Ubiquitous IoT: Applications, Trends, and Challenges",
+            "authors": [
+                "Yuanhao Cui",
+                "Fangfang Liu",
+                "Xiaojun Jing",
+                "Junsheng Mu"
+            ],
+            "year": 2021,
+            "download_link": "https://www.semanticscholar.org/paper/6b8b5b18bf2ca6e6eb89c14b271a7e5eba9863e1"
+        },
+        {
+            "title": "Space/Aerial-Assisted Computing Offloading for IoT Applications: A Learning-Based Approach",
+            "authors": [
+                "Nan Cheng",
+                "Feng Lyu",
+                "Wei Quan",
+                "Conghao Zhou",
+                "Hongli He",
+                "Weisen Shi",
+                "X. Shen"
+            ],
+            "year": 2019,
+            "download_link": "https://www.semanticscholar.org/paper/7de203968af7e2e6d0552a389b2b1390745709ce"
+        }
+    ],
+    "iot": [
+        {
+            "title": "Internet of Things (IoT): A vision, architectural elements, and future directions",
+            "authors": [
+                "J. Gubbi",
+                "R. Buyya",
+                "S. Marusic",
+                "M. Palaniswami"
+            ],
+            "year": 2012,
+            "download_link": "https://www.semanticscholar.org/paper/72c4d8b64a9959ea45677ca1955d3491ef0f1c62"
+        },
+        {
+            "title": "IoT Solutions in Agriculture: Enhancing Efficiency and Productivity",
+            "authors": [
+                "Shradha Pawar"
+            ],
+            "year": 2024,
+            "download_link": "https://www.semanticscholar.org/paper/410f5df8ff2625eba69e61355c340d1ff1052ade"
+        },
+        {
+            "title": "CICIoT2023: A Real-Time Dataset and Benchmark for Large-Scale Attacks in IoT Environment",
+            "authors": [
+                "E. P. Neto",
+                "Sajjad Dadkhah",
+                "Raphael Ferreira",
+                "Alireza Zohourian",
+                "Rongxing Lu",
+                "A. Ghorbani"
+            ],
+            "year": 2023,
+            "download_link": "https://www.semanticscholar.org/paper/4618d69b16ad46ecb59a1c693bb42fa7d3502a95"
+        },
+        {
+            "title": "Anomaly Detection IDS for Detecting DoS Attacks in IoT Networks Based on Machine Learning Algorithms",
+            "authors": [
+                "Esra Altulaihan",
+                "M. Almaiah",
+                "Ahmed Al Guqhaiman"
+            ],
+            "year": 2024,
+            "download_link": "https://www.semanticscholar.org/paper/5aec723a1d84ea075c3e135595106a0462bb3bd7"
+        },
+        {
+            "title": "Edge-IIoTset: A New Comprehensive Realistic Cyber Security Dataset of IoT and IIoT Applications for Centralized and Federated Learning",
+            "authors": [
+                "M. Ferrag",
+                "Othmane Friha",
+                "Djallel Hamouda",
+                "Leandros A. Maglaras",
+                "H. Janicke"
+            ],
+            "year": 2022,
+            "download_link": "https://www.semanticscholar.org/paper/d827388ec32e4da0fce0beefe21fd97da83d4485"
+        }
+    ]
+}
