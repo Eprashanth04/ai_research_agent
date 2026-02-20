@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Test</title>
+</head>
+
+<body>
+    <h1>Testing Backend API</h1>
+    <button onclick="testAPI()">Test API Connection</button>
+    <pre id="output"></pre>
+
+    <script>
+        async function testAPI() {
+            const output = document.getElementById('output');
+            output.textContent = 'Loading...';
+
+            try {
+                // Test papers endpoint
+                const response = await fetch('http://localhost:8000/api/papers');
+                const data = await response.json();
+
+                output.textContent = JSON.stringify({
+                    status: response.status,
+                    papersCount: data.length,
+                    firstPaper: data[0]
+                }, null, 2);
+            } catch (error) {
+                output.textContent = 'Error: ' + error.message;
+            }
+        }
+
+        // Auto-test on load
+        window.onload = testAPI;
+    </script>
+</body>
+
+</html>
